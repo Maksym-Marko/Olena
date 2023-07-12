@@ -1,0 +1,13 @@
+{
+    "name": "markomaksym/olena",
+    "description": "Olena Theme is a WordPress block theme with modern animations.",
+    "type": "wordpress-theme",
+    "license": "GPLv2 or later",
+    "authors": [
+        {
+            "name": "Maksym Marko",
+            "email": "support@markomaksym.com.ua"
+        }
+    ],
+    "require": {}
+}
