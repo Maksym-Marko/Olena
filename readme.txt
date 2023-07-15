@@ -29,3 +29,31 @@ This program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
 GNU General Public License for more details.
+
+Roboto Font
+Copyright 2011 Google Inc. All Rights Reserved. 
+Licensed under the Apache License, Version 2.0 
+License URL: http://www.apache.org/licenses/LICENSE-2.0 
+Source: Google.com
+-- End of Roboto Font credits --
+
+Roboto Medium Font
+Copyright 2011 Google Inc. All Rights Reserved. 
+Licensed under the Apache License, Version 2.0 
+License URL: http://www.apache.org/licenses/LICENSE-2.0 
+Source: Google.com
+-- End of Roboto Medium Font credits --
+
+Roboto Light Font
+Copyright 2011 Google Inc. All Rights Reserved. 
+Licensed under the Apache License, Version 2.0 
+License URL: http://www.apache.org/licenses/LICENSE-2.0 
+Source: Google.com
+-- End of Roboto Light Font credits --
+
+Roboto Thin Font
+Copyright 2011 Google Inc. All Rights Reserved. 
+Licensed under the Apache License, Version 2.0 
+License URL: http://www.apache.org/licenses/LICENSE-2.0 
+Source: Google.com
+-- End of Roboto Thin Font credits --
