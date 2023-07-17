@@ -7,51 +7,51 @@
 			"defaultPalette": false,
 			"gradients": [
 				{
-					"name": "Green-Blue",
-					"slug": "green-blue",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--green), var(--wp--preset--color--blue))"
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--main), var(--wp--preset--color--bright))",
+					"name": "Down",
+					"slug": "main-bright"
 				},
 				{
-					"name": "Blue-Green",
-					"slug": "blue-green",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--blue), var(--wp--preset--color--green))"
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--bright), var(--wp--preset--color--main))",
+					"name": "Up",
+					"slug": "bright-main"
 				},
 				{
-					"name": "Blue-White",
-					"slug": "blue-white",
-					"gradient": "linear-gradient(135deg, var(--wp--preset--color--blue), var(--wp--preset--color--white))"
+					"gradient": "linear-gradient(135deg, var(--wp--preset--color--main), var(--wp--preset--color--light))",
+					"name": "Blur",
+					"slug": "main-light"
 				}
 			],
 			"palette": [
 				{
-					"color": "#ffffff",
-					"name": "White",
-					"slug": "white"
-				},
-				{
-					"color": "#222a35",
-					"name": "Black",
-					"slug": "black"
-				},
-				{
-					"color": "#4c40d4",
-					"name": "Blue",
-					"slug": "blue"
-				},
-				{
-					"color": "#5a4fe3",
-					"name": "Light Blue",
-					"slug": "light-blue"
+					"color": "#52e6a5",
+					"name": "Bright",
+					"slug": "bright"
 				},
 				{
 					"color": "#433abf",
-					"name": "Dark Blue",
-					"slug": "dark-blue"
+					"name": "Main Dark",
+					"slug": "main-dark"
 				},
 				{
-					"color": "#52e6a5",
-					"name": "Green",
-					"slug": "green"
+					"color": "#9b94fc",
+					"name": "Main Light",
+					"slug": "main-light"
+				},
+				{
+					"color": "#4c40d4",
+					"name": "Main",
+					"slug": "main"
+				},
+				{
+					"color": "#222a35",
+					"name": "Dark",
+					"slug": "dark"
+				},
+				{
+					"color": "#ffffff",
+					"name": "Light",
+					"slug": "light"
 				}
 			]
 		},
@@ -78,169 +78,169 @@
 					"slug": "system-font"
 				},
 				{
-					"fontFamily": "Roboto",
-					"slug": "roboto",
 					"fontFace": [
 						{
 							"fontFamily": "Roboto",
-							"fontWeight": "400",
 							"fontStyle": "normal",
+							"fontWeight": "400",
 							"src": [
 								"file:./assets/fonts/roboto_normal_400.ttf"
 							]
 						},
 						{
 							"fontFamily": "Roboto",
-							"fontWeight": "700",
 							"fontStyle": "normal",
+							"fontWeight": "700",
 							"src": [
 								"file:./assets/fonts/roboto_normal_700.ttf"
 							]
 						}
-					]
+					],
+					"fontFamily": "Roboto",
+					"slug": "roboto"
 				},
 				{
-					"fontFamily": "Roboto Medium",
-					"slug": "roboto-medium",
 					"fontFace": [
 						{
 							"fontFamily": "Roboto Medium",
-							"fontWeight": "500",
 							"fontStyle": "normal",
+							"fontWeight": "500",
 							"src": [
 								"file:./assets/fonts/roboto-medium_normal_500.ttf"
 							]
 						}
-					]
+					],
+					"fontFamily": "Roboto Medium",
+					"slug": "roboto-medium"
 				},
 				{
-					"fontFamily": "Roboto Light",
-					"slug": "roboto-light",
 					"fontFace": [
 						{
 							"fontFamily": "Roboto Light",
-							"fontWeight": "300",
 							"fontStyle": "normal",
+							"fontWeight": "300",
 							"src": [
 								"file:./assets/fonts/roboto-light_normal_300.ttf"
 							]
 						}
-					]
+					],
+					"fontFamily": "Roboto Light",
+					"slug": "roboto-light"
 				},
 				{
-					"fontFamily": "Roboto Thin",
-					"slug": "roboto-thin",
 					"fontFace": [
 						{
 							"fontFamily": "Roboto Thin",
-							"fontWeight": "250",
 							"fontStyle": "normal",
+							"fontWeight": "250",
 							"src": [
 								"file:./assets/fonts/roboto-thin_normal_250.ttf"
 							]
 						}
-					]
+					],
+					"fontFamily": "Roboto Thin",
+					"slug": "roboto-thin"
 				}
 			],
 			"fontSizes": [
 				{
 					"fluid": {
-						"min": ".65rem",
-						"max": ".75rem"
+						"max": ".75rem",
+						"min": ".65rem"
 					},
+					"name": "Mini",
 					"size": ".75rem",
-					"slug": "mini",
-					"name": "Mini"
+					"slug": "mini"
 				},
 				{
 					"fluid": {
-						"min": ".765rem",
-						"max": ".875rem"
+						"max": ".875rem",
+						"min": ".765rem"
 					},
+					"name": "3x-Small",
 					"size": ".875rem",
-					"slug": "xxx-small",
-					"name": "3x-Small"
+					"slug": "xxx-small"
 				},
 				{
 					"fluid": {
-						"min": "1.0rem",
-						"max": "1.063rem"
+						"max": "1.063rem",
+						"min": "1.0rem"
 					},
+					"name": "2x-Small",
 					"size": "1.063rem",
-					"slug": "xx-small",
-					"name": "2x-Small"
+					"slug": "xx-small"
 				},
 				{
 					"fluid": {
-						"min": "1.14rem",
-						"max": "1.25rem"
+						"max": "1.25rem",
+						"min": "1.14rem"
 					},
+					"name": "X-Small",
 					"size": "1.25rem",
-					"slug": "x-small",
-					"name": "X-Small"
+					"slug": "x-small"
 				},
 				{
 					"fluid": {
-						"min": "1.363rem",
-						"max": "1.563rem"
+						"max": "1.563rem",
+						"min": "1.363rem"
 					},
+					"name": "Small",
 					"size": "1.563rem",
-					"slug": "small",
-					"name": "Small"
+					"slug": "small"
 				},
 				{
 					"fluid": {
-						"min": "1.738rem",
-						"max": "1.938rem"
+						"max": "1.938rem",
+						"min": "1.738rem"
 					},
+					"name": "Medium",
 					"size": "1.938rem",
-					"slug": "medium",
-					"name": "Medium"
+					"slug": "medium"
 				},
 				{
 					"fluid": {
-						"min": "2.3rem",
-						"max": "2.5rem"
+						"max": "2.5rem",
+						"min": "2.3rem"
 					},
+					"name": "Large",
 					"size": "2.5rem",
-					"slug": "large",
-					"name": "Large"
+					"slug": "large"
 				},
 				{
 					"fluid": {
-						"min": "2.901rem",
-						"max": "3.125rem"
+						"max": "3.125rem",
+						"min": "2.901rem"
 					},
+					"name": "X-Large",
 					"size": "3.125rem",
-					"slug": "x-large",
-					"name": "X-Large"
+					"slug": "x-large"
 				},
 				{
 					"fluid": {
-						"min": "4.163rem",
-						"max": "4.563rem"
+						"max": "4.563rem",
+						"min": "4.163rem"
 					},
+					"name": "2x-Large",
 					"size": "4.563rem",
-					"slug": "xx-large",
-					"name": "2x-Large"
+					"slug": "xx-large"
 				},
 				{
 					"fluid": {
-						"min": "6.4rem",
-						"max": "7.5rem"
+						"max": "7.5rem",
+						"min": "6.4rem"
 					},
+					"name": "3x-Large",
 					"size": "7.5rem",
-					"slug": "xxx-large",
-					"name": "3x-Large"
+					"slug": "xxx-large"
 				},
 				{
 					"fluid": {
-						"min": "8.925rem",
-						"max": "10.625rem"
+						"max": "10.625rem",
+						"min": "8.925rem"
 					},
+					"name": "Huge",
 					"size": "10.625rem",
-					"slug": "huge",
-					"name": "Huge"
+					"slug": "huge"
 				}
 			]
 		},
@@ -249,29 +249,125 @@
 	"styles": {
 		"blocks": {
 			"core/code": {
+				"color": {
+					"text": "var:preset|color|dark"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|dark"
+						}
+					}
+				}
+			},
+			"core/heading": {
+				"color": {
+					"background": "var:preset|color|light",
+					"text": "var:preset|color|dark"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|dark"
+						}
+					},
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var:preset|color|main-dark"
+							}
+						},
+						"color": {
+							"text": "var:preset|color|main"
+						}
+					}
+				},
 				"typography": {
-					"lineHeight": "1.6"
+					"fontFamily": "var:preset|font-family|roboto"
 				}
 			},
 			"core/list": {
 				"typography": {
-					"lineHeight": "1.6"
+					"fontFamily": "var:preset|font-family|roboto"
 				}
 			},
 			"core/paragraph": {
+				"color": {
+					"text": "var:preset|color|dark"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|dark"
+						}
+					},
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var:preset|color|main-dark"
+							}
+						},
+						"color": {
+							"text": "var:preset|color|main"
+						}
+					}
+				},
 				"typography": {
-					"fontSize": "var:preset|font-size|xx-small",
-					"lineHeight": "1.6"
+					"fontSize": "var:preset|font-size|xx-small"
 				}
 			},
 			"core/preformatted": {
+				"color": {
+					"text": "var:preset|color|dark"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|dark"
+						}
+					}
+				}
+			},
+			"core/pullquote": {
+				"color": {
+					"text": "var:preset|color|dark"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|dark"
+						}
+					}
+				},
 				"typography": {
-					"lineHeight": "1.6"
+					"fontFamily": "var:preset|font-family|roboto"
+				}
+			},
+			"core/quote": {
+				"color": {
+					"text": "var:preset|color|dark"
+				},
+				"elements": {
+					"heading": {
+						"color": {
+							"text": "var:preset|color|dark"
+						}
+					},
+					"link": {
+						":hover": {
+							"color": {
+								"text": "var:preset|color|main-dark"
+							}
+						},
+						"color": {
+							"text": "var:preset|color|main"
+						}
+					}
 				}
 			},
 			"core/verse": {
 				"typography": {
-					"lineHeight": "1.6"
+					"fontFamily": "var:preset|font-family|roboto"
 				}
 			}
 		},
@@ -282,11 +378,11 @@
 			"button": {
 				":hover": {
 					"color": {
-						"background": "var:preset|color|dark-blue"
+						"background": "var:preset|color|main-dark"
 					}
 				},
 				"color": {
-					"background": "var:preset|color|blue",
+					"background": "var:preset|color|main",
 					"text": "var:preset|color|white"
 				},
 				"typography": {
@@ -330,7 +426,7 @@
 			},
 			"link": {
 				"color": {
-					"text": "var:preset|color|blue"
+					"text": "var:preset|color|main"
 				},
 				"typography": {
 					"fontFamily": "var:preset|font-family|roboto"
@@ -338,7 +434,9 @@
 			}
 		},
 		"typography": {
-			"fontFamily": "var:preset|font-family|roboto"
+			"fontFamily": "var:preset|font-family|roboto",
+			"fontSize": "var:preset|font-size|xx-small",
+			"lineHeight": "1.6"
 		}
 	},
 	"templateParts": [
