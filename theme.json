@@ -60,6 +60,43 @@
 			"wideSize": "1220px"
 		},
 		"spacing": {
+			"spacingSizes": [
+				{
+					"name": "Mini",
+					"size": "clamp(0.313rem, 1vw, 0.625rem)",
+					"slug": "mini"
+				},
+				{
+					"name": "Small",
+					"size": "clamp(.625rem, 1.5vw, 1.25rem)",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "clamp(1.25rem, 2vw, 1.875rem)",
+					"slug": "medium"
+				},
+				{
+					"name": "Large",
+					"size": "clamp(1.875rem, 3vw, 3.125rem)",
+					"slug": "large"
+				},
+				{
+					"name": "X-Large",
+					"size": "clamp(3.125rem, 4vw, 5rem)",
+					"slug": "x-large"
+				},
+				{
+					"name": "2x-Large",
+					"size": "clamp(5rem, 7vw, 7.5rem)",
+					"slug": "xx-large"
+				},
+				{
+					"name": "Huge",
+					"size": "clamp(7.5rem, 10.5vw, 12.9rem)",
+					"slug": "huge"
+				}
+			],
 			"units": [
 				"%",
 				"px",
@@ -67,7 +104,10 @@
 				"rem",
 				"vh",
 				"vw"
-			]
+			],
+			"blockGap": true,
+			"padding": true,
+			"margin": true
 		},
 		"typography": {
 			"fluid": true,
