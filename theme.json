@@ -55,6 +55,28 @@
 				}
 			]
 		},
+		"custom": {
+			"fontWeight": {
+				"thin": 100,
+				"extra-light": 200,
+				"light": 300,
+				"regular": 400,
+				"medium": 500,
+				"semi-bold": 600,
+				"bold": 700,
+				"extra-bold": 800,
+				"black": 900
+			},
+			"lineHeight": {
+				"none": 1,
+				"x-small": 1.1,
+				"small": 1.2,
+				"normal": 1.5,
+				"large": 1.625,
+				"x-large": 2,
+				"huge": "calc(1px + 2ex + 7px)"
+			}
+		},
 		"layout": {
 			"contentSize": "1170px",
 			"wideSize": "1220px"
@@ -329,6 +351,39 @@
 			"core/list": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|roboto"
+				}
+			},
+			"core/navigation": {
+				"spacing": {
+					"blockGap": "var:preset|spacing|small"
+				},
+				"typography": {
+					"fontSize": "var:preset|font-size|xx-small"
+				},
+				"elements": {
+					"link": {
+						"typography": {
+							"textDecoration": "none"
+						},
+						"color": {
+							"text": "var:preset|color|dark"
+						},
+						":hover": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						":focus": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						},
+						":active": {
+							"typography": {
+								"textDecoration": "underline"
+							}
+						}
+					}
 				}
 			},
 			"core/paragraph": {
