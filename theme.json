@@ -398,8 +398,8 @@
 					},
 					"link": {
 						":hover": {
-							"color": {
-								"text": "var:preset|color|main-dark"
+							"typography": {
+								"textDecoration": "none"
 							}
 						},
 						"color": {
@@ -463,6 +463,13 @@
 			"core/verse": {
 				"typography": {
 					"fontFamily": "var:preset|font-family|roboto"
+				}
+			},
+			"core/button": {
+				"variations": {
+					"outline": {
+						"color": {}						
+					}
 				}
 			}
 		},
@@ -531,7 +538,7 @@
 		"typography": {
 			"fontFamily": "var:preset|font-family|roboto",
 			"fontSize": "var:preset|font-size|xx-small",
-			"lineHeight": "1.6"
+			"lineHeight": "var:custom|line-height|large"
 		}
 	},
 	"templateParts": [
