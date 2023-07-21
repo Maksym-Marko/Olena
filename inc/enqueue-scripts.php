@@ -79,4 +79,4 @@ if (!function_exists('olena_editor_frontend_assets')) {
         );
     }
 }
-add_action('enqueue_block_assets', 'olena_editor_frontend_assets');
+add_action('enqueue_block_assets', 'olena_editor_frontend_assets', 900 );

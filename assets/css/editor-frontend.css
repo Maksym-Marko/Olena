@@ -1,8 +1,23 @@
+/**
+ * This file contains styles for the editor and frontend
+ *
+ * @package Olena Theme
+ * @author Maksym Marko <support@markomaksym.com.ua>
+ *
+ * @link https://markomaksym.com.ua/
+ */
+
 /*
-* Core blocks customization
-*/
+ * Core blocks customization
+ */
+
 /* block: "core/group" */
-.is-position-sticky {
+body .wp-block-template-part .is-position-sticky {
     position: fixed;
     width: 100%;
+}
+
+/* block: "core/button" */
+.wp-block-buttons>.wp-block-button.is-style-outline .has-light-color:hover {
+    background-color: var(--wp--preset--color--dark);
 }
