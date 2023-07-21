@@ -1,0 +1,8 @@
+/*
+* Core blocks customization
+*/
+/* block: "core/group" */
+.is-position-sticky {
+    position: fixed;
+    width: 100%;
+}
