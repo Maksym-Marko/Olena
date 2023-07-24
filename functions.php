@@ -1,6 +1,6 @@
 <?php 
 /**
- * This file contains functions and hooks
+ * This file contains functions and hooks.
  *
  * @package Olena Theme
  * @author Maksym Marko <support@markomaksym.com.ua>
@@ -9,7 +9,7 @@
  */
 
 /**
- * Define version to use it with JS and CSS files
+ * Define version to use it with JS and CSS files.
 */
 if ( ! defined( 'OLENA_THEME_VERSION' ) ) {
 
@@ -19,6 +19,12 @@ if ( ! defined( 'OLENA_THEME_VERSION' ) ) {
 }
 
 /**
- * Enqueue Scripts
+ * Enqueue Scripts.
 */
 require_once get_template_directory() . '/inc/enqueue-scripts.php';
+
+/**
+ * Register Custome Block Types.
+*/
+require_once get_template_directory() . '/custom-blocks/class-olena-custom-blocks.php';
+new Olena_Custom_Blocks();
