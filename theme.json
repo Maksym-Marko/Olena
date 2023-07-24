@@ -493,6 +493,17 @@
 						}
 					}
 				}
+			},
+			"core/site-title": {
+				"elements": {
+					"link": {
+						":hover": {
+							"typography": {
+								"textDecoration": "none"
+							}
+						}
+					}
+				}
 			}
 		},
 		"color": {
