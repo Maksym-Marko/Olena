@@ -13,16 +13,34 @@ export default function edit({ attributes, setAttributes }) {
 
 				<PanelRow>
 
-					<NumberControl
-						label={__('Autoplay speed in seconds', 'olena')}
-						value={attributes.autoplay}
-						min="0"
-						onChange={(speed) => setAttributes({
-							autoplay: speed
-						})}
+					<CheckboxControl
+						label={__('Autoplay', 'olena')}
+						help={__('Do you want enable autoplay?', 'olena')}
+						checked={ attributes.autoplay === '1' }
+						onChange={tick => {
+							const turnOn = tick ? '1' : '0'
+							setAttributes({
+								autoplay: turnOn
+							})
+						} }
 					/>
 
 				</PanelRow>
+
+				{ attributes.autoplay === '1' &&
+					<PanelRow>
+
+						<NumberControl
+							label={__('Autoplay speed in seconds', 'olena')}
+							value={attributes.autoplay_speed}
+							min="0"
+							onChange={(speed) => setAttributes({
+								autoplay_speed: speed
+							})}
+						/>
+
+					</PanelRow>
+				}
 
 				<PanelRow>
 
@@ -78,7 +96,8 @@ export default function edit({ attributes, setAttributes }) {
 		<div
 			{...blockProps}
 			key="mx-main-content"
-			data-autoplay-speed={attributes.autoplay}
+			data-autoplay={attributes.autoplay}
+			data-autoplay-speed={attributes.autoplay_speed}
 			data-nav={attributes.nav}
 			data-dots={attributes.dots}
 			data-loop={attributes.loop}

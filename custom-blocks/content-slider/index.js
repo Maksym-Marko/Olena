@@ -36,12 +36,22 @@ function edit({
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelBody, {
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Slider Options', 'olena'),
     initialOpen: false
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelRow, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.__experimentalNumberControl, {
+  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelRow, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.CheckboxControl, {
+    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Autoplay', 'olena'),
+    help: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Do you want enable autoplay?', 'olena'),
+    checked: attributes.autoplay === '1',
+    onChange: tick => {
+      const turnOn = tick ? '1' : '0';
+      setAttributes({
+        autoplay: turnOn
+      });
+    }
+  })), attributes.autoplay === '1' && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelRow, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.__experimentalNumberControl, {
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Autoplay speed in seconds', 'olena'),
-    value: attributes.autoplay,
+    value: attributes.autoplay_speed,
     min: "0",
     onChange: speed => setAttributes({
-      autoplay: speed
+      autoplay_speed: speed
     })
   })), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelRow, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.CheckboxControl, {
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Show Navigation', 'olena'),
@@ -76,7 +86,8 @@ function edit({
   })))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...blockProps,
     key: "mx-main-content",
-    "data-autoplay-speed": attributes.autoplay,
+    "data-autoplay": attributes.autoplay,
+    "data-autoplay-speed": attributes.autoplay_speed,
     "data-nav": attributes.nav,
     "data-dots": attributes.dots,
     "data-loop": attributes.loop
@@ -138,7 +149,8 @@ function save({
   const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps.save();
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...blockProps,
-    "data-autoplay-speed": attributes.autoplay,
+    "data-autoplay": attributes.autoplay,
+    "data-autoplay-speed": attributes.autoplay_speed,
     "data-nav": attributes.nav,
     "data-dots": attributes.dots,
     "data-loop": attributes.loop
@@ -227,7 +239,7 @@ module.exports = window["wp"]["i18n"];
   \****************************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"olena/content-slider","version":"0.1.0","title":"Content Slider","category":"widgets","icon":"format-gallery","description":"Add a Content Slider","supports":{"html":false,"align":["left","right","full"],"anchor":true,"color":{"gradients":true,"link":true,"__experimentalDefaultControls":{"background":true,"text":true}}},"attributes":{"autoplay":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-autoplay-speed","default":"0"},"nav":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-nav","default":"0"},"dots":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-dots","default":"0"},"loop":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-loop","default":"0"}},"textdomain":"olena","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"olena/content-slider","version":"0.1.0","title":"Content Slider","category":"widgets","icon":"format-gallery","description":"Add a Content Slider","supports":{"html":false,"align":["left","right","full"],"anchor":true,"color":{"gradients":true,"link":true,"__experimentalDefaultControls":{"background":true,"text":true}}},"attributes":{"autoplay":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-autoplay","default":"0"},"autoplay_speed":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-autoplay-speed","default":"5"},"nav":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-nav","default":"0"},"dots":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-dots","default":"0"},"loop":{"type":"string","source":"attribute","selector":".wp-block-olena-content-slider","attribute":"data-loop","default":"0"}},"textdomain":"olena","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 

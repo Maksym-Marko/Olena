@@ -18,7 +18,7 @@
 
                     const data = $(this).data();
 
-                    const autoplay = true;
+                    const autoplay = data.autoplay === 0 ? false : true;;
                     const autoplayTimeout = data.autoplaySpeed === 0 ? 5000 : data.autoplaySpeed + '000';
                     const nav = data.nav === 0 ? false : true;
                     const dots = data.dots === 0 ? false : true;
@@ -31,7 +31,8 @@
                         autoplay: autoplay,
                         nav: nav,
                         dots: dots,
-                        autoplayTimeout: autoplayTimeout
+                        autoplayTimeout: autoplayTimeout,
+                        autoHeight: true
                     });
 
                 });

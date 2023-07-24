@@ -5,7 +5,8 @@ export default function save({ attributes }) {
 
 	return <div
 		{...blockProps}
-		data-autoplay-speed={attributes.autoplay}
+		data-autoplay={attributes.autoplay}
+		data-autoplay-speed={attributes.autoplay_speed}
 		data-nav={attributes.nav}
 		data-dots={attributes.dots}
 		data-loop={attributes.loop}

@@ -29,8 +29,15 @@
       "type": "string",
       "source": "attribute",
       "selector": ".wp-block-olena-content-slider",
-      "attribute": "data-autoplay-speed",
+      "attribute": "data-autoplay",
       "default": "0"
+    },
+    "autoplay_speed": {
+      "type": "string",
+      "source": "attribute",
+      "selector": ".wp-block-olena-content-slider",
+      "attribute": "data-autoplay-speed",
+      "default": "5"
     },
     "nav": {
       "type": "string",

@@ -89,6 +89,11 @@
 					"slug": "mini"
 				},
 				{
+					"name": "X-Small",
+					"size": "clamp(.395rem, 1.3vw, .850rem)",
+					"slug": "x-small"
+				},
+				{
 					"name": "Small",
 					"size": "clamp(.625rem, 1.5vw, 1.25rem)",
 					"slug": "small"

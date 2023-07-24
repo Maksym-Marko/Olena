@@ -1,4 +1,5 @@
-<?php 
+<?php
+
 /**
  * This file contains functions and hooks.
  *
@@ -37,7 +38,6 @@ class Olena_Custom_Blocks
          *  Content Slider.
          * */
         add_action('init', array($this, 'content_slider'));
-
     }
 
     /**
@@ -50,8 +50,7 @@ class Olena_Custom_Blocks
     public function responsive_spacer()
     {
 
-        register_block_type( __DIR__ . '/responsive-spacer' );
-
+        register_block_type(__DIR__ . '/responsive-spacer');
     }
 
     /**
@@ -64,8 +63,6 @@ class Olena_Custom_Blocks
     public function content_slider()
     {
 
-        register_block_type( __DIR__ . '/content-slider' );
-
+        register_block_type(__DIR__ . '/content-slider');
     }
-
 }
