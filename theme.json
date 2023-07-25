@@ -465,13 +465,6 @@
 					"fontFamily": "var:preset|font-family|roboto"
 				}
 			},
-			"core/button": {
-				"variations": {
-					"outline": {
-						"color": {}						
-					}
-				}
-			},
 			"core/post-title": {
 				"elements": {
 					"link": {

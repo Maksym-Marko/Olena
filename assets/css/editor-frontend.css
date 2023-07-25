@@ -8,6 +8,18 @@
  */
 
 /*
+ * Common rules
+ */
+a,
+button {
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+/*
  * Core blocks customization
  */
 
@@ -15,9 +27,16 @@
 body .wp-block-template-part .is-position-sticky {
     position: fixed;
     width: 100%;
+    z-index: 2;
 }
 
 /* block: "core/button" */
 .wp-block-buttons>.wp-block-button.is-style-outline .has-light-color:hover {
     background-color: var(--wp--preset--color--dark);
+}
+.is-style-bright.wp-block-button .wp-block-button__link {
+    background-color: var(--wp--preset--color--bright);
+}
+.is-style-bright.wp-block-button .wp-block-button__link:hover {
+    background-color: var(--wp--preset--color--main);
 }

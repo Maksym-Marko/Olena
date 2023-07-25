@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This file contains functions and hooks.
+ * Here you can register your own custom blocks.
  *
  * @package Olena Theme
  * @author Maksym Marko <support@markomaksym.com.ua>
@@ -50,7 +50,7 @@ class Olena_Custom_Blocks
     public function responsive_spacer()
     {
 
-        register_block_type(__DIR__ . '/responsive-spacer');
+        register_block_type(get_template_directory() . '/custom-blocks/responsive-spacer');
     }
 
     /**
@@ -63,6 +63,6 @@ class Olena_Custom_Blocks
     public function content_slider()
     {
 
-        register_block_type(__DIR__ . '/content-slider');
+        register_block_type(get_template_directory() . '/custom-blocks/content-slider');
     }
 }

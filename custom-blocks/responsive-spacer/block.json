@@ -8,7 +8,8 @@
   "icon": "smiley",
   "description": "Add Responsive Spacer",
   "supports": {
-    "html": false
+    "html": false,
+    "anchor": true
   },
   "attributes": {
     "unique_class": {
