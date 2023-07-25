@@ -37,8 +37,8 @@ body .wp-block-olena-content-slider {
         gap: var(--wp--preset--spacing--mini);
         button {
             border: 2px solid var(--wp--preset--color--main);
-            width: var(--wp--preset--spacing--x-small);
-            height: var(--wp--preset--spacing--x-small);
+            width: var(--wp--preset--spacing--mini);
+            height: var(--wp--preset--spacing--mini);
             border-radius: 50%;
             &.active {
                 background-color: var(--wp--preset--color--main);

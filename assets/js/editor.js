@@ -18,3 +18,11 @@ wp.blocks.registerBlockStyle( 'core/button',
         label: 'Bright Button',
     }
 );
+
+/* block: "core/group" */
+wp.blocks.registerBlockStyle( 'core/group', 
+    {
+        name: 'animation-wrapper',
+        label: 'Wrapper',
+    }
+);

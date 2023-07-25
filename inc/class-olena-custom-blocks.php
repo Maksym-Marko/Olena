@@ -30,6 +30,11 @@ class Olena_Custom_Blocks
     {
 
         /**
+         *  Floating Box.
+         * */
+        add_action('init', array($this, 'floating_box'));
+
+        /**
          *  Responsive spacer.
          * */
         add_action('init', array($this, 'responsive_spacer'));
@@ -38,6 +43,19 @@ class Olena_Custom_Blocks
          *  Content Slider.
          * */
         add_action('init', array($this, 'content_slider'));
+    }
+
+    /**
+     * Floating box custom block type.
+     *
+     * @since 1.0.0
+     * 
+     * @return void Register a floating box custom block.
+     */
+    public function floating_box()
+    {
+
+        register_block_type(get_template_directory() . '/custom-blocks/floating-box');
     }
 
     /**

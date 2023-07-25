@@ -29,6 +29,10 @@ body .wp-block-template-part .is-position-sticky {
     width: 100%;
     z-index: 2;
 }
+.is-style-animation-wrapper {
+    overflow: hidden;
+    position: relative !important;
+}
 
 /* block: "core/button" */
 .wp-block-buttons>.wp-block-button.is-style-outline .has-light-color:hover {

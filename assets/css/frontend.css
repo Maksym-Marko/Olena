@@ -10,3 +10,8 @@
 /*
  * Custom blocks customization
  */
+
+/* block: "olena/floating-box" */
+.wp-block-olena-floating-box {
+    z-index: -1;
+}

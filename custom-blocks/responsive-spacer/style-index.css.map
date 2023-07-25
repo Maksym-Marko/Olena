@@ -1,1 +1,0 @@
-{"version":3,"file":"responsive-spacer/style-index.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://olena-theme/./blocks-generator/responsive-spacer/style.scss"],"sourcesContent":[".mx-responsive-block-spacer {\n\tclear: both;\n}"],"names":[],"sourceRoot":""}
