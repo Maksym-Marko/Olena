@@ -10,6 +10,8 @@
 /*
  * Common rules
  */
+
+/* Smooth movement */
 a,
 button {
     -webkit-transition: all .3s ease;
@@ -17,6 +19,25 @@ button {
     -ms-transition: all .3s ease;
     -o-transition: all .3s ease;
     transition: all .3s ease;
+}
+
+/* keyframes */
+
+/** keyframe: slideUpAndDown */
+.keyframe-slideUpAndDown {
+    animation: slideUpAndDown 2s infinite;
+}
+
+@keyframes slideUpAndDown { 
+    0% {
+        transform: translateY(0px);
+        opacity: 0.7;
+    }
+
+    100% {
+        transform: translateY(20px);
+        opacity: 1;
+    }
 }
 
 /*

@@ -2,6 +2,49 @@
     $(function () {
 
         /**
+         * Scroll to Section.
+         */
+        window.olenaScrollToSection = window.olenaScrollToSection || {
+
+            elements: 'a[href^="#"]',
+
+            bindClick: function (element, section) {
+
+                element.on('click', function (e) {
+
+                    e.preventDefault();
+
+                    $('html, body').animate({
+                        scrollTop: section.offset().top
+                    }, 1000);
+
+                });
+
+            },
+
+            prepareElements: function () {
+
+                if ($(this.elements).lenght === 0) return;
+
+                const _this = this;
+
+                $(this.elements).each(function () {
+                    const section = $(this).attr('href');
+                    if ($(section).lenght !== 0) {
+                        _this.bindClick($(this), $(section));
+                    }
+                });
+            },
+
+            init: function () {
+                this.prepareElements();
+            }
+
+        };
+
+        olenaScrollToSection.init();
+
+        /**
          * Content Slider.
          */
         window.olenaContentSlider = window.olenaContentSlider || {
