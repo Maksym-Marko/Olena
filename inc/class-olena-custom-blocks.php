@@ -30,6 +30,11 @@ class Olena_Custom_Blocks
     {
 
         /**
+         *  Responsive Box.
+         * */
+        add_action('init', array($this, 'responsive_box'));
+
+        /**
          *  Floating Box.
          * */
         add_action('init', array($this, 'floating_box'));
@@ -43,6 +48,19 @@ class Olena_Custom_Blocks
          *  Content Slider.
          * */
         add_action('init', array($this, 'content_slider'));
+    }
+
+    /**
+     * Responsive Box custom block type.
+     *
+     * @since 1.0.0
+     * 
+     * @return void Register a responsive box custom block.
+     */
+    public function responsive_box()
+    {
+
+        register_block_type(get_template_directory() . '/custom-blocks/responsive-box');
     }
 
     /**

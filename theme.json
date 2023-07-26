@@ -324,7 +324,6 @@
 			},
 			"core/heading": {
 				"color": {
-					"background": "var:preset|color|light",
 					"text": "var:preset|color|dark"
 				},
 				"elements": {

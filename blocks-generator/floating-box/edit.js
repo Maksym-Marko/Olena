@@ -6,7 +6,6 @@ import './editor.scss';
 export default function edit({ attributes, setAttributes }) {
 	const blockProps = useBlockProps()
 
-
 	// style
 	const style = () => {
 
