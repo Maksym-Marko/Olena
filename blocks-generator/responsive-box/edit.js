@@ -70,16 +70,18 @@ export default function edit({ attributes, setAttributes }) {
 		</InspectorControls>,
 		<div
 			key="mx-content"
-			{...blockProps}
-			data-breakpoint={attributes.breakpoint}
 			className={'mx-responsive-box ' + attributes.unique_class}
+			data-breakpoint={attributes.breakpoint}
 		>
-			<style>
+			<div
+				{...blockProps}
+			>
+				<style>
 
-				{/* Display only on Desktops */}
-				{
-					attributes.breakpoint == 'desktop' &&
-					`@media (max-width: 992px) {
+					{/* Display only on Desktops */}
+					{
+						attributes.breakpoint == 'desktop' &&
+						`@media (max-width: 992px) {
 						body .mx-responsive-box.${attributes.unique_class} {
 							display: none !important;
 						}
@@ -89,12 +91,12 @@ export default function edit({ attributes, setAttributes }) {
 						}
 					}						
 					`
-				}
+					}
 
-				{/* Display only on Tablets */}
-				{
-					attributes.breakpoint == 'tablets' &&
-					`@media (max-width: 768px) {
+					{/* Display only on Tablets */}
+					{
+						attributes.breakpoint == 'tablets' &&
+						`@media (max-width: 768px) {
 						body .mx-responsive-box.${attributes.unique_class} {
 							display: none !important;
 						}
@@ -113,12 +115,12 @@ export default function edit({ attributes, setAttributes }) {
 						}
 					}
 					`
-				}
+					}
 
-				{/* Display only on Mobile */}
-				{
-					attributes.breakpoint == 'mobile' &&
-					`@media (min-width: 768px) {
+					{/* Display only on Mobile */}
+					{
+						attributes.breakpoint == 'mobile' &&
+						`@media (min-width: 768px) {
 						body .mx-responsive-box.${attributes.unique_class} {
 							display: none !important;
 						}
@@ -128,11 +130,13 @@ export default function edit({ attributes, setAttributes }) {
 						}
 					}
 					`
-				}
+					}
 
-			</style>
+				</style>
 
-			<InnerBlocks />
+				<InnerBlocks />
+
+			</div>
 
 		</div>
 	];
