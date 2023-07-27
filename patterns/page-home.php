@@ -9,3 +9,5 @@
  */
 ?>
 <!-- wp:pattern {"slug":"hero-section"} /-->
+
+<!-- wp:pattern {"slug":"animated-vertical"} /-->

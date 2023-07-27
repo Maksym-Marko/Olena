@@ -7,6 +7,26 @@
         gsap.registerPlugin(ScrollTrigger);
 
         /**
+         * Smooth scrolling
+         */
+        window.stickybidLenis = window.stickybidLenis || {
+
+            init: function () {
+                const lenis = new Lenis();
+
+                function raf(time) {
+                    lenis.raf(time)
+                    requestAnimationFrame(raf)
+                }
+
+                requestAnimationFrame(raf)
+            }
+
+        };
+
+        stickybidLenis.init();
+
+        /**
          * Scroll to Section.
          */
         window.olenaScrollToSection = window.olenaScrollToSection || {
@@ -35,9 +55,12 @@
 
                 $(this.elements).each(function () {
                     const section = $(this).attr('href');
-                    if ($(section).lenght !== 0) {
-                        _this.bindClick($(this), $(section));
+                    if (section !== '#') {
+                        if ($(section).lenght !== 0) {
+                            _this.bindClick($(this), $(section));
+                        }
                     }
+
                 });
             },
 
@@ -145,17 +168,15 @@
                         }
                     });
 
-                    const scrollerHeight = -700;
-
                     nav.forEach((function (t, o) {
 
                         if (0 !== o) {
 
                             // slide hide
-                            timeLine.fromTo(slides[o - 1], { opacity: 1, y: 0 }, { opacity: 0, y: -100, duration: .5 });
+                            timeLine.fromTo(slides[o - 1], { opacity: 1, y: 0 }, { opacity: 0, y: -50, duration: .5 });
 
                             // slide show
-                            timeLine.fromTo(slides[o], { opacity: 0, y: -100 }, { opacity: 1, y: 0, duration: .5 });
+                            timeLine.fromTo(slides[o], { opacity: 0, y: -50 }, { opacity: 1, y: 0, duration: .5 });
 
                             // add label
                             timeLine.addLabel("".concat(o))
@@ -191,9 +212,6 @@
 
                         let slideOpacity = el.style.opacity;
 
-                        // console.log(_this.slideIndex);
-
-                        // active-nav
                         if (_this.slideIndex !== index) {
 
                             if (slideOpacity >= 0.8) {
@@ -216,7 +234,6 @@
 
                         }
                     });
-
 
                 }, _this.interval);
 

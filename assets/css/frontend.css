@@ -19,6 +19,9 @@
 /*
  * Animated section.
  */
+.is-style-animation-pointer {
+    position: relative;
+}
 .is-style-animation-pointer > * {
     position: absolute;
 }
