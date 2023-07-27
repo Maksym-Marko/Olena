@@ -12,8 +12,6 @@
 /**
  * The Olena Custom Blocks class.
  *
- * @link https://markomaksym.com.ua/
- *
  * @since 1.0.0
  */
 class Olena_Custom_Blocks
@@ -28,6 +26,11 @@ class Olena_Custom_Blocks
      */
     public function __construct()
     {
+
+        /**
+         *  Animated Section Vertical.
+         * */
+        add_action('init', array($this, 'animated_section_vertical'));
 
         /**
          *  Responsive Box.
@@ -48,6 +51,19 @@ class Olena_Custom_Blocks
          *  Content Slider.
          * */
         add_action('init', array($this, 'content_slider'));
+    }
+
+    /**
+     * Animated Section Vertical custom block type.
+     *
+     * @since 1.0.0
+     * 
+     * @return void Register a animated section vertical custom block.
+     */
+    public function animated_section_vertical()
+    {
+
+        register_block_type(get_template_directory() . '/custom-blocks/animated-section-vertical');
     }
 
     /**

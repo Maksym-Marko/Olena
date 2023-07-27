@@ -19,28 +19,28 @@
       "attribute": "data-orientation",
       "default": "1"
     },
-    "positionLeft": {
+    "position_left": {
       "type": "string",
       "source": "attribute",
       "selector": ".wp-block-olena-floating-box",
       "attribute": "data-position-left",
       "default": "0"
     },
-    "positionTop": {
+    "position_top": {
       "type": "string",
       "source": "attribute",
       "selector": ".wp-block-olena-floating-box",
       "attribute": "data-position-top",
       "default": "0"
     },
-    "positionRight": {
+    "position_right": {
       "type": "string",
       "source": "attribute",
       "selector": ".wp-block-olena-floating-box",
       "attribute": "data-position-right",
       "default": "0"
     },
-    "positionBottom": {
+    "position_bottom": {
       "type": "string",
       "source": "attribute",
       "selector": ".wp-block-olena-floating-box",

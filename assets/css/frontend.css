@@ -8,10 +8,26 @@
  */
 
 /*
- * Custom blocks customization
+ * Custom blocks customization.
  */
 
 /* block: "olena/floating-box" */
 .wp-block-olena-floating-box {
     z-index: -1;
+}
+
+/*
+ * Animated section.
+ */
+.is-style-animation-pointer > * {
+    position: absolute;
+}
+.is-style-animation-descriptor:not(.active-nav) p {
+    display: none;
+}
+.is-style-animation-descriptor {
+    opacity: .5;
+}
+.is-style-animation-descriptor.active-nav {
+    opacity: 1;
 }

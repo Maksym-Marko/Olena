@@ -39,6 +39,39 @@ if (!function_exists('olena_frontend_assets')) {
         );
 
         /**
+         * Lenis
+         * */
+         wp_enqueue_script(
+            'olena-lenis-script',
+            get_template_directory_uri() . '/assets/packages/lenis/lenis.min.js',
+            array(),
+            OLENA_THEME_VERSION,
+            true
+        );
+        
+        /**
+         * GSAP
+         * */
+        wp_enqueue_script(
+            'olena-gsap-script',
+            get_template_directory_uri() . '/assets/packages/gsap/gsap.min.js',
+            OLENA_THEME_VERSION,
+            '3.12.2',
+            true
+        );
+    
+        /**
+         * scrollTrigger
+         * */
+        wp_enqueue_script(
+            'olena-scrolltrigger-script',
+            get_template_directory_uri() . '/assets/packages/gsap/scrollTrigger.min.js',
+            array('olena-gsap-script'),
+            '3.12.2',
+            true
+        );
+
+        /**
          *  Frontend Styles.
          * */
         wp_enqueue_style(
@@ -54,7 +87,7 @@ if (!function_exists('olena_frontend_assets')) {
         wp_enqueue_script(
             'olena-frontend-script',
             get_template_directory_uri() . '/assets/js/frontend.js',
-            array('jquery'),
+            array('jquery', 'olena-scrolltrigger-script'),
             OLENA_THEME_VERSION,
             true
         );

@@ -13,26 +13,26 @@ export default function edit({ attributes, setAttributes }) {
 
 		// Left-Top
 		if( attributes.orientation === '1' ) {
-			styleObj.left = attributes.positionLeft + '%'
-			styleObj.top = attributes.positionTop + '%'
+			styleObj.left = attributes.position_left + '%'
+			styleObj.top = attributes.position_top + '%'
 		}
 
 		// Top-Right
 		if( attributes.orientation === '2' ) {
-			styleObj.right = attributes.positionRight + '%'
-			styleObj.top = attributes.positionTop + '%'
+			styleObj.right = attributes.position_right + '%'
+			styleObj.top = attributes.position_top + '%'
 		}
 
 		// Bottom-Right
 		if( attributes.orientation === '3' ) {
-			styleObj.right = attributes.positionRight + '%'
-			styleObj.bottom = attributes.positionBottom + '%'
+			styleObj.right = attributes.position_right + '%'
+			styleObj.bottom = attributes.position_bottom + '%'
 		}
 
 		// Bottom-Left
 		if( attributes.orientation === '4' ) {
-			styleObj.left = attributes.positionLeft + '%'
-			styleObj.bottom = attributes.positionBottom + '%'
+			styleObj.left = attributes.position_left + '%'
+			styleObj.bottom = attributes.position_bottom + '%'
 		}
 
 		return styleObj
@@ -66,11 +66,11 @@ export default function edit({ attributes, setAttributes }) {
 						<div>
 							<NumberControl
 								label={__('Left (%)', 'olena')}
-								value={attributes.positionLeft}
+								value={attributes.position_left}
 								min="-50"
 								max="150"
-								onChange={positionLeft => setAttributes({
-									positionLeft
+								onChange={position_left => setAttributes({
+									position_left
 								})}
 							/>
 						</div>
@@ -78,11 +78,11 @@ export default function edit({ attributes, setAttributes }) {
 						<div>
 							<NumberControl
 								label={__('Top (%)', 'olena')}
-								value={attributes.positionTop}
+								value={attributes.position_top}
 								min="-50"
 								max="150"
-								onChange={positionTop => setAttributes({
-									positionTop
+								onChange={position_top => setAttributes({
+									position_top
 								})}
 							/>
 						</div>
@@ -97,11 +97,11 @@ export default function edit({ attributes, setAttributes }) {
 						<div>
 							<NumberControl
 								label={__('Top (%)', 'olena')}
-								value={attributes.positionTop}
+								value={attributes.position_top}
 								min="-50"
 								max="150"
-								onChange={positionTop => setAttributes({
-									positionTop
+								onChange={position_top => setAttributes({
+									position_top
 								})}
 							/>
 						</div>
@@ -109,11 +109,11 @@ export default function edit({ attributes, setAttributes }) {
 						<div>
 							<NumberControl
 								label={__('Right (%)', 'olena')}
-								value={attributes.positionRight}
+								value={attributes.position_right}
 								min="-50"
 								max="150"
-								onChange={positionRight => setAttributes({
-									positionRight
+								onChange={position_right => setAttributes({
+									position_right
 								})}
 							/>
 						</div>
@@ -128,11 +128,11 @@ export default function edit({ attributes, setAttributes }) {
 						<div>
 							<NumberControl
 								label={__('Bottom (%)', 'olena')}
-								value={attributes.positionBottom}
+								value={attributes.position_bottom}
 								min="-50"
 								max="150"
-								onChange={positionBottom => setAttributes({
-									positionBottom
+								onChange={position_bottom => setAttributes({
+									position_bottom
 								})}
 							/>
 						</div>
@@ -140,11 +140,11 @@ export default function edit({ attributes, setAttributes }) {
 						<div>
 							<NumberControl
 								label={__('Right (%)', 'olena')}
-								value={attributes.positionRight}
+								value={attributes.position_right}
 								min="-50"
 								max="150"
-								onChange={positionRight => setAttributes({
-									positionRight
+								onChange={position_right => setAttributes({
+									position_right
 								})}
 							/>
 						</div>
@@ -159,11 +159,11 @@ export default function edit({ attributes, setAttributes }) {
 						<div>
 							<NumberControl
 								label={__('Left (%)', 'olena')}
-								value={attributes.positionLeft}
+								value={attributes.position_left}
 								min="-50"
 								max="150"
-								onChange={positionLeft => setAttributes({
-									positionLeft
+								onChange={position_left => setAttributes({
+									position_left
 								})}
 							/>
 						</div>
@@ -171,11 +171,11 @@ export default function edit({ attributes, setAttributes }) {
 						<div>
 							<NumberControl
 								label={__('Bottom (%)', 'olena')}
-								value={attributes.positionBottom}
+								value={attributes.position_bottom}
 								min="-50"
 								max="150"
-								onChange={positionBottom => setAttributes({
-									positionBottom
+								onChange={position_bottom => setAttributes({
+									position_bottom
 								})}
 							/>
 						</div>
@@ -191,10 +191,10 @@ export default function edit({ attributes, setAttributes }) {
 			{...blockProps}
 			style={style()}
 			data-orientation={attributes.orientation}
-			data-position-left={attributes.positionLeft}
-			data-position-top={attributes.positionTop}
-			data-position-right={attributes.positionRight}
-			data-position-bottom={attributes.positionBottom}
+			data-position-left={attributes.position_left}
+			data-position-top={attributes.position_top}
+			data-position-right={attributes.position_right}
+			data-position-bottom={attributes.position_bottom}
 		>
 			<InnerBlocks />
 		</div>

@@ -12,6 +12,7 @@
  */
 
 /* block: "core/button" */
+/** the property sets a bright style to a button */
 wp.blocks.registerBlockStyle( 'core/button', 
     {
         name: 'bright',
@@ -20,9 +21,26 @@ wp.blocks.registerBlockStyle( 'core/button',
 );
 
 /* block: "core/group" */
+/** the property sets position:relative and overflow:hidden to a group */
 wp.blocks.registerBlockStyle( 'core/group', 
     {
         name: 'animation-wrapper',
         label: 'Wrapper',
+    }
+);
+
+/** the property sets animation (fixed on the page scroll) to a group */
+wp.blocks.registerBlockStyle( 'core/group', 
+    {
+        name: 'animation-pointer',
+        label: 'Pointer',
+    }
+);
+
+/** the property sets animation (display an element on the page scroll) to a group */
+wp.blocks.registerBlockStyle( 'core/group', 
+    {
+        name: 'animation-descriptor',
+        label: 'Descriptor',
     }
 );
