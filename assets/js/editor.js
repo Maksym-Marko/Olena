@@ -29,6 +29,15 @@ wp.blocks.registerBlockStyle( 'core/group',
     }
 );
 
+/* block: "core/group" */
+/** the property sets position:fixed to a group when page is scrolled down */
+wp.blocks.registerBlockStyle( 'core/group', 
+    {
+        name: 'freeze-on-scroll',
+        label: 'Freeze',
+    }
+);
+
 /** the property sets animation (fixed on the page scroll) to a group */
 wp.blocks.registerBlockStyle( 'core/group', 
     {

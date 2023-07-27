@@ -13,7 +13,8 @@
 
 /* Smooth movement */
 a,
-button {
+button,
+.is-position-sticky {
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
     -ms-transition: all .3s ease;
@@ -46,7 +47,7 @@ button {
 
 /* block: "core/group" */
 body .wp-block-template-part .is-position-sticky {
-    position: fixed;
+    position: absolute;
     width: 100%;
     z-index: 2;
 }

@@ -7,7 +7,7 @@
         gsap.registerPlugin(ScrollTrigger);
 
         /**
-         * Smooth scrolling
+         * Smooth scrolling.
          */
         window.stickybidLenis = window.stickybidLenis || {
 
@@ -121,7 +121,7 @@
         olenaContentSlider.init();
 
         /**
-         * Animated section
+         * Animated section.
          */
         window.olenaSectionAnimated = window.olenaSectionAnimated || {
             container: '.wp-block-olena-animated-section-vertical',
@@ -144,10 +144,8 @@
 
                 const _this = this;
 
-                // nav
                 const nav = (null == container ? void 0 : container.querySelectorAll(_this.nav)) || [];
 
-                // slide
                 const slides = (null == container ? void 0 : container.querySelectorAll(_this.slide)) || [];
 
                 media.add("(min-width: 992px)", function () {
@@ -162,6 +160,12 @@
                             anticipatePin: 1,
                             scrub: true,
                             invalidateOnRefresh: !0,
+                            snap: {
+                                snapTo: "labels",
+                                duration: .3,
+                                delay: 0,
+                                ease: "none"
+                            },
                             onUpdate: function (e) {
                                 _this.handleImageState(container, e);
                             }
@@ -172,13 +176,10 @@
 
                         if (0 !== o) {
 
-                            // slide hide
                             timeLine.fromTo(slides[o - 1], { opacity: 1, y: 0 }, { opacity: 0, y: -50, duration: .5 });
 
-                            // slide show
                             timeLine.fromTo(slides[o], { opacity: 0, y: -50 }, { opacity: 1, y: 0, duration: .5 });
 
-                            // add label
                             timeLine.addLabel("".concat(o))
 
                         } else {
@@ -259,6 +260,76 @@
         }
 
         olenaSectionAnimated.init();
+
+        /**
+         * Freeze an element when a page is scrolled.
+         */
+        window.olenaFreezeElement = window.olenaFreezeElement || {
+
+            elements: '.is-style-freeze-on-scroll',
+            preActiveClass: 'mx-element-pre-freezed',
+            activeClass: 'mx-element-freezed',
+            scrollTop: 200,
+            intervalBody: null,
+            interval: 100,
+
+            bindFreeze: function () {
+
+                const _this = this;
+
+                clearTimeout(this.intervalBody);
+
+                this.intervalBody = setTimeout(function () {
+
+                    $(_this.elements).each(function () {
+
+                        if ($(window).scrollTop() >= _this.scrollTop) {
+                            if (!$(this).hasClass(_this.activeClass)) {
+                                $(this)
+                                    .addClass(_this.preActiveClass)
+                                    .addClass(_this.activeClass)
+                                    .removeClass(_this.preActiveClass);
+                            }
+                        } else {
+                            if ($(this).hasClass(_this.activeClass)) {
+                                $(this)
+                                    .addClass(_this.preActiveClass)
+                                    .removeClass(_this.activeClass)
+                                    .removeClass(_this.preActiveClass);
+                            }
+                        }
+
+                    });
+
+                }, this.interval);
+
+            },
+
+            onScroll: function () {
+                const _this = this;
+                $(window).on('scroll', function () {
+                    _this.bindFreeze();
+                });
+            },
+
+            initState: function () {
+
+                if (document.querySelectorAll(this.elements).length === 0) return;
+
+                this.bindFreeze();
+                this.onScroll();
+
+            },
+
+            init: function () {
+
+                this.initState();
+
+            }
+
+        };
+
+        olenaFreezeElement.init();
 
     });
 })(jQuery);

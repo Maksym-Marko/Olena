@@ -8,6 +8,19 @@
  */
 
 /*
+* Core blocks customization.
+*/
+/* block: "core/group" */
+body .wp-block-template-part .is-position-sticky.mx-element-pre-freezed {
+    position: fixed;
+    top: -500px;
+}
+body .wp-block-template-part .is-position-sticky.mx-element-freezed {
+    position: fixed;
+    top: 0;
+}
+
+/*
  * Custom blocks customization.
  */
 
