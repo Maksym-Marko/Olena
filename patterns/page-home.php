@@ -15,3 +15,5 @@
 <!-- wp:pattern {"slug":"three-boxes"} /-->
 
 <!-- wp:pattern {"slug":"section-with-cover"} /-->
+
+<!-- wp:pattern {"slug":"flying-images"} /-->
