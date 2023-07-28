@@ -41,6 +41,87 @@ button,
     }
 }
 
+/** keyframe: bounceIn */
+.keyframe-bounceIn {
+    animation: bounceIn 2s infinite;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(.3)
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.05)
+    }
+
+    70% {
+        transform: scale(.9)
+    }
+
+    100% {
+        transform: scale(1)
+    }
+}
+
+/** keyframe: bounceOut */
+.keyframe-bounceOut {
+    animation: bounceOut 2s infinite;
+}
+
+@keyframes bounceOut {
+    0% {
+        transform: scale(1)
+    }
+
+    25% {
+        transform: scale(.95)
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.1)
+    }
+
+    100% {
+        opacity: 0;
+        transform: scale(.3)
+    }
+}
+
+/** keyframe: flipInX */
+.keyframe-flipInX {
+    animation: flipInX 2s;
+}
+
+@keyframes flipInX {
+    from {
+        transform: perspective(400px) rotate3d(1,0,0,90deg);
+        animation-timing-function: ease-in;
+        opacity: 0
+    }
+
+    40% {
+        transform: perspective(400px) rotate3d(1,0,0,-20deg);
+        animation-timing-function: ease-in
+    }
+
+    60% {
+        transform: perspective(400px) rotate3d(1,0,0,10deg);
+        opacity: 1
+    }
+
+    80% {
+        transform: perspective(400px) rotate3d(1,0,0,-5deg)
+    }
+
+    to {
+        transform: perspective(400px)
+    }
+}
+
 /*
  * Core blocks customization
  */
@@ -57,12 +138,26 @@ body .wp-block-template-part .is-position-sticky {
 }
 
 /* block: "core/button" */
+/** outline style */
 .wp-block-buttons>.wp-block-button.is-style-outline .has-light-color:hover {
     background-color: var(--wp--preset--color--dark);
 }
+
+/** bright style */
 .is-style-bright.wp-block-button .wp-block-button__link {
     background-color: var(--wp--preset--color--bright);
 }
 .is-style-bright.wp-block-button .wp-block-button__link:hover {
     background-color: var(--wp--preset--color--main);
+}
+
+/** main-outline style */
+.is-style-main-outline.wp-block-button .wp-block-button__link {
+    background-color: transparent;
+    color: var(--wp--preset--color--main);
+    border: 2px solid var(--wp--preset--color--main);
+}
+.is-style-main-outline.wp-block-button .wp-block-button__link:hover {
+    background-color: var(--wp--preset--color--main);
+    color: var(--wp--preset--color--light);
 }

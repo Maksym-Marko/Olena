@@ -20,6 +20,14 @@ wp.blocks.registerBlockStyle( 'core/button',
     }
 );
 
+/** the property sets a "main" outline style to a button */
+wp.blocks.registerBlockStyle( 'core/button', 
+    {
+        name: 'main-outline',
+        label: 'Main Outline',
+    }
+);
+
 /* block: "core/group" */
 /** the property sets position:relative and overflow:hidden to a group */
 wp.blocks.registerBlockStyle( 'core/group', 

@@ -26,31 +26,50 @@ class Olena_Custom_Blocks
      */
     public function __construct()
     {
+        
+        /**
+         * Animated Box.
+         * */
+        add_action('init', array($this, 'animated_box'));
 
         /**
-         *  Animated Section Vertical.
+         * Animated Section Vertical.
          * */
         add_action('init', array($this, 'animated_section_vertical'));
 
         /**
-         *  Responsive Box.
+         * Responsive Box.
          * */
         add_action('init', array($this, 'responsive_box'));
 
         /**
-         *  Floating Box.
+         * Floating Box.
          * */
         add_action('init', array($this, 'floating_box'));
 
         /**
-         *  Responsive spacer.
+         * Responsive spacer.
          * */
         add_action('init', array($this, 'responsive_spacer'));
 
         /**
-         *  Content Slider.
+         * Content Slider.
          * */
         add_action('init', array($this, 'content_slider'));
+    }
+
+    
+    /**
+     * Animated Box custom block type.
+     *
+     * @since 1.0.0
+     * 
+     * @return void Register an animated box custom block.
+     */
+    public function animated_box()
+    {
+
+        register_block_type(get_template_directory() . '/custom-blocks/animated-box');
     }
 
     /**

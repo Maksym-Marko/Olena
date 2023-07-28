@@ -11,3 +11,7 @@
 <!-- wp:pattern {"slug":"hero-section"} /-->
 
 <!-- wp:pattern {"slug":"animated-vertical"} /-->
+
+<!-- wp:pattern {"slug":"three-boxes"} /-->
+
+<!-- wp:pattern {"slug":"section-with-cover"} /-->
