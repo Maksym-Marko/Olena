@@ -23,7 +23,7 @@
                 <!-- /wp:heading -->
 
                 <!-- wp:heading {"textAlign":"right","level":3,"style":{"typography":{"lineHeight":1.2}},"fontSize":"medium","fontFamily":"roboto-light"} -->
-                <h3 class="wp-block-heading has-text-align-right has-roboto-light-font-family has-medium-font-size" style="line-height:1.2">Find a patterns and mix them</h3>
+                <h3 class="wp-block-heading has-text-align-right has-roboto-light-font-family has-medium-font-size" style="line-height:1.2">Find patterns and mix them</h3>
                 <!-- /wp:heading -->
 
                 <!-- wp:paragraph {"align":"right","style":{"typography":{"lineHeight":1.3}},"fontSize":"x-small"} -->

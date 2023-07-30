@@ -17,3 +17,5 @@
 <!-- wp:pattern {"slug":"section-with-cover"} /-->
 
 <!-- wp:pattern {"slug":"flying-images"} /-->
+
+<!-- wp:pattern {"slug":"animated-horizontal"} /-->

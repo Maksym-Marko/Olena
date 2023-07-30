@@ -26,7 +26,12 @@ class Olena_Custom_Blocks
      */
     public function __construct()
     {
-        
+                
+        /**
+         * Animated Section Horizontal.
+         * */
+        add_action('init', array($this, 'animated_section_horizontal'));
+
         /**
          * Animated Box.
          * */
@@ -56,6 +61,19 @@ class Olena_Custom_Blocks
          * Content Slider.
          * */
         add_action('init', array($this, 'content_slider'));
+    }
+    
+    /**
+     * Animated Section Horizontal custom block type.
+     *
+     * @since 1.0.0
+     * 
+     * @return void Register a animated section horizontal custom block.
+     */
+    public function animated_section_horizontal()
+    {
+
+        register_block_type(get_template_directory() . '/custom-blocks/animated-section-horizontal');
     }
 
     

@@ -30,7 +30,7 @@ body .wp-block-template-part .is-position-sticky.mx-element-freezed {
 }
 
 /*
- * Animated section.
+ * Animated Section Vertical.
  */
 .is-style-animation-pointer {
     position: relative;
@@ -46,4 +46,27 @@ body .wp-block-template-part .is-position-sticky.mx-element-freezed {
 }
 .is-style-animation-descriptor.active-nav {
     opacity: 1;
+}
+
+/*
+ * Animated Section Horizontal.
+ */
+.wp-block-olena-animated-section-horizontal {
+    display: flex;
+    overflow: hidden;
+    overscroll-behavior: none;
+}
+.mx-animated-horizontal-content {
+    position: relative;
+}
+.mx-animated-horizontal-slider {
+    display: flex;
+    flex-wrap: nowrap;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    will-change: transform;
+}
+.mx-animated-horizontal-slider > * {
+    width: 100vw;
 }

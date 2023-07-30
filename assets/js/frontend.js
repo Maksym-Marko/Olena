@@ -7,6 +7,11 @@
         gsap.registerPlugin(ScrollTrigger);
 
         /**
+         * Global timeline.
+         */
+        // const timeLine = gsap.timeline();
+
+        /**
          * Smooth scrolling.
          */
         window.stickybidLenis = window.stickybidLenis || {
@@ -121,9 +126,77 @@
         olenaContentSlider.init();
 
         /**
-         * Animated section.
+         * Animated Section Vertical.
          */
-        window.olenaSectionAnimated = window.olenaSectionAnimated || {
+        window.olenaSectionAnimatedHorizontal = window.olenaSectionAnimatedHorizontal || {
+
+            container: '.wp-block-olena-animated-section-horizontal',
+            slider: '.mx-animated-horizontal-slider',
+            startPositionAttr: 'data-start-position',
+
+            gsap: function (container) {
+
+                const startPosition = container.getAttribute(this.startPositionAttr);
+                const slider = container.querySelector(this.slider);
+                const slides = slider.children;
+
+                const timeLine = gsap.timeline();
+
+                timeLine.to(slider, {
+                    x: function () {
+                        return '-' + (slider.offsetWidth - (slider.offsetWidth / slides.length)) + 'px'
+                    },
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: container,
+                        start: startPosition,
+                        end: function () {
+                            return "".concat(slider.offsetWidth)
+                        },
+                        pin: true,
+                        pinReparent: false,
+                        anticipatePin: 1,
+                        scrub: 1,
+                        snap: {
+                            snapTo: 1 / (slides.length - 1),
+                            duration: .3,
+                            delay: 0,
+                            ease: "none"
+                        },
+                        invalidateOnRefresh: !0
+                    }
+                });
+
+            },
+
+            prepareContainers: function () {
+
+                const containers = document.querySelectorAll(this.container);
+
+                if (containers.length === 0) return;
+
+                const _this = this;
+
+                containers.forEach(function (container) {
+                    _this.gsap(container);
+                });
+
+            },
+
+            init: function () {
+
+                this.prepareContainers();
+
+            }
+
+        };
+
+        olenaSectionAnimatedHorizontal.init();
+
+        /**
+         * Animated Section Vertical.
+         */
+        window.olenaSectionAnimatedVertical = window.olenaSectionAnimatedVertical || {
             container: '.wp-block-olena-animated-section-vertical',
             slide: '.is-style-animation-pointer',
             nav: '.is-style-animation-descriptor',
@@ -259,7 +332,7 @@
             }
         }
 
-        olenaSectionAnimated.init();
+        olenaSectionAnimatedVertical.init();
 
         /**
          * Freeze an element when a page is scrolled.
