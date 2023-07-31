@@ -7,9 +7,11 @@
         gsap.registerPlugin(ScrollTrigger);
 
         /**
-         * Global timeline.
+         * Global settings for gsap.
          */
-        // const timeLine = gsap.timeline();
+        const gsapSettings = {
+            firstAnimation: ''
+        };
 
         /**
          * Smooth scrolling.
@@ -124,74 +126,6 @@
         };
 
         olenaContentSlider.init();
-
-        /**
-         * Animated Section Vertical.
-         */
-        window.olenaSectionAnimatedHorizontal = window.olenaSectionAnimatedHorizontal || {
-
-            container: '.wp-block-olena-animated-section-horizontal',
-            slider: '.mx-animated-horizontal-slider',
-            startPositionAttr: 'data-start-position',
-
-            gsap: function (container) {
-
-                const startPosition = container.getAttribute(this.startPositionAttr);
-                const slider = container.querySelector(this.slider);
-                const slides = slider.children;
-
-                const timeLine = gsap.timeline();
-
-                timeLine.to(slider, {
-                    x: function () {
-                        return '-' + (slider.offsetWidth - (slider.offsetWidth / slides.length)) + 'px'
-                    },
-                    ease: "none",
-                    scrollTrigger: {
-                        trigger: container,
-                        start: startPosition,
-                        end: function () {
-                            return "".concat(slider.offsetWidth)
-                        },
-                        pin: true,
-                        pinReparent: false,
-                        anticipatePin: 1,
-                        scrub: 1,
-                        snap: {
-                            snapTo: 1 / (slides.length - 1),
-                            duration: .3,
-                            delay: 0,
-                            ease: "none"
-                        },
-                        invalidateOnRefresh: !0
-                    }
-                });
-
-            },
-
-            prepareContainers: function () {
-
-                const containers = document.querySelectorAll(this.container);
-
-                if (containers.length === 0) return;
-
-                const _this = this;
-
-                containers.forEach(function (container) {
-                    _this.gsap(container);
-                });
-
-            },
-
-            init: function () {
-
-                this.prepareContainers();
-
-            }
-
-        };
-
-        olenaSectionAnimatedHorizontal.init();
 
         /**
          * Animated Section Vertical.
@@ -333,6 +267,74 @@
         }
 
         olenaSectionAnimatedVertical.init();
+
+        /**
+         * Animated Section Horizontal.
+         */
+        window.olenaSectionAnimatedHorizontal = window.olenaSectionAnimatedHorizontal || {
+
+            container: '.wp-block-olena-animated-section-horizontal',
+            slider: '.mx-animated-horizontal-slider',
+            startPositionAttr: 'data-start-position',
+
+            gsap: function (container) {
+
+                const startPosition = container.getAttribute(this.startPositionAttr);
+                const slider = container.querySelector(this.slider);
+                const slides = slider.children;
+
+                const timeLine = gsap.timeline();
+
+                timeLine.to(slider, {
+                    x: function () {
+                        return '-' + (slider.offsetWidth - (slider.offsetWidth / slides.length)) + 'px'
+                    },
+                    ease: "none",
+                    scrollTrigger: {
+                        trigger: container,
+                        start: startPosition,
+                        end: function () {
+                            return "+=".concat(slider.offsetWidth)
+                        },
+                        pin: true,
+                        pinReparent: false,
+                        anticipatePin: 1,
+                        scrub: 1,
+                        snap: {
+                            snapTo: 1 / (slides.length - 1),
+                            duration: .1,
+                            delay: 0,
+                            ease: "none"
+                        },
+                        invalidateOnRefresh: !0
+                    }
+                });
+
+            },
+
+            prepareContainers: function () {
+
+                const containers = document.querySelectorAll(this.container);
+
+                if (containers.length === 0) return;
+
+                const _this = this;
+
+                containers.forEach(function (container) {
+                    _this.gsap(container);
+                });
+
+            },
+
+            init: function () {
+
+                this.prepareContainers();
+
+            }
+
+        };
+
+        olenaSectionAnimatedHorizontal.init();
 
         /**
          * Freeze an element when a page is scrolled.
