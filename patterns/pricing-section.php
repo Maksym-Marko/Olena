@@ -2,7 +2,7 @@
 /**
  * Title: Pricing Section
  * Slug: pricing-section
- * Description:
+ * Description: Section with pricing and columns switcher
  * Categories: pricing, columns, buttons
  * Keywords: pricing
  * Inserter: true
@@ -22,7 +22,7 @@ opacity: 0.5;
 }
 }
 </style><!-- wp:image {"id":257,"width":766,"height":766,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="http://olena-theme.local/wp-content/themes/olena/assets/images/animations/bubble_5.svg" alt="" class="wp-image-257" width="766" height="766"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/animations/bubble_5.svg" alt="" class="wp-image-257" width="766" height="766"/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:olena/responsive-box --></div>
 <!-- /wp:olena/floating-box -->

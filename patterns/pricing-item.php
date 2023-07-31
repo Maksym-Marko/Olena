@@ -2,7 +2,7 @@
 /**
  * Title: Pricing Item
  * Slug: pricing-item
- * Description:
+ * Description: A group with pricing description
  * Categories: featured
  * Keywords: pricing
  * Inserter: true
