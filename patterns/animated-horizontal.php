@@ -10,8 +10,8 @@
  */
 
 ?>
-<!-- wp:group {"layout":{"type":"default"}} -->
-<div id="animated-horizontal" class="wp-block-group"><!-- wp:olena/animated-section-horizontal -->
+<!-- wp:group {"tagName":"section","layout":{"type":"default"}} -->
+<section id="animated-horizontal" class="wp-block-group"><!-- wp:olena/animated-section-horizontal -->
 <div class="wp-block-olena-animated-section-horizontal" data-extras="" data-start-position="top top"><div class="mx-animated-horizontal-slider"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"}}},"backgroundColor":"main-light","layout":{"type":"default"}} -->
 <div class="wp-block-group has-main-light-background-color has-background" style="padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"width":"40%"} -->
@@ -83,5 +83,5 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div></div>
-<!-- /wp:olena/animated-section-horizontal --></div>
+<!-- /wp:olena/animated-section-horizontal --></section>
 <!-- /wp:group -->

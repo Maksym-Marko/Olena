@@ -61,3 +61,11 @@ wp.blocks.registerBlockStyle( 'core/group',
         label: 'Descriptor',
     }
 );
+
+/** the property sets box-shadow to a group */
+wp.blocks.registerBlockStyle( 'core/group', 
+    {
+        name: 'highlighted',
+        label: 'Highlighted',
+    }
+);

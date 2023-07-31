@@ -8,10 +8,10 @@
  */
 
 /*
- * Common rules
+ * Common rules.
  */
 
-/* Smooth movement */
+/* Smooth movement. */
 a,
 button,
 .is-position-sticky {
@@ -22,7 +22,12 @@ button,
     transition: all .3s ease;
 }
 
-/* keyframes */
+/* .has-background padding:unset */
+body .has-background {
+    padding: unset;
+}
+
+/* keyframes. */
 
 /** keyframe: slideUpAndDown */
 .keyframe-slideUpAndDown {
@@ -136,6 +141,11 @@ body .wp-block-template-part .is-position-sticky {
     overflow: hidden;
     position: relative !important;
 }
+.is-style-highlighted {
+    -webkit-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.21);
+    -moz-box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.21);
+    box-shadow: 2px 2px 14px 0px rgba(0,0,0,0.21);
+}
 
 /* block: "core/button" */
 /** outline style */
@@ -160,4 +170,75 @@ body .wp-block-template-part .is-position-sticky {
 .is-style-main-outline.wp-block-button .wp-block-button__link:hover {
     background-color: var(--wp--preset--color--main);
     color: var(--wp--preset--color--light);
+}
+
+/*
+ * Pricing Section
+ */
+.is-style-price-switcher .wp-block-navigation__container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid var(--wp--preset--color--main);
+    border-radius: 100px;
+    padding: 2px;
+    gap: 0;
+    position: relative;    
+    width: 410px;
+    height: 45px;
+}
+.is-style-price-switcher .wp-block-navigation-link {
+    color: var(--wp--preset--color--main);
+    width: 50%;
+}
+.is-style-price-switcher .wp-block-navigation-link,
+.is-style-price-switcher .wp-block-navigation-link > * {
+    display: flex;
+    justify-content: center;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.is-style-price-switcher .wp-block-navigation-item__content:hover {
+    text-decoration: none;
+}
+.is-style-price-switcher .wp-block-navigation__container:before {
+    content: '';
+    position: absolute;
+    width: 50%;
+    background-color: var(--wp--preset--color--main);
+    height: 43px;
+    display: block;
+    left: 5px;
+    border-radius: 20px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -ms-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+}
+.is-style-price-switcher.price-switcher-position-0 .wp-block-navigation__container:before {
+    left: 5px;
+}
+.is-style-price-switcher.price-switcher-position-1 .wp-block-navigation__container:before {
+    left: 50%;
+    margin-left: -5px;
+}
+.is-style-price-switcher .wp-block-navigation__container .wp-block-navigation-item:first-child a {
+    color: var(--wp--preset--color--main);
+}
+.is-style-price-switcher.price-switcher-activated .wp-block-navigation__container .wp-block-navigation-item:first-child a {
+    color: inherit;
+}
+.is-style-price-switcher.price-switcher-activated .wp-block-navigation__container .wp-block-navigation-item a.price-switcher-active {
+    color: var(--wp--preset--color--main);
+}
+.is-style-price-switcher .wp-block-navigation__container .wp-block-navigation-item:first-child a {
+    color: var(--wp--preset--color--light);
+    text-decoration: none;
+}
+.is-style-price-switcher.price-switcher-activated .wp-block-navigation__container .wp-block-navigation-item a.price-switcher-active {
+    color: var(--wp--preset--color--light);
+    text-decoration: none;
 }

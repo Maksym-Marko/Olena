@@ -4,19 +4,12 @@
         /**
          * Enable ScrollTrigger to GSAP.
          */
-        gsap.registerPlugin(ScrollTrigger);
-
-        /**
-         * Global settings for gsap.
-         */
-        const gsapSettings = {
-            firstAnimation: ''
-        };
+        gsap.registerPlugin(ScrollTrigger);        
 
         /**
          * Smooth scrolling.
          */
-        window.stickybidLenis = window.stickybidLenis || {
+        window.olenaLenis = window.olenaLenis || {
 
             init: function () {
                 const lenis = new Lenis();
@@ -31,7 +24,7 @@
 
         };
 
-        stickybidLenis.init();
+        olenaLenis.init();        
 
         /**
          * Scroll to Section.
@@ -524,6 +517,109 @@
         };
 
         olenaAnimatedBox.init();
+
+        /**
+         * Price switcher
+         */
+        window.olenaPriceSwitcher = window.olenaPriceSwitcher || {
+
+            container: '.is-style-price-switcher',
+            element: '#pricing .wp-block-navigation-item__content',
+            activatedClass: 'price-switcher-activated',
+            activeClass: 'price-switcher-active',
+            containerSwitcherPositionClass: 'price-switcher-position-',
+            sections: '.sb-pricing-list',
+            sectionActiveClass: 'sb-pricing-list-active',
+
+            removeClass: function (element, classNameRoot) {
+
+                $(element).removeClass(function (index, classNames) {
+                    let current_classes = classNames.split(" "),
+                        classes_to_remove = [];
+
+                    $.each(current_classes, function (index, class_name) {
+                        const regExp = new RegExp(`${classNameRoot}.*`);
+                        if (regExp.test(class_name)) {
+                            classes_to_remove.push(class_name);
+                        }
+                    });
+
+                    return classes_to_remove.join(" ");
+
+                });
+
+            },
+
+            switcherPosition: function (index) {
+
+                this.removeClass(this.container, this.containerSwitcherPositionClass);
+
+                $(this.container).addClass(this.containerSwitcherPositionClass + index);
+
+            },
+
+            bindClick: function () {
+
+                const _this = this;
+
+                $(this.element).on('click', function (e) {
+
+                    e.preventDefault();
+
+                    const page = $('html, body')
+                    
+                    page.stop();
+
+                    // anchors
+                    const sectionId = $(this).attr('href');
+
+                    if ($(sectionId).length === 1) {
+
+                        if (!$(sectionId).hasClass(_this.sectionActiveClass)) {
+
+                            // switcher position
+                            $(_this.container).addClass(_this.activatedClass);
+                            $(_this.element).removeClass(_this.activeClass);
+                            $(this).addClass(_this.activeClass);
+                            _this.switcherPosition($(this).parent().index());
+
+                            // change sections active class
+                            $(_this.sections)
+                                .removeClass(_this.sectionActiveClass)
+                                .hide('fast');
+
+                            $(sectionId)
+                                .addClass(_this.sectionActiveClass)
+                                .show('fast');
+
+                        }
+                    }
+
+                });
+            },
+
+            initState: function () {
+
+                $(this.sections).hide();                
+
+                $(`${this.sections}.${this.sectionActiveClass}`).show();
+
+            },
+
+            init: function () {
+                if ($(this.container).length === 0) return;
+
+                // init state
+                this.initState();
+
+                // bind click
+                this.bindClick();
+            }
+
+        };
+
+        olenaPriceSwitcher.init();
+
 
     });
 })(jQuery);

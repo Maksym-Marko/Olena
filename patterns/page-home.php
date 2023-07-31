@@ -19,3 +19,5 @@
 <!-- wp:pattern {"slug":"flying-images"} /-->
 
 <!-- wp:pattern {"slug":"animated-horizontal"} /-->
+
+<!-- wp:pattern {"slug":"pricing-section"} /-->
