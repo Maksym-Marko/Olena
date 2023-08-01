@@ -11,17 +11,17 @@
 					"slug": "bright"
 				},
 				{
-					"color": "#5d0725",
+					"color": "#9c0c3f",
 					"name": "Main Dark",
 					"slug": "main-dark"
 				},
 				{
-					"color": "#e3125c",
+					"color": "#ffdde9",
 					"name": "Main Light",
 					"slug": "main-light"
 				},
 				{
-					"color": "#9c0c3f",
+					"color": "#e3125c",
 					"name": "Main",
 					"slug": "main"
 				},
