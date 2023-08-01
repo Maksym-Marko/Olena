@@ -479,7 +479,7 @@
 				"elements": {
 					"link": {
 						":hover": {
-							"typography": {
+							"typography": {								
 								"textDecoration": "none"
 							}
 						}

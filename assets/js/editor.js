@@ -69,3 +69,11 @@ wp.blocks.registerBlockStyle( 'core/group',
         label: 'Highlighted',
     }
 );
+
+/* block: "core/post-template" */
+wp.blocks.registerBlockStyle( 'core/post-template', 
+    {
+        name: 'grid-modern',
+        label: 'Grid Modern',
+    }
+);

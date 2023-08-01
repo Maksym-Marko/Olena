@@ -21,3 +21,5 @@
 <!-- wp:pattern {"slug":"animated-horizontal"} /-->
 
 <!-- wp:pattern {"slug":"pricing-section"} /-->
+
+<!-- wp:pattern {"slug":"reliability-section"} /-->
