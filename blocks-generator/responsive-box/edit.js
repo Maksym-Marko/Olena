@@ -133,7 +133,7 @@ export default function edit({ attributes, setAttributes }) {
 					}
 					`
 					}
-
+					
 					{/* Display only on Mobile */}
 					{
 						attributes.breakpoint == 'mobile' &&
