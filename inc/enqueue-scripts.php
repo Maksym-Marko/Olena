@@ -86,7 +86,7 @@ if (!function_exists('olena_frontend_assets')) {
          * */
         wp_enqueue_script(
             'olena-frontend-script',
-            get_template_directory_uri() . '/assets/js/frontend.js',
+            get_template_directory_uri() . '/assets/js/frontend.min.js',
             array('jquery', 'olena-scrolltrigger-script'),
             OLENA_THEME_VERSION,
             true

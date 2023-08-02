@@ -11,9 +11,13 @@
 		"packages-update": "wp-scripts packages-update",
 		"plugin-zip": "wp-scripts plugin-zip",
 		"build": "wp-scripts build --webpack-src-dir=blocks-generator/ --output-path=custom-blocks/",
-		"start": "wp-scripts start --webpack-src-dir=blocks-generator/ --output-path=custom-blocks/"
+		"start": "wp-scripts start --webpack-src-dir=blocks-generator/ --output-path=custom-blocks/",
+		"minify-js": "node script-generator/index.js"
 	},
 	"devDependencies": {
 		"@wordpress/scripts": "^26.6.0"
+	},
+	"dependencies": {
+		"uglify-js": "^3.17.4"
 	}
 }
