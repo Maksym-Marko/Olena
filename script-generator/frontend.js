@@ -2,9 +2,26 @@
     $(function () {
 
         /**
+         * Required modules.
+         */
+        if (typeof gsap === 'undefined') {
+            console.warn('Please, enable GSAP module.');
+        }
+
+        if (typeof ScrollTrigger === 'undefined') {
+            console.warn('Please, enable ScrollTrigger module.');
+        }
+
+        if (typeof Lenis === 'undefined') {
+            console.warn('Please, enable Lenis module.');
+        }
+
+        /**
          * Enable ScrollTrigger to GSAP.
          */
-        gsap.registerPlugin(ScrollTrigger);
+        if (typeof gsap !== 'undefined' && typeof ScrollTrigger !== 'undefined') {
+            gsap.registerPlugin(ScrollTrigger);
+        }
 
         /**
          * Smooth scrolling.
@@ -12,6 +29,9 @@
         window.olenaLenis = window.olenaLenis || {
 
             init: function () {
+
+                if (typeof Lenis === 'undefined') return;
+
                 const lenis = new Lenis();
 
                 function raf(time) {
@@ -49,7 +69,7 @@
 
             prepareElements: function () {
 
-                if ($(this.elements).lenght === 0) return;
+                if ($(this.elements).length === 0) return;
 
                 const _this = this;
 
@@ -136,6 +156,8 @@
 
             gsap: function (container) {
 
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
                 const sectionHeight = '+=' + container.getAttribute(this.sectionHeightAttr);
 
                 const startPosition = container.getAttribute(this.startPositionAttr);
@@ -148,18 +170,18 @@
 
                 const slides = (null == container ? void 0 : container.querySelectorAll(_this.slide)) || [];
 
-                media.add("(min-width: 992px)", function () {
+                media.add("(min-width: 991.5px)", function () {
 
                     let timeLine = gsap.timeline({
                         scrollTrigger: {
                             trigger: container,
                             start: startPosition,
                             end: sectionHeight,
-                            pin: !0,
-                            pinReparent: !1,
+                            pin: true,
+                            pinReparent: false,
                             anticipatePin: 1,
                             scrub: true,
-                            invalidateOnRefresh: !0,
+                            invalidateOnRefresh: true,
                             snap: {
                                 snapTo: "labels",
                                 duration: .3,
@@ -272,6 +294,8 @@
 
             gsap: function (container) {
 
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
                 const startPosition = container.getAttribute(this.startPositionAttr);
                 const slider = container.querySelector(this.slider);
                 const slides = slider.children;
@@ -299,7 +323,7 @@
                             delay: 0,
                             ease: "none"
                         },
-                        invalidateOnRefresh: !0
+                        invalidateOnRefresh: true
                     }
                 });
 
@@ -411,6 +435,8 @@
 
             zoomIn: function () {
 
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
                 const _this = this;
 
                 const zoomIn = document.querySelectorAll(_this.zoomInElements);
@@ -434,6 +460,8 @@
             },
 
             fadeInRight: function () {
+
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
 
                 const _this = this;
 
@@ -459,6 +487,8 @@
 
             fadeInLeft: function () {
 
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+
                 const _this = this;
 
                 const fadeInLeft = document.querySelectorAll(_this.fadeInLeftElements);
@@ -482,6 +512,8 @@
             },
 
             fadeInUp: function () {
+
+                if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
 
                 const _this = this;
 

@@ -15,8 +15,8 @@
 <h1 class="wp-block-heading has-text-align-center has-dark-color has-text-color has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:var(--wp--preset--spacing--medium);margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Page Not Found</h1>
 <!-- /wp:heading -->
 
-<!-- wp:paragraph {"align":"center","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"textColor":"secondary","fontSize":"xx-small"} -->
-<p class="has-text-align-center has-secondary-color has-text-color has-xx-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Unfortunately, the page you are looking for no longer exists, or has been moved. Please try searching for your content below.</p>
+<!-- wp:paragraph {"align":"center","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"textColor":"dark","fontSize":"xx-small"} -->
+<p class="has-text-align-center has-dark-color has-text-color has-xx-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Unfortunately, the page you are looking for no longer exists, or has been moved. Please try searching for your content below.</p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"0","margin":{"top":"0","bottom":"0"}},"border":{"width":"0px","style":"none"}},"layout":{"type":"constrained"},"fontSize":"x-small"} -->
@@ -25,7 +25,7 @@
 
 <!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="left:0%;top:0%" data-orientation="1" data-position-left="0" data-position-top="0" data-position-right="0" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-KoaLfgj2sl8K"} -->
-<div data-breakpoint="desktop-tablets" class="mx-responsive-box mx-responsive-box-KoaLfgj2sl8K"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 768px) {
+<div data-breakpoint="desktop-tablets" class="mx-responsive-box mx-responsive-box-KoaLfgj2sl8K"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 767.5px) {
 		.mx-responsive-box.mx-responsive-box-KoaLfgj2sl8K {
 			display: none !important;
 		}

@@ -15,7 +15,7 @@ export default function save({ attributes }) {
 				{/* Display only on Desktops */}
 				{
 					attributes.breakpoint == 'desktop' &&
-					`@media (max-width: 992px) {
+					`@media (max-width: 991.5px) {
 	.mx-responsive-box.${attributes.unique_class} {
 		display: none !important;
 	}
@@ -30,7 +30,7 @@ export default function save({ attributes }) {
 				{/* Display on Desktops and Tablets */}
 				{
 					attributes.breakpoint == 'desktop-tablets' &&
-					`@media (max-width: 768px) {
+					`@media (max-width: 767.5px) {
 		.mx-responsive-box.${attributes.unique_class} {
 			display: none !important;
 		}
@@ -45,7 +45,7 @@ export default function save({ attributes }) {
 				{/* Display only on Tablets */}
 				{
 					attributes.breakpoint == 'tablets' &&
-					`@media (max-width: 768px) {
+					`@media (max-width: 767.5px) {
 	.mx-responsive-box.${attributes.unique_class} {
 		display: none !important;
 	}
@@ -54,7 +54,7 @@ export default function save({ attributes }) {
 		opacity: 0.5;
 	}
 }
-@media (min-width: 992px) {
+@media (min-width: 991.5px) {
 	.mx-responsive-box.${attributes.unique_class} {
 		display: none !important;
 	}
@@ -69,7 +69,7 @@ export default function save({ attributes }) {
 				{/* Display on Tablets and Mobile */}
 				{
 					attributes.breakpoint == 'tablets-mobile' &&
-					`@media (min-width: 992px) {
+					`@media (min-width: 991.5px) {
 	.mx-responsive-box.${attributes.unique_class} {
 		display: none !important;
 	}
@@ -84,7 +84,7 @@ export default function save({ attributes }) {
 				{/* Display only on Mobile */}
 				{
 					attributes.breakpoint == 'mobile' &&
-					`@media (min-width: 768px) {
+					`@media (min-width: 767.5px) {
 	.mx-responsive-box.${attributes.unique_class} {
 		display: none !important;
 	}

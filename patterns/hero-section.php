@@ -16,7 +16,7 @@
         <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-d9O8DEqYet4k">
             <div class="wp-block-olena-responsive-box">
                 <style>
-                    @media (max-width: 992px) {
+                    @media (max-width: 991.5px) {
                         .mx-responsive-box.mx-responsive-box-d9O8DEqYet4k {
                             display: none !important;
                         }
@@ -40,7 +40,7 @@
         <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-F6B9XAObUUZo">
             <div class="wp-block-olena-responsive-box">
                 <style>
-                    @media (max-width: 992px) {
+                    @media (max-width: 991.5px) {
                         .mx-responsive-box.mx-responsive-box-F6B9XAObUUZo {
                             display: none !important;
                         }
@@ -64,7 +64,7 @@
         <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-765MIuCcbccK">
             <div class="wp-block-olena-responsive-box">
                 <style>
-                    @media (max-width: 992px) {
+                    @media (max-width: 991.5px) {
                         .mx-responsive-box.mx-responsive-box-765MIuCcbccK {
                             display: none !important;
                         }
@@ -88,7 +88,7 @@
         <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-ywWWFw5GfwVf">
             <div class="wp-block-olena-responsive-box">
                 <style>
-                    @media (max-width: 992px) {
+                    @media (max-width: 991.5px) {
                         .mx-responsive-box.mx-responsive-box-ywWWFw5GfwVf {
                             display: none !important;
                         }
@@ -112,7 +112,7 @@
         <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-d2StjhmaMdso">
             <div class="wp-block-olena-responsive-box">
                 <style>
-                    @media (max-width: 992px) {
+                    @media (max-width: 991.5px) {
                         .mx-responsive-box.mx-responsive-box-d2StjhmaMdso {
                             display: none !important;
                         }

@@ -12,7 +12,7 @@
 <!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small","top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|xx-large"},"margin":{"top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
 <section id="latest-news" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="left:5%;top:12%" data-orientation="1" data-position-left="5" data-position-top="12" data-position-right="-13" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-t8FQXxoyJDMu"} -->
-<div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-t8FQXxoyJDMu"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 992px) {
+<div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-t8FQXxoyJDMu"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 991.5px) {
 .mx-responsive-box.mx-responsive-box-t8FQXxoyJDMu {
 display: none !important;
 }

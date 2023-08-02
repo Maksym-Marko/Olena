@@ -52,7 +52,7 @@ export default function Edit({ attributes, setAttributes }) {
 
 					<PanelRow>
 						<NumberControl
-							label={__('@media <768px', 'olena')}
+							label={__('@media <767.5px', 'olena')}
 							value={attributes.media_768}
 							onChange={(media_768) => setAttributes({ media_768 })}
 						/>
@@ -60,7 +60,7 @@ export default function Edit({ attributes, setAttributes }) {
 
 					<PanelRow>
 						<NumberControl
-							label={__('@media <992px', 'olena')}
+							label={__('@media <991.5px', 'olena')}
 							value={attributes.media_992}
 							onChange={(media_992) => setAttributes({ media_992 })}
 						/>
@@ -125,7 +125,7 @@ export default function Edit({ attributes, setAttributes }) {
 					{/* @media 992 */}
 					{
 						attributes.media_992 !== '' &&
-						`@media (max-width: 992px) {
+						`@media (max-width: 991.5px) {
 							.${attributes.unique_class} {
 								height: ${attributes.media_992}px;
 							}
@@ -136,7 +136,7 @@ export default function Edit({ attributes, setAttributes }) {
 					{/* @media 768 */}
 					{
 						attributes.media_768 !== '' &&
-						`@media (max-width: 768px) {
+						`@media (max-width: 767.5px) {
 							.${attributes.unique_class} {
 								height: ${attributes.media_768}px;
 							}

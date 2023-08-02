@@ -52,7 +52,7 @@
 
 <!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="right:-14%;bottom:-42%" data-orientation="3" data-position-left="-10" data-position-top="-15" data-position-right="-14" data-position-bottom="-42"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-BgiotLnHOeg9"} -->
-<div data-breakpoint="desktop-tablets" class="mx-responsive-box mx-responsive-box-BgiotLnHOeg9"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 768px) {
+<div data-breakpoint="desktop-tablets" class="mx-responsive-box mx-responsive-box-BgiotLnHOeg9"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 767.5px) {
 		.mx-responsive-box.mx-responsive-box-BgiotLnHOeg9 {
 			display: none !important;
 		}

@@ -43,7 +43,7 @@ export default function save({ attributes }) {
 					{/* @media 992 */}
 					{
 						attributes.media_992 !== '' &&
-						`@media (max-width: 992px) {
+						`@media (max-width: 991.5px) {
 								.${attributes.unique_class} {
 									height: ${attributes.media_992}px;
 								}
@@ -54,7 +54,7 @@ export default function save({ attributes }) {
 					{/* @media 768 */}
 					{
 						attributes.media_768 !== '' &&
-						`@media (max-width: 768px) {
+						`@media (max-width: 767.5px) {
 								.${attributes.unique_class} {
 									height: ${attributes.media_768}px;
 								}

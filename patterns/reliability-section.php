@@ -11,18 +11,18 @@
 ?>
 <!-- wp:group {"tagName":"section","className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
 <section id="reliability" class="wp-block-group is-style-animation-wrapper"><!-- wp:olena/floating-box -->
-<div class="wp-block-olena-floating-box" style="right:-5%;top:-50%" data-orientation="2" data-position-left="-17" data-position-top="-50" data-position-right="-5" data-position-bottom="-1"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-JOkOpkNJs4iD"} -->
-<div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-JOkOpkNJs4iD"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 992px) {
-	.mx-responsive-box.mx-responsive-box-JOkOpkNJs4iD {
+<div class="wp-block-olena-floating-box" style="right:57%;top:-20%" data-orientation="2" data-position-left="-17" data-position-top="-20" data-position-right="57" data-position-bottom="-1"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-gc8qsOOCVg5s"} -->
+<div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-gc8qsOOCVg5s"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 991.5px) {
+	.mx-responsive-box.mx-responsive-box-gc8qsOOCVg5s {
 		display: none !important;
 	}
-	.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-JOkOpkNJs4iD {
+	.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-gc8qsOOCVg5s {
 		display: block !important;
 		opacity: 0.5;
 	}
 }
-</style><!-- wp:image {"id":68,"width":2362,"height":2362,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/animations/bubble_4.svg" alt="" class="wp-image-68" width="2362" height="2362"/></figure>
+</style><!-- wp:image {"id":68,"width":1000,"height":1000,"sizeSlug":"full","linkDestination":"none","className":"mx-centered-floating-box"} -->
+<figure class="wp-block-image size-full is-resized mx-centered-floating-box"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/animations/bubble_4.svg" alt="" class="wp-image-68" width="1000" height="1000"/></figure>
 <!-- /wp:image --></div></div>
 <!-- /wp:olena/responsive-box --></div>
 <!-- /wp:olena/floating-box -->
@@ -40,12 +40,12 @@
 
 <!-- wp:column {"layout":{"type":"constrained","justifyContent":"center"}} -->
 <div class="wp-block-column"><!-- wp:group {"style":{"dimensions":{"minHeight":"100%"}},"layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} -->
-<div class="wp-block-group" style="min-height:100%"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-vU9SQVSBwo0y"} -->
-<div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-vU9SQVSBwo0y"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 992px) {
-	.mx-responsive-box.mx-responsive-box-vU9SQVSBwo0y {
+<div class="wp-block-group" style="min-height:100%"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-auNyGaIeWb20"} -->
+<div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-auNyGaIeWb20"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 991.5px) {
+	.mx-responsive-box.mx-responsive-box-auNyGaIeWb20 {
 		display: none !important;
 	}
-	.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-vU9SQVSBwo0y {
+	.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-auNyGaIeWb20 {
 		display: block !important;
 		opacity: 0.5;
 	}
@@ -73,12 +73,12 @@
 <!-- /wp:group --></div></div>
 <!-- /wp:olena/responsive-box -->
 
-<!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-Jr7530u9k3Ka"} -->
-<div data-breakpoint="tablets-mobile" class="mx-responsive-box mx-responsive-box-Jr7530u9k3Ka"><div class="wp-block-olena-responsive-box"><style>@media (min-width: 992px) {
-	.mx-responsive-box.mx-responsive-box-Jr7530u9k3Ka {
+<!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-IocKdn0UEE0g"} -->
+<div data-breakpoint="tablets-mobile" class="mx-responsive-box mx-responsive-box-IocKdn0UEE0g"><div class="wp-block-olena-responsive-box"><style>@media (min-width: 991.5px) {
+	.mx-responsive-box.mx-responsive-box-IocKdn0UEE0g {
 		display: none !important;
 	}
-	.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-Jr7530u9k3Ka {
+	.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-IocKdn0UEE0g {
 		display: block !important;
 		opacity: 0.5;
 	}

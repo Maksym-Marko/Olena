@@ -15,7 +15,7 @@
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-H3aW2dYZZgo5">
 <div class="wp-block-olena-responsive-box">
 <style>
-@media (max-width: 992px) {
+@media (max-width: 991.5px) {
 .mx-responsive-box.mx-responsive-box-H3aW2dYZZgo5 {
 display: none !important;
 }

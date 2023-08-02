@@ -322,8 +322,15 @@ body .wp-block-post-template.is-style-grid-modern .wp-block-post-title a {
     transform: scale(1.2);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767.5px) {
     body .wp-block-post-template.is-style-grid-modern {
         display: flex;
     }
+}
+
+/*
+ * Adjustments.
+ */
+.mx-centered-floating-box {
+    margin-right: -850px;
 }

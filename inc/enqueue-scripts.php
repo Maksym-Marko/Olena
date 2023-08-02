@@ -41,14 +41,14 @@ if (!function_exists('olena_frontend_assets')) {
         /**
          * Lenis
          * */
-         wp_enqueue_script(
+        wp_enqueue_script(
             'olena-lenis-script',
             get_template_directory_uri() . '/assets/packages/lenis/lenis.min.js',
             array(),
             OLENA_THEME_VERSION,
             true
         );
-        
+
         /**
          * GSAP
          * */
@@ -59,7 +59,7 @@ if (!function_exists('olena_frontend_assets')) {
             '3.12.2',
             true
         );
-    
+
         /**
          * scrollTrigger
          * */
