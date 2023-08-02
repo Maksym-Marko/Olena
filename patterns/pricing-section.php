@@ -147,7 +147,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -253,7 +253,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -359,7 +359,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -467,7 +467,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -573,7 +573,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -679,7 +679,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

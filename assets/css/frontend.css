@@ -70,3 +70,20 @@ body .wp-block-template-part .is-position-sticky.mx-element-freezed {
 .mx-animated-horizontal-slider > * {
     width: 100vw;
 }
+
+/*
+ * Modal Window.
+ */
+.mx-modal-window {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    z-index: 10;
+}
+.mx-modal-window .wp-block-olena-floating-box {
+    z-index: 1;
+}

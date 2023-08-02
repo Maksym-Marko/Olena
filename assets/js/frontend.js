@@ -4,7 +4,7 @@
         /**
          * Enable ScrollTrigger to GSAP.
          */
-        gsap.registerPlugin(ScrollTrigger);        
+        gsap.registerPlugin(ScrollTrigger);
 
         /**
          * Smooth scrolling.
@@ -24,7 +24,7 @@
 
         };
 
-        olenaLenis.init();        
+        olenaLenis.init();
 
         /**
          * Scroll to Section.
@@ -56,7 +56,7 @@
                 $(this.elements).each(function () {
                     const section = $(this).attr('href');
                     if (section !== '#') {
-                        if ($(section).lenght !== 0) {
+                        if ($(section).length !== 0) {
                             _this.bindClick($(this), $(section));
                         }
                     }
@@ -567,7 +567,7 @@
                     e.preventDefault();
 
                     const page = $('html, body')
-                    
+
                     page.stop();
 
                     // anchors
@@ -600,7 +600,7 @@
 
             initState: function () {
 
-                $(this.sections).hide();                
+                $(this.sections).hide();
 
                 $(`${this.sections}.${this.sectionActiveClass}`).show();
 
@@ -620,6 +620,82 @@
 
         olenaPriceSwitcher.init();
 
+        /**
+         * Modal Window
+         */
+        window.olenaModalWindow = window.olenaModalWindow || {
+
+            /**
+             * modal window       - #modal-window
+             * open modal window  - a[href="#open-modal-window"]
+             * close modal window - a[href="#close-modal-window"]
+            */
+
+            modalContainer: '.mx-modal-window',
+
+            bindClose: function (modal) {
+
+                const id = $(modal).attr('id');
+
+                if (typeof id === 'undefined') return;
+
+                const closeElement = $(`a[href="#close-${id}"]`);
+
+                if (closeElement.length === 0) return;
+
+                closeElement.on('click', function (e) {
+                    e.preventDefault();
+                    const page = $('html, body');
+                    page.stop();
+
+                    $(modal).hide('fast');
+                });
+            },
+
+            bindOpen: function (modal) {
+
+                const id = $(modal).attr('id');
+
+                if (typeof id === 'undefined') return;
+
+                const openElement = $(`a[href="#open-${id}"]`);
+
+                if (openElement.length === 0) return;
+
+                openElement.on('click', function (e) {
+                    e.preventDefault();
+                    const page = $('html, body');
+                    page.stop();
+
+                    $(modal).show('fast');
+                });
+            },
+
+            bindActions: function (modal) {
+
+                this.bindOpen(modal);
+                this.bindClose(modal);
+
+            },
+
+            initState: function () {
+                const _this = this;
+
+                $(this.modalContainer).each(function (index, modal) {
+                    _this.bindActions(modal);
+                });
+
+            },
+
+            init: function () {
+
+                this.initState();
+
+            }
+
+        };
+
+        olenaModalWindow.init();
 
     });
 })(jQuery);
