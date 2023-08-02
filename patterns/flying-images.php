@@ -37,10 +37,10 @@
 <!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="right:53%;top:22%" data-orientation="2" data-position-left="34" data-position-top="22" data-position-right="53" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-ss7oKyaQeYrX"} -->
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-ss7oKyaQeYrX"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 992px) {
-body .mx-responsive-box.mx-responsive-box-ss7oKyaQeYrX {
+.mx-responsive-box.mx-responsive-box-ss7oKyaQeYrX {
 display: none !important;
 }
-body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-ss7oKyaQeYrX {
+.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-ss7oKyaQeYrX {
 display: block !important;
 opacity: 0.5;
 }
@@ -56,10 +56,10 @@ opacity: 0.5;
 <!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="right:70%;top:16%" data-orientation="2" data-position-left="13" data-position-top="16" data-position-right="70" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-bnu6AqnLb781"} -->
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-bnu6AqnLb781"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 992px) {
-body .mx-responsive-box.mx-responsive-box-bnu6AqnLb781 {
+.mx-responsive-box.mx-responsive-box-bnu6AqnLb781 {
 display: none !important;
 }
-body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-bnu6AqnLb781 {
+.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-bnu6AqnLb781 {
 display: block !important;
 opacity: 0.5;
 }
@@ -75,10 +75,10 @@ opacity: 0.5;
 <!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="right:72%;bottom:10%" data-orientation="3" data-position-left="0" data-position-top="3" data-position-right="72" data-position-bottom="10"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-UpyV2fnLSPmy"} -->
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-UpyV2fnLSPmy"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 992px) {
-body .mx-responsive-box.mx-responsive-box-UpyV2fnLSPmy {
+.mx-responsive-box.mx-responsive-box-UpyV2fnLSPmy {
 display: none !important;
 }
-body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-UpyV2fnLSPmy {
+.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-UpyV2fnLSPmy {
 display: block !important;
 opacity: 0.5;
 }

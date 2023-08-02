@@ -13,10 +13,10 @@
 <section id="latest-news" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="left:5%;top:12%" data-orientation="1" data-position-left="5" data-position-top="12" data-position-right="-13" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-t8FQXxoyJDMu"} -->
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-t8FQXxoyJDMu"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 992px) {
-body .mx-responsive-box.mx-responsive-box-t8FQXxoyJDMu {
+.mx-responsive-box.mx-responsive-box-t8FQXxoyJDMu {
 display: none !important;
 }
-body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-t8FQXxoyJDMu {
+.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-t8FQXxoyJDMu {
 display: block !important;
 opacity: 0.5;
 }

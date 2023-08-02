@@ -11,18 +11,18 @@ export default function edit({ attributes, setAttributes }) {
 
 			<PanelBody title={__('Section Options', 'olena')} initialOpen={false}>
 
-				<PanelRow>
+				<PanelRow> 
 
 					<RadioControl
 						label={__('Start position of animation', 'olena')}
 						help={__('eg. Center of a element and Top of the screen', 'olena')}
 						selected={attributes.start_position}
 						options={[
-							{ label: 'Center Top', value: 'center top' },
-							{ label: 'Top Top', value: 'top top' },
-							{ label: 'Top 20%', value: 'top 20%' },
-							{ label: 'Top Center', value: 'top center' },
-							{ label: 'Top 70%', value: 'top 70%' }
+							{ label: __('Center Top', 'olena'), value: 'center top' },
+							{ label: __('Top Top', 'olena'), value: 'top top' },
+							{ label: __('Top 20%', 'olena'), value: 'top 20%' },
+							{ label: __('Top Center', 'olena'), value: 'top center' },
+							{ label: __('Top 70%', 'olena'), value: 'top 70%' }
 						]}
 						onChange={start_position => setAttributes({ start_position })}
 					/>

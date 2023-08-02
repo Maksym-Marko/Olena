@@ -23,3 +23,5 @@
 <!-- wp:pattern {"slug":"pricing-section"} /-->
 
 <!-- wp:pattern {"slug":"reliability-section"} /-->
+
+<!-- wp:pattern {"slug":"latest-news-section"} /-->

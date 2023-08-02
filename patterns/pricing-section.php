@@ -13,10 +13,10 @@
 <section id="pricing" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="left:-22%;top:-24%" data-orientation="1" data-position-left="-22" data-position-top="-24" data-position-right="-13" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-xSgOR1jEyzYl"} -->
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-xSgOR1jEyzYl"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 992px) {
-body .mx-responsive-box.mx-responsive-box-xSgOR1jEyzYl {
+.mx-responsive-box.mx-responsive-box-xSgOR1jEyzYl {
 display: none !important;
 }
-body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-xSgOR1jEyzYl {
+.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-xSgOR1jEyzYl {
 display: block !important;
 opacity: 0.5;
 }

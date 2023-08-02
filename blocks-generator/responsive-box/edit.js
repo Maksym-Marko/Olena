@@ -1,8 +1,7 @@
 import { __ } from '@wordpress/i18n';
 import { useBlockProps, InnerBlocks, InspectorControls } from '@wordpress/block-editor';
 import {
-	PanelBody, PanelRow, __experimentalToggleGroupControl as ToggleGroupControl,
-	__experimentalToggleGroupControlOption as ToggleGroupControlOption,
+	PanelBody, PanelRow, RadioControl
 } from '@wordpress/components';
 import { useEffect } from '@wordpress/element';
 import './editor.scss';
@@ -35,34 +34,22 @@ export default function edit({ attributes, setAttributes }) {
 			<PanelBody title={__('Breakpoint', 'olena')} initialOpen={true}>
 
 				<PanelRow>
-					{__('This element will be shown on next devices:', 'olena')}
-				</PanelRow>
 
-				<PanelRow>
-
-					<ToggleGroupControl
-						__nextHasNoMarginBottom
-						isBlock
-						value={attributes.breakpoint}
+					<RadioControl
+						label={__('Pick up devices', 'olena')}
+						help={__('This element will be shown on next devices:', 'olena')}
+						selected={attributes.breakpoint}
+						options={[
+							{ label: __('All', 'olena'), value: 'all' },
+							{ label: __('Desktop', 'olena'), value: 'desktop' },
+							{ label: __('Desktop-Tablets', 'olena'), value: 'desktop-tablets' },
+							{ label: __('Tablets', 'olena'), value: 'tablets' },
+							{ label: __('Tablets-Mobile', 'olena'), value: 'tablets-mobile' },
+							{ label: __('Mobile', 'olena'), value: 'mobile' }
+						]}
 						onChange={breakpoint => setAttributes({ breakpoint })}
-					>
-						<ToggleGroupControlOption
-							label={__('All', 'olena')}
-							value="all"
-						/>
-						<ToggleGroupControlOption
-							label={__('Desktop', 'olena')}
-							value="desktop"
-						/>
-						<ToggleGroupControlOption
-							label={__('Tablets', 'olena')}
-							value="tablets"
-						/>
-						<ToggleGroupControlOption
-							label={__('Mobile', 'olena')}
-							value="mobile"
-						/>
-					</ToggleGroupControl>
+					/>
+
 				</PanelRow>
 
 			</PanelBody>
@@ -82,14 +69,29 @@ export default function edit({ attributes, setAttributes }) {
 					{
 						attributes.breakpoint == 'desktop' &&
 						`@media (max-width: 992px) {
-						body .mx-responsive-box.${attributes.unique_class} {
+						.mx-responsive-box.${attributes.unique_class} {
 							display: none !important;
 						}
-						body .editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
+						.editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
 							display: block !important;
 							opacity: 0.5;
 						}
-					}						
+					}
+					`
+					}
+
+					{/* Display on Desktops and Tablets */}
+					{
+						attributes.breakpoint == 'desktop-tablets' &&
+						`@media (max-width: 768px) {
+							.mx-responsive-box.${attributes.unique_class} {
+								display: none !important;
+							}
+							.editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
+								display: block !important;
+								opacity: 0.5;
+							}
+						}						
 					`
 					}
 
@@ -97,19 +99,34 @@ export default function edit({ attributes, setAttributes }) {
 					{
 						attributes.breakpoint == 'tablets' &&
 						`@media (max-width: 768px) {
-						body .mx-responsive-box.${attributes.unique_class} {
+						.mx-responsive-box.${attributes.unique_class} {
 							display: none !important;
 						}
-						body .editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
+						.editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
 							display: block !important;
 							opacity: 0.5;
 						}
 					}
 					@media (min-width: 992px) {
-						body .mx-responsive-box.${attributes.unique_class} {
+						.mx-responsive-box.${attributes.unique_class} {
 							display: none !important;
 						}
-						body .editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
+						.editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
+							display: block !important;
+							opacity: 0.5;
+						}
+					}
+					`
+					}
+
+					{/* Display on Tablets and Mobile */}
+					{
+						attributes.breakpoint == 'tablets-mobile' &&
+						`@media (min-width: 992px) {
+						.mx-responsive-box.${attributes.unique_class} {
+							display: none !important;
+						}
+						.editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
 							display: block !important;
 							opacity: 0.5;
 						}
@@ -121,10 +138,10 @@ export default function edit({ attributes, setAttributes }) {
 					{
 						attributes.breakpoint == 'mobile' &&
 						`@media (min-width: 768px) {
-						body .mx-responsive-box.${attributes.unique_class} {
+						.mx-responsive-box.${attributes.unique_class} {
 							display: none !important;
 						}
-						body .editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
+						.editor-styles-wrapper .mx-responsive-box.${attributes.unique_class} {
 							display: block !important;
 							opacity: 0.5;
 						}

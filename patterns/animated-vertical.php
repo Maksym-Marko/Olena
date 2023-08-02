@@ -16,11 +16,11 @@
 <div class="wp-block-olena-responsive-box">
 <style>
 @media (max-width: 992px) {
-body .mx-responsive-box.mx-responsive-box-H3aW2dYZZgo5 {
+.mx-responsive-box.mx-responsive-box-H3aW2dYZZgo5 {
 display: none !important;
 }
 
-body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-H3aW2dYZZgo5 {
+.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-H3aW2dYZZgo5 {
 display: block !important;
 opacity: 0.5;
 }

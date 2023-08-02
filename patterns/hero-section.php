@@ -17,11 +17,11 @@
             <div class="wp-block-olena-responsive-box">
                 <style>
                     @media (max-width: 992px) {
-                        body .mx-responsive-box.mx-responsive-box-d9O8DEqYet4k {
+                        .mx-responsive-box.mx-responsive-box-d9O8DEqYet4k {
                             display: none !important;
                         }
 
-                        body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-d9O8DEqYet4k {
+                        .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-d9O8DEqYet4k {
                             display: block !important;
                             opacity: 0.5;
                         }
@@ -41,11 +41,11 @@
             <div class="wp-block-olena-responsive-box">
                 <style>
                     @media (max-width: 992px) {
-                        body .mx-responsive-box.mx-responsive-box-F6B9XAObUUZo {
+                        .mx-responsive-box.mx-responsive-box-F6B9XAObUUZo {
                             display: none !important;
                         }
 
-                        body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-F6B9XAObUUZo {
+                        .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-F6B9XAObUUZo {
                             display: block !important;
                             opacity: 0.5;
                         }
@@ -65,11 +65,11 @@
             <div class="wp-block-olena-responsive-box">
                 <style>
                     @media (max-width: 992px) {
-                        body .mx-responsive-box.mx-responsive-box-765MIuCcbccK {
+                        .mx-responsive-box.mx-responsive-box-765MIuCcbccK {
                             display: none !important;
                         }
 
-                        body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-765MIuCcbccK {
+                        .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-765MIuCcbccK {
                             display: block !important;
                             opacity: 0.5;
                         }
@@ -89,11 +89,11 @@
             <div class="wp-block-olena-responsive-box">
                 <style>
                     @media (max-width: 992px) {
-                        body .mx-responsive-box.mx-responsive-box-ywWWFw5GfwVf {
+                        .mx-responsive-box.mx-responsive-box-ywWWFw5GfwVf {
                             display: none !important;
                         }
 
-                        body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-ywWWFw5GfwVf {
+                        .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-ywWWFw5GfwVf {
                             display: block !important;
                             opacity: 0.5;
                         }
@@ -113,11 +113,11 @@
             <div class="wp-block-olena-responsive-box">
                 <style>
                     @media (max-width: 992px) {
-                        body .mx-responsive-box.mx-responsive-box-d2StjhmaMdso {
+                        .mx-responsive-box.mx-responsive-box-d2StjhmaMdso {
                             display: none !important;
                         }
 
-                        body .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-d2StjhmaMdso {
+                        .editor-styles-wrapper .mx-responsive-box.mx-responsive-box-d2StjhmaMdso {
                             display: block !important;
                             opacity: 0.5;
                         }
