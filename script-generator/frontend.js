@@ -311,7 +311,7 @@
                         trigger: container,
                         start: startPosition,
                         end: function () {
-                            return "+=".concat(slider.offsetWidth)
+                            return "+=".concat(slider.offsetWidth/(slides.length/2))
                         },
                         pin: true,
                         pinReparent: false,
