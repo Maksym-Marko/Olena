@@ -13,8 +13,7 @@
 */
 if ( ! defined( 'OLENA_THEME_VERSION' ) ) {
 
-    /** Use for production - wp_get_theme()->get( 'Version' ) */
-    define( 'OLENA_THEME_VERSION', time() );
+    define( 'OLENA_THEME_VERSION', wp_get_theme()->get( 'Version' ) );
 
 }
 

@@ -34,7 +34,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><?php echo esc_html__( 'Here you can view the pricing list of the Olena theme. <strong>This section is only for the presentations</strong> - Olena theme is a free theme!', 'olena' ); ?></p>
+<p class="has-text-align-center has-x-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><?php echo __( 'Here you can view the pricing list of the Olena theme. <strong>This section is only for the presentations</strong> - Olena theme is a free theme!', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:olena/animated-box -->
 

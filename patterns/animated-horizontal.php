@@ -10,8 +10,8 @@
  */
 
 ?>
-<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|mini","left":"var:preset|spacing|mini"}}},"backgroundColor":"dark","layout":{"type":"default"}} -->
-<section id="animated-horizontal" class="wp-block-group has-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--mini);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--mini)"><!-- wp:olena/animated-section-horizontal -->
+<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|mini","left":"var:preset|spacing|mini"},"margin":{"top":"0","bottom":"0"}}},"backgroundColor":"dark","layout":{"type":"default"}} -->
+<section id="animated-horizontal" class="wp-block-group has-dark-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--mini);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--mini)"><!-- wp:olena/animated-section-horizontal -->
 <div class="wp-block-olena-animated-section-horizontal" data-extras="" data-start-position="top top"><div class="mx-animated-horizontal-slider"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"var:preset|spacing|mini","bottom":"0","left":"var:preset|spacing|mini"},"blockGap":"0"}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
 <div class="wp-block-group is-style-animation-wrapper" style="padding-top:0;padding-right:var(--wp--preset--spacing--mini);padding-bottom:0;padding-left:var(--wp--preset--spacing--mini)"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-fLvIdSUmwvFM"} -->
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-fLvIdSUmwvFM"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 991.5px) {
