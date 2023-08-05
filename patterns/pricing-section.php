@@ -11,15 +11,15 @@
 ?>
 <!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"},"margin":{"top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
 <section id="pricing" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--x-large);padding-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:olena/floating-box -->
-<div class="wp-block-olena-floating-box" style="left:-22%;top:-24%" data-orientation="1" data-position-left="-22" data-position-top="-24" data-position-right="-13" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-xSgOR1jEyzYl"} -->
-<div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-xSgOR1jEyzYl"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 991.5px) {
-.mx-responsive-box.mx-responsive-box-xSgOR1jEyzYl {
-display: none !important;
-}
-.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-xSgOR1jEyzYl {
-display: block !important;
-opacity: 0.5;
-}
+<div class="wp-block-olena-floating-box" style="left:-22%;top:-24%" data-orientation="1" data-position-left="-22" data-position-top="-24" data-position-right="-13" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-H0AQxQqRVaq6"} -->
+<div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-H0AQxQqRVaq6"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 991.5px) {
+	.mx-responsive-box.mx-responsive-box-H0AQxQqRVaq6 {
+		display: none !important;
+	}
+	.editor-styles-wrapper .mx-responsive-box.mx-responsive-box-H0AQxQqRVaq6 {
+		display: block !important;
+		opacity: 0.5;
+	}
 }
 </style><!-- wp:image {"id":257,"width":766,"height":766,"sizeSlug":"full","linkDestination":"none"} -->
 <figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/animations/bubble_5.svg" alt="" class="wp-image-257" width="766" height="766"/></figure>
@@ -34,13 +34,13 @@ opacity: 0.5;
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"x-small"} -->
-<p class="has-text-align-center has-x-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Here you can view the pricing list of the Olena theme. <strong>This section is only for the presentations</strong> - Olena theme is a free theme!</p>
+<p class="has-text-align-center has-x-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><?php echo esc_html__( 'Here you can view the pricing list of the Olena theme. <strong>This section is only for the presentations</strong> - Olena theme is a free theme!', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:olena/animated-box -->
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|large"}}},"layout":{"type":"constrained","contentSize":"600px","wideSize":"100%"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--large);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
-<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:navigation {"ref":407,"overlayMenu":"never","className":"is-style-price-switcher","layout":{"type":"flex","justifyContent":"left","orientation":"vertical"},"style":{"spacing":{"blockGap":"0"}},"fontSize":"x-small"} /--></div>
+<div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:navigation {"ref":11,"overlayMenu":"never","className":"is-style-price-switcher","layout":{"type":"flex","justifyContent":"left","orientation":"vertical"},"style":{"spacing":{"blockGap":"0"}},"fontSize":"x-small"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
@@ -48,8 +48,8 @@ opacity: 0.5;
 <!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"var:preset|spacing|mini","bottom":"var:preset|spacing|medium","right":"var:preset|spacing|mini","left":"var:preset|spacing|mini"},"margin":{"top":"var:preset|spacing|large","bottom":"0"},"blockGap":"var:preset|spacing|small"}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group alignfull" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0;padding-top:var(--wp--preset--spacing--mini);padding-right:var(--wp--preset--spacing--mini);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--mini)"><!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}}},"className":"sb-pricing-list sb-pricing-list-active"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top sb-pricing-list sb-pricing-list-active" id="Annually" style="margin-top:var(--wp--preset--spacing--small);margin-bottom:var(--wp--preset--spacing--small)"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"border":{"width":"0px","style":"none"}},"className":"is-style-column-box-shadow is-style-black-column-border"} -->
-<div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow is-style-black-column-border" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|small","bottom":"var:preset|spacing|large","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|small","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"sb-pricing-header","layout":{"type":"constrained"}} -->
+<div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow is-style-black-column-border" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"sb-pricing-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-header"><!-- wp:heading {"level":4,"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"typography":{"lineHeight":0.9}},"textColor":"dark","fontSize":"large"} -->
 <h4 class="wp-block-heading has-dark-color has-text-color has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:0.9">Trial</h4>
 <!-- /wp:heading --></div>
@@ -57,7 +57,7 @@ opacity: 0.5;
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|medium"}}},"className":"sb-pricing-sub-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-sub-header" style="margin-top:var(--wp--preset--spacing--medium);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"style":{"typography":{"lineHeight":1.3}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="line-height:1.3">14 days test period</p>
+<p class="has-x-small-font-size" style="line-height:1.3"><?php echo __( '14 days test period', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -67,7 +67,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"layout":{"selfStretch":"fit"}},"fontSize":"medium","fontFamily":"roboto"} -->
-<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">/mo</p>
+<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><?php echo __( '/mo', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -79,7 +79,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Full Site Editing</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Full Site Editing', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -89,7 +89,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">10 patterns</p>
+<p class="has-dark-color has-text-color"><?php echo __( '29 patterns', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -99,7 +99,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">6 Types of animations</p>
+<p class="has-dark-color has-text-color"><?php echo __( '6 Types of animations', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -109,7 +109,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Front page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Front page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -119,7 +119,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Archive page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Archive page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -129,7 +129,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Page 404</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Page 404', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -139,7 +139,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Single page template</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Single page template', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -147,7 +147,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window"><?php echo __( 'Get Started', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -163,7 +163,7 @@ opacity: 0.5;
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|medium"}}},"className":"sb-pricing-sub-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-sub-header" style="margin-top:var(--wp--preset--spacing--medium);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"style":{"typography":{"lineHeight":1.3}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="line-height:1.3">Easy start with Olena Theme</p>
+<p class="has-x-small-font-size" style="line-height:1.3"><?php echo __( 'Easy start with Olena', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -173,7 +173,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"layout":{"selfStretch":"fit"}},"fontSize":"medium","fontFamily":"roboto"} -->
-<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">/mo</p>
+<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><?php echo __( '/mo', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -185,7 +185,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Full Site Editing</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Full Site Editing', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -195,7 +195,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">10 patterns</p>
+<p class="has-dark-color has-text-color"><?php echo __( '29 patterns', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -205,7 +205,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">6 Types of animations</p>
+<p class="has-dark-color has-text-color"><?php echo __( '6 Types of animations', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -215,7 +215,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Front page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Front page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -225,7 +225,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Archive page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Archive page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -235,7 +235,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Page 404</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Page 404', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -245,7 +245,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Single page template</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Single page template', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -253,15 +253,15 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window"><?php echo __( 'Get Started', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|small","bottom":"var:preset|spacing|large","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|small","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"sb-pricing-header","layout":{"type":"constrained"}} -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"sb-pricing-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-header"><!-- wp:heading {"level":4,"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"typography":{"lineHeight":0.9}},"textColor":"dark","fontSize":"large"} -->
 <h4 class="wp-block-heading has-dark-color has-text-color has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:0.9">Professional</h4>
 <!-- /wp:heading --></div>
@@ -269,7 +269,7 @@ opacity: 0.5;
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|medium"}}},"className":"sb-pricing-sub-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-sub-header" style="margin-top:var(--wp--preset--spacing--medium);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"style":{"typography":{"lineHeight":1.3}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="line-height:1.3">A powerful website with Olena Theme</p>
+<p class="has-x-small-font-size" style="line-height:1.3"><?php echo __( 'All inclusive', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -279,7 +279,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"layout":{"selfStretch":"fit"}},"fontSize":"medium","fontFamily":"roboto"} -->
-<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">/mo</p>
+<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><?php echo __( '/mo', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -291,7 +291,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Full Site Editing</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Full Site Editing', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -301,7 +301,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">10 patterns</p>
+<p class="has-dark-color has-text-color"><?php echo __( '29 patterns', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -311,7 +311,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">6 Types of animations</p>
+<p class="has-dark-color has-text-color"><?php echo __( '6 Types of animations', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -321,7 +321,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Front page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Front page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -331,7 +331,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Archive page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Archive page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -341,7 +341,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Page 404</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Page 404', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -351,7 +351,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Single page template</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Single page template', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -359,7 +359,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window"><?php echo __( 'Get Started', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -368,8 +368,8 @@ opacity: 0.5;
 
 <!-- wp:columns {"verticalAlignment":"top","align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|medium","left":"var:preset|spacing|medium"},"margin":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small"}}},"className":"sb-pricing-list"} -->
 <div class="wp-block-columns alignwide are-vertically-aligned-top sb-pricing-list" id="Monthly" style="margin-top:var(--wp--preset--spacing--small);margin-bottom:var(--wp--preset--spacing--small)"><!-- wp:column {"verticalAlignment":"top","style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"border":{"width":"0px","style":"none"}},"className":"is-style-column-box-shadow is-style-black-column-border"} -->
-<div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow is-style-black-column-border" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|small","bottom":"var:preset|spacing|large","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|small","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"sb-pricing-header","layout":{"type":"constrained"}} -->
+<div class="wp-block-column is-vertically-aligned-top is-style-column-box-shadow is-style-black-column-border" style="border-style:none;border-width:0px;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"sb-pricing-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-header"><!-- wp:heading {"level":4,"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"typography":{"lineHeight":0.9}},"textColor":"dark","fontSize":"large"} -->
 <h4 class="wp-block-heading has-dark-color has-text-color has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:0.9">Trial</h4>
 <!-- /wp:heading --></div>
@@ -377,7 +377,7 @@ opacity: 0.5;
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|medium"}}},"className":"sb-pricing-sub-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-sub-header" style="margin-top:var(--wp--preset--spacing--medium);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"style":{"typography":{"lineHeight":1.3}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="line-height:1.3">14 days test period</p>
+<p class="has-x-small-font-size" style="line-height:1.3"><?php echo __( '14 days test period', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -387,7 +387,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"layout":{"selfStretch":"fit"}},"fontSize":"medium","fontFamily":"roboto"} -->
-<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">/mo</p>
+<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><?php echo __( '/mo', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -399,7 +399,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Full Site Editing</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Full Site Editing', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -409,7 +409,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">10 patterns</p>
+<p class="has-dark-color has-text-color"><?php echo __( '29 patterns', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -419,7 +419,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">6 Types of animations</p>
+<p class="has-dark-color has-text-color"><?php echo __( '6 Types of animations', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -429,7 +429,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Front page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Front page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -439,7 +439,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Archive page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Archive page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -449,7 +449,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Page 404</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Page 404', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -459,7 +459,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Single page template</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Single page template', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -467,7 +467,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window"><?php echo __( 'Get Started', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
@@ -483,7 +483,7 @@ opacity: 0.5;
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|medium"}}},"className":"sb-pricing-sub-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-sub-header" style="margin-top:var(--wp--preset--spacing--medium);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"style":{"typography":{"lineHeight":1.3}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="line-height:1.3">Easy start with Olena Theme</p>
+<p class="has-x-small-font-size" style="line-height:1.3"><?php echo __( 'Easy start with Olena', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -493,7 +493,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"layout":{"selfStretch":"fit"}},"fontSize":"medium","fontFamily":"roboto"} -->
-<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">/mo</p>
+<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><?php echo __( '/mo', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -505,7 +505,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Full Site Editing</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Full Site Editing', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -515,7 +515,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">10 patterns</p>
+<p class="has-dark-color has-text-color"><?php echo __( '29 patterns', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -525,7 +525,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">6 Types of animations</p>
+<p class="has-dark-color has-text-color"><?php echo __( '6 Types of animations', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -535,7 +535,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Front page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Front page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -545,7 +545,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Archive page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Archive page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -555,7 +555,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Page 404</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Page 404', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -565,7 +565,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Single page template</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Single page template', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -573,15 +573,15 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window"><?php echo __( 'Get Started', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
-<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|small","bottom":"var:preset|spacing|large","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|small","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"sb-pricing-header","layout":{"type":"constrained"}} -->
+<div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","right":"var:preset|spacing|large","bottom":"var:preset|spacing|large","left":"var:preset|spacing|large"},"blockGap":"var:preset|spacing|small","margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"sb-pricing-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-header"><!-- wp:heading {"level":4,"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"typography":{"lineHeight":0.9}},"textColor":"dark","fontSize":"large"} -->
 <h4 class="wp-block-heading has-dark-color has-text-color has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:0.9">Professional</h4>
 <!-- /wp:heading --></div>
@@ -589,7 +589,7 @@ opacity: 0.5;
 
 <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|medium"}}},"className":"sb-pricing-sub-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-pricing-sub-header" style="margin-top:var(--wp--preset--spacing--medium);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:paragraph {"style":{"typography":{"lineHeight":1.3}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="line-height:1.3">A powerful website with Olena Theme</p>
+<p class="has-x-small-font-size" style="line-height:1.3"><?php echo __( 'All inclusive', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -599,7 +599,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"}},"layout":{"selfStretch":"fit"}},"fontSize":"medium","fontFamily":"roboto"} -->
-<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0">/mo</p>
+<p class="has-roboto-font-family has-medium-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0"><?php echo __( '/mo', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -611,7 +611,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Full Site Editing</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Full Site Editing', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -621,7 +621,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">10 patterns</p>
+<p class="has-dark-color has-text-color"><?php echo __( '29 patterns', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -631,7 +631,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">6 Types of animations</p>
+<p class="has-dark-color has-text-color"><?php echo __( '6 Types of animations', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -641,7 +641,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Front page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Front page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -651,7 +651,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Archive page</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Archive page', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -661,7 +661,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Page 404</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Page 404', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 
@@ -671,7 +671,7 @@ opacity: 0.5;
 <!-- /wp:paragraph -->
 
 <!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color">Single page template</p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Single page template', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -679,7 +679,7 @@ opacity: 0.5;
 
 <!-- wp:buttons {"style":{"spacing":{"blockGap":"0","margin":{"top":"var:preset|spacing|large","bottom":"0"}}}} -->
 <div class="wp-block-buttons" style="margin-top:var(--wp--preset--spacing--large);margin-bottom:0"><!-- wp:button {"width":100,"className":"is-style-main-outline"} -->
-<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window">Get Started</a></div>
+<div class="wp-block-button has-custom-width wp-block-button__width-100 is-style-main-outline"><a class="wp-block-button__link wp-element-button" href="#open-modal-window"><?php echo __( 'Get Started', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
