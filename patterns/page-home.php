@@ -14,9 +14,7 @@
 
 <!-- wp:pattern {"slug":"three-boxes"} /-->
 
-<!-- wp:pattern {"slug":"section-with-cover"} /-->
-
-<!-- wp:pattern {"slug":"flying-images"} /-->
+<!-- wp:pattern {"slug":"section-with-slider"} /-->
 
 <!-- wp:pattern {"slug":"animated-horizontal"} /-->
 
