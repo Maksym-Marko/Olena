@@ -27,13 +27,3 @@ require_once get_template_directory() . '/inc/enqueue-scripts.php';
 */
 require_once get_template_directory() . '/inc/class-olena-custom-blocks.php';
 new Olena_Custom_Blocks();
-
-/**
- * MUST BE REMOVED!!!
-*/
-function sbSVGMimeType($mimes)
-{
-    $mimes['svg'] = 'image/svg+xml';
-    return $mimes;
-}
-add_filter('upload_mimes', 'sbSVGMimeType');
