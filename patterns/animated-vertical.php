@@ -10,6 +10,13 @@
  */
 
 ?>
+
+<?php if(!olena_is_olena_blocks_set_activated()) : ?>
+
+	<?php olena_display_olena_blocks_set_pattern('Section Animated (vertical)'); ?>
+
+<?php else : ?>
+
 <!-- wp:group {"tagName":"section","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|huge"}}},"backgroundColor":"main-light","layout":{"type":"constrained"}} -->
 <section id="animated-vertical" class="wp-block-group has-main-light-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--huge)"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-Ii4nBSHRFQvM"} -->
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-Ii4nBSHRFQvM"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 991.5px) {
@@ -171,3 +178,5 @@
 <!-- /wp:olena/animated-box --></div></div>
 <!-- /wp:olena/responsive-box --></section>
 <!-- /wp:group -->
+
+<?php endif; ?>

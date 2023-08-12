@@ -10,6 +10,13 @@
  */
 
 ?>
+
+<?php if(!olena_is_olena_blocks_set_activated()) : ?>
+
+    <?php olena_display_olena_blocks_set_pattern('Section With Cover'); ?>
+
+<?php else : ?>
+
 <!-- wp:group {"tagName":"section","style":{"spacing":{"margin":{"top":"0","bottom":"0"},"padding":{"top":"0","bottom":"0"}}},"backgroundColor":"main-light","layout":{"type":"constrained"}} -->
 <section id="section-with-cover" class="wp-block-group has-main-light-background-color has-background" style="margin-top:0;margin-bottom:0;padding-top:0;padding-bottom:0"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","bottom":"var:preset|spacing|small","right":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"var:preset|spacing|x-large"}},"layout":{"type":"default"}} -->
@@ -99,3 +106,5 @@
 <!-- /wp:columns -->
 </section>
 <!-- /wp:group -->
+
+<?php endif; ?>

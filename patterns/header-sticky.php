@@ -19,6 +19,8 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:navigation {"ref":7,"textColor":"dark","icon":"menu","overlayBackgroundColor":"main-light","overlayTextColor":"base","layout":{"type":"flex","orientation":"horizontal","flexWrap":"wrap"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}},"fontSize":"x-small"} /-->
 
+<?php if(olena_is_olena_blocks_set_activated()) : ?>
+
 <!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-1sPi96TwCANV"} -->
 <div data-breakpoint="desktop-tablets" class="mx-responsive-box mx-responsive-box-1sPi96TwCANV"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 767.5px) {
 .mx-responsive-box.mx-responsive-box-1sPi96TwCANV {
@@ -36,7 +38,10 @@ opacity: 0.5;
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>
-<!-- /wp:olena/responsive-box --></div>
-<!-- /wp:group --></div>
+<!-- /wp:olena/responsive-box -->
+
+<?php endif; ?>
+
+</div><!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

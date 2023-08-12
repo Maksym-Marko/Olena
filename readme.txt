@@ -1,9 +1,9 @@
 === Olena ===
 Contributors: markomaksym
 Requires at least: 6.0
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -99,5 +99,3 @@ Licensed under the Apache License, Version 2.0
 License URL: http://www.apache.org/licenses/LICENSE-2.0 
 Source: Google.com
 -- End of Roboto Thin Font credits --
-
-All media are under the free license https://www.vecteezy.com/

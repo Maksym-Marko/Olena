@@ -10,6 +10,13 @@
  */
 
 ?>
+
+<?php if(!olena_is_olena_blocks_set_activated()) : ?>
+
+	<?php olena_display_olena_blocks_set_pattern('Section Features'); ?>
+
+<?php else : ?>
+
 <!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"backgroundColor":"main-dark","layout":{"type":"constrained"}} -->
 <section id="features" class="wp-block-group has-main-dark-background-color has-background" style="padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
@@ -286,3 +293,5 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
+
+<?php endif; ?>

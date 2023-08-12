@@ -9,7 +9,15 @@
  * Inserter: true
  */
 
-?><!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small","top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
+?>
+
+<?php if(!olena_is_olena_blocks_set_activated()) : ?>
+
+    <?php olena_display_olena_blocks_set_pattern('Flying Images'); ?>
+
+<?php else : ?>
+    
+<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small","top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
 <section id="flying-images" class="wp-block-group is-style-animation-wrapper" style="padding-top:0;padding-right:var(--wp--preset--spacing--small);padding-bottom:0;padding-left:var(--wp--preset--spacing--small)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
 <div class="wp-block-column"></div>
@@ -91,3 +99,5 @@ opacity: 0.5;
 <!-- /wp:olena/responsive-box --></div>
 <!-- /wp:olena/floating-box --></section>
 <!-- /wp:group -->
+
+<?php endif; ?>

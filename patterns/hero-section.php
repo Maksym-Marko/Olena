@@ -10,6 +10,13 @@
  */
 
 ?>
+
+<?php if(!olena_is_olena_blocks_set_activated()) : ?>
+
+	<?php olena_display_olena_blocks_set_pattern('Hero Section'); ?>
+
+<?php else : ?>
+
 <!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"var:preset|spacing|huge","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"0","margin":{"top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained","contentSize":""}} -->
 <section id="hero" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--huge);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="right:-12%;top:-19%" data-orientation="2" data-position-left="0" data-position-top="-19" data-position-right="-12" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-T1Ioz2esAXiZ"} -->
@@ -125,3 +132,5 @@
 						}</style></div></div>
 <!-- /wp:olena/responsive-spacer --></section>
 <!-- /wp:group -->
+
+<?php endif; ?>

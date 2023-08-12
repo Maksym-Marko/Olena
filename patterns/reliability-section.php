@@ -9,6 +9,13 @@
  */
 
 ?>
+
+<?php if(!olena_is_olena_blocks_set_activated()) : ?>
+
+	<?php olena_display_olena_blocks_set_pattern('Reliability Section'); ?>
+
+<?php else : ?>
+
 <!-- wp:group {"tagName":"section","style":{"spacing":{"margin":{"top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
 <section id="reliability" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0"><!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="right:49%;top:-20%" data-orientation="2" data-position-left="-17" data-position-top="-20" data-position-right="49" data-position-bottom="-1"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-BJDi2NXHRqOo"} -->
@@ -109,3 +116,5 @@
 <!-- /wp:column --></div>
 <!-- /wp:columns --></section>
 <!-- /wp:group -->
+
+<?php endif; ?>

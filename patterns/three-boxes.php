@@ -10,6 +10,13 @@
  */
 
 ?>
+
+<?php if(!olena_is_olena_blocks_set_activated()) : ?>
+
+	<?php olena_display_olena_blocks_set_pattern('Three Boxes Section'); ?>
+
+<?php else : ?>
+
 <!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"},"margin":{"top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
 <section id="three-boxes" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="right:-13%;top:-27%" data-orientation="2" data-position-left="0" data-position-top="-27" data-position-right="-13" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-ww7doMPTz539"} -->
@@ -96,3 +103,5 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group --></section>
 <!-- /wp:group -->
+
+<?php endif; ?>

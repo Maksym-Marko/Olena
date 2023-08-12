@@ -18,12 +18,21 @@ if ( ! defined( 'OLENA_THEME_VERSION' ) ) {
 }
 
 /**
+ * Hooks.
+*/
+require_once get_template_directory() . '/inc/hooks.php';
+
+/**
+ * Helpers.
+*/
+require_once get_template_directory() . '/inc/helpers.php';
+
+/**
  * Enqueue Scripts.
 */
 require_once get_template_directory() . '/inc/enqueue-scripts.php';
 
 /**
- * Register Custome Block Types.
+ * Notifications.
 */
-require_once get_template_directory() . '/inc/class-olena-custom-blocks.php';
-new Olena_Custom_Blocks();
+require_once get_template_directory() . '/inc/notifications.php';
