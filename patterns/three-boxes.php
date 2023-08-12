@@ -74,11 +74,11 @@
 <div class="wp-block-olena-animated-box" data-animation-type="zoomIn" data-extras=""><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"dimensions":{"minHeight":"300px"},"border":{"bottom":{"color":"var:preset|color|main","width":"4px"}}},"backgroundColor":"main-light","layout":{"type":"flex","orientation":"horizontal"}} -->
 <div class="wp-block-group has-main-light-background-color has-background" style="border-bottom-color:var(--wp--preset--color--main);border-bottom-width:4px;min-height:300px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
-<h3 class="wp-block-heading" style="font-style:normal;font-weight:700"><?php echo __( 'Customize Content', 'olena' ); ?></h3>
+<h3 class="wp-block-heading" style="font-style:normal;font-weight:700"><?php echo __( 'Olena Blocks Set', 'olena' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php echo esc_html__( 'Personalize your website using the intuitive Full Site Editor', 'olena' ); ?></p>
+<p class="has-x-small-font-size"><?php printf( esc_html__( '%s', 'olena' ), __( 'Get Olena Blocks Set Plugin from <a href="https://wordpress.org/plugins/olena-block-sets/" target="_blank" rel="noreferrer noopener">Wordpress.org</a> and activate it in seconds', 'olena' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

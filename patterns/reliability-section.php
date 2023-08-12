@@ -66,7 +66,7 @@
 
 <!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="fadeInLeft" data-extras=""><!-- wp:paragraph {"textColor":"light"} -->
-<p class="has-light-color has-text-color"><?php echo __( '<a href="https://markomaksym.com.ua/" target="_blank" rel="noreferrer noopener">Maksym Marko</a> - the Olena Theme creator spent 8 years creating and improving WordPress Themes and plugins. He implements all the best of his skills into Olena Theme. You’ll get a free and reliable WordPress theme for your business or nonprofit activity.', 'olena' ); ?></p>
+<p class="has-light-color has-text-color"><?php echo __( 'Maksym Marko - the Olena Theme creator spent 8 years creating and improving WordPress Themes and plugins. He implements all the best of his skills into Olena Theme. You’ll get a free and reliable WordPress theme for your business or nonprofit activity.', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:olena/animated-box -->
 
@@ -99,7 +99,7 @@
 
 <!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="fadeInLeft" data-extras=""><!-- wp:paragraph {"textColor":"dark"} -->
-<p class="has-dark-color has-text-color"><?php echo __( '<a href="https://markomaksym.com.ua/" target="_blank" rel="noreferrer noopener">Maksym Marko</a> - the Olena Theme creator spent 8 years creating and improving WordPress Themes and plugins. He implements all the best of his skills into Olena Theme. You’ll get a free and reliable WordPress theme for your business or nonprofit activity.', 'olena' ); ?></p>
+<p class="has-dark-color has-text-color"><?php echo __( 'Maksym Marko - the Olena Theme creator spent 8 years creating and improving WordPress Themes and plugins. He implements all the best of his skills into Olena Theme. You’ll get a free and reliable WordPress theme for your business or nonprofit activity.', 'olena' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:olena/animated-box -->
 
