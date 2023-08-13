@@ -93,7 +93,7 @@ if (!function_exists('olena_olena_blocks_set_checker')) {
             <div class="olena-notification-content">
                 <h3><?php echo esc_html__('Thanks for installing the Olena Theme!', 'olena'); ?></h3>
                 <p><?php echo esc_html($message); ?></p>
-                <a href="https://olena-theme.in.ua/" target="_blank"><?php echo esc_html__('View live demo of Olena theme', 'olena'); ?></a>
+                <a href="https://olena-theme.com.ua/" target="_blank"><?php echo esc_html__('View live demo of Olena theme', 'olena'); ?></a>
                 <div class="olena-notification-install-button-wrapp">
                     <a class="olena-notification-install-button" href="<?php echo esc_attr($button_url); ?>"><?php echo esc_html($button_text); ?></a>
                 </div>

@@ -73,7 +73,7 @@
 <!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="fadeInLeft" data-extras=""><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"textColor":"light","className":"is-style-outline"} -->
-<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-light-color has-text-color wp-element-button" href="<?php echo esc_url( 'https://olena-theme.in.ua' ); ?>" target="_blank" rel="noreferrer noopener"><?php echo __( 'Get Olena Theme', 'olena' ); ?></a></div>
+<div class="wp-block-button is-style-outline"><a class="wp-block-button__link has-light-color has-text-color wp-element-button" href="<?php echo esc_url( 'https://olena-theme.com.ua' ); ?>" target="_blank" rel="noreferrer noopener"><?php echo __( 'Get Olena Theme', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:olena/animated-box --></div>
@@ -106,7 +106,7 @@
 <!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="fadeInLeft" data-extras=""><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"textColor":"light","className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-light-color has-text-color wp-element-button" href="<?php echo esc_url( 'https://olena-theme.in.ua' ); ?>" target="_blank" rel="noreferrer noopener"><?php echo __( 'Get Olena Theme', 'olena' ); ?></a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link has-light-color has-text-color wp-element-button" href="<?php echo esc_url( 'https://olena-theme.com.ua' ); ?>" target="_blank" rel="noreferrer noopener"><?php echo __( 'Get Olena Theme', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:olena/animated-box --></div>

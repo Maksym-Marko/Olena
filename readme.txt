@@ -3,11 +3,13 @@ Contributors: markomaksym
 Requires at least: 6.0
 Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
+
+The Olena Theme requires you to install Olena Blocks Set plugin to reveal all the cool features!
 
 Introducing Olena: Your Ultimate WordPress Block Theme
 
@@ -23,7 +25,7 @@ Experience design liberation that's not confined to desktop screens. Olena ensur
 
 Performance is not just a goal; it's a guarantee. Olena proudly boasts a perfect 100% performance score, a testament to its commitment to delivering excellence in every facet.
 
-Ready to embark on your web design odyssey? With Olena and the WordPress Site Editor as your allies, the journey becomes both delightful and impactful. Witness the magic unfold at https://olena-theme.in.ua/ and unleash the boundless potential of your digital presence. Embrace Olena – where innovation meets simplicity.
+Ready to embark on your web design odyssey? With Olena and the WordPress Site Editor as your allies, the journey becomes both delightful and impactful. Witness the magic unfold at https://olena-theme.com.ua/ and unleash the boundless potential of your digital presence. Embrace Olena – where innovation meets simplicity.
 
 == Features ==
 - 6 types of header
@@ -50,7 +52,9 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 1. In your admin panel, go to Appearance -> Themes and click the 'Add New' button.
 2. Type in Olena in the search form and press the 'Enter' key on your keyboard.
 3. Click on the 'Activate' button to use your new theme right away.
-4. Navigate to Appearance > Customize in your admin panel and customize to your taste.
+4. Navigate to Plugins > Add new > Type in Olena Blocks Set in the search form and press the 'Enter' key on your keyboard.
+5. Click on the 'Activate' button to use all the features of the Olena theme.
+6. Navigate to Appearance > Customize in your admin panel and customize to your taste.
 
 == Changelog ==
 
