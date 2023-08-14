@@ -78,7 +78,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php printf( esc_html__( '%s', 'olena' ), __( 'Get Olena Blocks Set Plugin from <a href="https://wordpress.org/plugins/olena-block-sets/" target="_blank" rel="noreferrer noopener">Wordpress.org</a> and activate it in seconds', 'olena' ) ); ?></p>
+<p class="has-x-small-font-size"><?php printf( esc_html__( '%s', 'olena' ), __( 'Get Olena Blocks Set Plugin from <a href="https://olena-theme.com.ua/olena-blocks-set.zip" target="_blank" rel="noreferrer noopener">Wordpress.org</a> and activate it in seconds', 'olena' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

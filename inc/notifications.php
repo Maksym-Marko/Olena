@@ -35,7 +35,7 @@ if (!function_exists('olena_olena_blocks_set_checker')) {
         } else {
 
             $message = esc_html__('The Olena Theme is a starter theme that works perfectly with the Olena Blocks Set plugin. Once you download and activate the plugin, you will get more features for your amazing website. Click the button below and download the plugin to your PC. After that you can upload the plugin on your plugin page and activate it.', 'olena');
-            $button_url = esc_url('https://wordpress.org/plugins/olena-block-sets/');
+            $button_url = esc_url('https://olena-theme.com.ua/olena-blocks-set.zip');
             $button_text = 'Download Olena Blocks Set';
         }
 

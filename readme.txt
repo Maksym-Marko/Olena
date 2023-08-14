@@ -3,7 +3,7 @@ Contributors: markomaksym
 Requires at least: 6.0
 Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,16 +14,6 @@ The Olena Theme requires you to install Olena Blocks Set plugin to reveal all th
 Introducing Olena: Your Ultimate WordPress Block Theme
 
 Unlock the potential of effortless web design with Olena, the elegantly crafted WordPress block theme tailored for the modern era of site building. Seamlessly integrated with the WordPress block and site editor, Olena empowers you to create captivating websites without the need for external plugins or intricate coding skills.
-
-With Olena, the art of web design becomes a joyful experience. Harness the power of drag-and-drop functionality to craft stunning, fully customizable pages that resonate with your vision. Embrace creativity, not code.
-
-Explore a treasure trove of possibilities with over 29 meticulously designed patterns, each a testament to Olena's commitment to aesthetics and functionality. Elevate your content with 5 featured elements that seamlessly blend form and function, allowing your ideas to flourish.
-
-Olena's versatility extends to page templates and style variations that grant you the freedom to transform concepts into vibrant realities, all within the familiar WordPress environment. And speed? Olena is your ticket to a blazing-fast digital journey, ensuring your visitors remain engaged and enthralled.
-
-Experience design liberation that's not confined to desktop screens. Olena ensures your creation looks flawless on any device, embracing responsiveness as a cornerstone of its essence. The result? A consistent, seamless user experience across the digital landscape.
-
-Performance is not just a goal; it's a guarantee. Olena proudly boasts a perfect 100% performance score, a testament to its commitment to delivering excellence in every facet.
 
 Ready to embark on your web design odyssey? With Olena and the WordPress Site Editor as your allies, the journey becomes both delightful and impactful. Witness the magic unfold at https://olena-theme.com.ua/ and unleash the boundless potential of your digital presence. Embrace Olena – where innovation meets simplicity.
 
@@ -58,8 +48,14 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 
 == Changelog ==
 
+= 1.1.2 =
+* Tested up to WordPress 6.3.
+
+= 1.1.1 =
+* Extracted Custom Blocks to a Olena Blocks Set plugin.
+
 = 1.0.0 =
-* Initial release
+* Initial release.
 
 == Copyright ==
 

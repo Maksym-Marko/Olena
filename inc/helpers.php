@@ -23,8 +23,8 @@ if (!function_exists('olena_is_olena_blocks_set_installed')) {
     {
 
         $olena_blocks_set_slugs = [
-            'olena-block-sets-main/olena-blocks-set.php',
-            'olena-block-sets/olena-blocks-set.php'
+            'olena-blocks-set/olena-blocks-set.php',
+            'olena-blocks-set/olena-blocks-set.php'
         ];
 
         $installed_plugins = get_plugins();
@@ -47,8 +47,8 @@ if (!function_exists('olena_is_olena_blocks_set_activated')) {
     {
 
         $olena_blocks_set_slugs = [
-            'olena-block-sets-main/olena-blocks-set.php',
-            'olena-block-sets/olena-blocks-set.php'
+            'olena-blocks-set/olena-blocks-set.php',
+            'olena-blocks-set/olena-blocks-set.php'
         ];
 
         $active_plugins = get_option('active_plugins');
@@ -73,7 +73,7 @@ if (!function_exists('olena_display_olena_blocks_set_pattern')) {
     function olena_display_olena_blocks_set_pattern($pattern_name)
     {
 
-        $button_url = esc_url('https://wordpress.org/plugins/olena-block-sets/');
+        $button_url = esc_url('https://olena-theme.com.ua/olena-blocks-set.zip');
         $button_text = __('Download and Activate Olena Blocks Set', 'olena');
 ?>
 
