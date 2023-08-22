@@ -32,7 +32,7 @@ opacity: 0.5;
 </style><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"textColor":"light"} -->
-<div class="wp-block-button"><a class="wp-block-button__link has-light-color has-text-color wp-element-button" href="<?php echo esc_url( 'https://wordpress.org/themes/olena/' ); ?>"><?php echo esc_html__( 'Download', 'olena' ); ?></a></div>
+<div class="wp-block-button"><a class="wp-block-button__link has-light-color has-text-color wp-element-button" href="<?php echo esc_url( 'https://olena-theme.com.ua/' ); ?>"><?php echo esc_html__( 'Download', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div></div>

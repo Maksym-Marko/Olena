@@ -1,9 +1,9 @@
 === Olena ===
 Contributors: markomaksym
 Requires at least: 6.0
-Tested up to: 6.2
+Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 1.0.0
+Stable tag: 2.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,7 +23,7 @@ Experience design liberation that's not confined to desktop screens. Olena ensur
 
 Performance is not just a goal; it's a guarantee. Olena proudly boasts a perfect 100% performance score, a testament to its commitment to delivering excellence in every facet.
 
-Ready to embark on your web design odyssey? With Olena and the WordPress Site Editor as your allies, the journey becomes both delightful and impactful. Witness the magic unfold at https://olena-theme.in.ua/ and unleash the boundless potential of your digital presence. Embrace Olena – where innovation meets simplicity.
+Ready to embark on your web design odyssey? With Olena and the WordPress Site Editor as your allies, the journey becomes both delightful and impactful. Witness the magic unfold at https://olena-theme.com.ua/ and unleash the boundless potential of your digital presence. Embrace Olena – where innovation meets simplicity.
 
 == Features ==
 - 6 types of header
@@ -53,6 +53,9 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 4. Navigate to Appearance > Customize in your admin panel and customize to your taste.
 
 == Changelog ==
+
+= 2.0.0 =
+* Prepared to downloading.
 
 = 1.0.0 =
 * Initial release

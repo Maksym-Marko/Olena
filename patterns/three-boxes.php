@@ -55,7 +55,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php printf( esc_html__( '%s', 'olena' ), __( 'Get Olena theme from <a href="https://wordpress.org/themes/olena/" target="_blank" rel="noreferrer noopener">Wordpress.org</a> and activate it in seconds', 'olena' ) ); ?></p>
+<p class="has-x-small-font-size"><?php printf( esc_html__( '%s', 'olena' ), __( 'Get Olena theme from <a href="https://olena-theme.com.ua/" rel="noreferrer noopener">olena-theme.com.ua</a> and activate it in seconds', 'olena' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

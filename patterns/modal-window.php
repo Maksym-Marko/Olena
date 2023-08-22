@@ -15,8 +15,8 @@
 <div class="wp-block-group is-style-animation-wrapper has-main-light-background-color has-background" style="border-radius:16px;margin-top:var(--wp--preset--spacing--medium);margin-bottom:var(--wp--preset--spacing--medium);padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large)"><!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0"}},"className":"sb-modal-header","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-modal-header" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column -->
-<div class="wp-block-column"><!-- wp:image {"id":424,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.png" alt="" class="wp-image-424"/></figure>
+<div class="wp-block-column"><!-- wp:image {"id":424,"width":93,"height":93,"scale":"cover","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/logo.png" alt="" class="wp-image-424" style="object-fit:cover;width:93px;height:93px" width="93" height="93"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -34,7 +34,7 @@
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3,"style":{"typography":{"lineHeight":1.4,"fontStyle":"normal","fontWeight":"300"},"spacing":{"margin":{"top":"6px","right":"0px","bottom":"0px","left":"0px"}}},"textColor":"dark","fontSize":"small","fontFamily":"roboto"} -->
-<h3 class="wp-block-heading has-dark-color has-text-color has-roboto-font-family has-small-font-size" style="margin-top:6px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-weight:300;line-height:1.4">Use 26 prebuilt patterns to start your journey</h3>
+<h3 class="wp-block-heading has-dark-color has-text-color has-roboto-font-family has-small-font-size" style="margin-top:6px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-weight:300;line-height:1.4">Use 29 prebuilt patterns to start your journey</h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
@@ -44,7 +44,7 @@
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0","margin":{"top":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--large);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://wordpress.org/themes/olena/">Get Olena Theme For Free</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://olena-theme.com.ua/">Get Olena Theme For Free</a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>
