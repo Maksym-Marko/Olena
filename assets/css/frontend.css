@@ -18,7 +18,7 @@
     .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
         display: none;
     }
-    .has-modal-open .admin-bar .is-menu-open .wp-block-navigation__responsive-dialog {
+    .has-modal-open .is-menu-open .wp-block-navigation__responsive-dialog {
         padding: var(--wp--preset--spacing--medium);
     }
     .wp-block-navigation__responsive-container-close {

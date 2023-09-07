@@ -10,8 +10,8 @@
  */
 
 ?>
-<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large"},"margin":{"top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
-<section id="three-boxes" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-bottom:var(--wp--preset--spacing--xx-large)"><!-- wp:olena/floating-box -->
+<!-- wp:group {"tagName":"section","style":{"spacing":{"padding":{"top":"var:preset|spacing|xx-large","bottom":"var:preset|spacing|xx-large","left":"var:preset|spacing|small","right":"var:preset|spacing|small"},"margin":{"top":"0","bottom":"0"}}},"className":"is-style-animation-wrapper","layout":{"type":"constrained"}} -->
+<section id="three-boxes" class="wp-block-group is-style-animation-wrapper" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--xx-large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--xx-large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:olena/floating-box -->
 <div class="wp-block-olena-floating-box" style="right:-13%;top:-27%" data-orientation="2" data-position-left="0" data-position-top="-27" data-position-right="-13" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-ww7doMPTz539"} -->
 <div data-breakpoint="desktop" class="mx-responsive-box mx-responsive-box-ww7doMPTz539"><div class="wp-block-olena-responsive-box"><style>@media (max-width: 991.5px) {
 	.mx-responsive-box.mx-responsive-box-ww7doMPTz539 {
@@ -48,8 +48,8 @@
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-large)"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"layout":{"type":"default"}} -->
 <div class="wp-block-column"><!-- wp:olena/animated-box -->
-<div class="wp-block-olena-animated-box" data-animation-type="fadeInRight" data-extras=""><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"dimensions":{"minHeight":"300px"},"border":{"bottom":{"color":"var:preset|color|main","width":"4px"}}},"backgroundColor":"main-light","layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} -->
-<div class="wp-block-group has-main-light-background-color has-background" style="border-bottom-color:var(--wp--preset--color--main);border-bottom-width:4px;min-height:300px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-olena-animated-box" data-animation-type="fadeInRight" data-extras=""><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|small","left":"var:preset|spacing|medium"}},"dimensions":{"minHeight":"300px"},"border":{"bottom":{"color":"var:preset|color|main","width":"4px"}}},"backgroundColor":"main-light","layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} -->
+<div class="wp-block-group has-main-light-background-color has-background" style="border-bottom-color:var(--wp--preset--color--main);border-bottom-width:4px;min-height:300px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
 <h3 class="wp-block-heading" style="font-style:normal;font-weight:700"><?php echo __( 'Download Olena', 'olena' ); ?></h3>
 <!-- /wp:heading -->
@@ -64,8 +64,8 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:olena/animated-box -->
-<div class="wp-block-olena-animated-box" data-animation-type="zoomIn" data-extras=""><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"dimensions":{"minHeight":"300px"},"border":{"bottom":{"color":"var:preset|color|main","width":"4px"}}},"backgroundColor":"main-light","layout":{"type":"flex","orientation":"horizontal"}} -->
-<div class="wp-block-group has-main-light-background-color has-background" style="border-bottom-color:var(--wp--preset--color--main);border-bottom-width:4px;min-height:300px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-olena-animated-box" data-animation-type="zoomIn" data-extras=""><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|small","left":"var:preset|spacing|medium"}},"dimensions":{"minHeight":"300px"},"border":{"bottom":{"color":"var:preset|color|main","width":"4px"}}},"backgroundColor":"main-light","layout":{"type":"flex","orientation":"horizontal"}} -->
+<div class="wp-block-group has-main-light-background-color has-background" style="border-bottom-color:var(--wp--preset--color--main);border-bottom-width:4px;min-height:300px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
 <h3 class="wp-block-heading" style="font-style:normal;font-weight:700"><?php echo __( 'Customize Content', 'olena' ); ?></h3>
 <!-- /wp:heading -->
@@ -80,8 +80,8 @@
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:olena/animated-box -->
-<div class="wp-block-olena-animated-box" data-animation-type="fadeInLeft" data-extras=""><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"}},"dimensions":{"minHeight":"300px"},"border":{"bottom":{"color":"var:preset|color|main","width":"4px"}}},"backgroundColor":"main-light","layout":{"type":"flex","orientation":"horizontal"}} -->
-<div class="wp-block-group has-main-light-background-color has-background" style="border-bottom-color:var(--wp--preset--color--main);border-bottom-width:4px;min-height:300px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:group {"layout":{"type":"constrained"}} -->
+<div class="wp-block-olena-animated-box" data-animation-type="fadeInLeft" data-extras=""><!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|medium","bottom":"var:preset|spacing|small","left":"var:preset|spacing|medium"}},"dimensions":{"minHeight":"300px"},"border":{"bottom":{"color":"var:preset|color|main","width":"4px"}}},"backgroundColor":"main-light","layout":{"type":"flex","orientation":"horizontal"}} -->
+<div class="wp-block-group has-main-light-background-color has-background" style="border-bottom-color:var(--wp--preset--color--main);border-bottom-width:4px;min-height:300px;padding-top:var(--wp--preset--spacing--small);padding-right:var(--wp--preset--spacing--medium);padding-bottom:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--medium)"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"level":3,"style":{"typography":{"fontStyle":"normal","fontWeight":"700"}}} -->
 <h3 class="wp-block-heading" style="font-style:normal;font-weight:700"><?php echo esc_html__( 'Enjoy &amp; Explore', 'olena' ); ?></h3>
 <!-- /wp:heading -->

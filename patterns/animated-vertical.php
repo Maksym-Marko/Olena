@@ -96,7 +96,8 @@
 <!-- /wp:columns --></div>
 <!-- /wp:group --></div>
 <!-- /wp:olena/animated-section-vertical --></div></div>
-<!-- /wp:olena/responsive-box --><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-0X6lkvGES7K0"} -->
+<!-- /wp:olena/responsive-box -->
+<!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-0X6lkvGES7K0"} -->
 <div data-breakpoint="tablets-mobile" class="mx-responsive-box mx-responsive-box-0X6lkvGES7K0"><div class="wp-block-olena-responsive-box"><style>@media (min-width: 991.5px) {
 	.mx-responsive-box.mx-responsive-box-0X6lkvGES7K0 {
 		display: none !important;
@@ -106,7 +107,8 @@
 		opacity: 0.5;
 	}
 }
-</style><!-- wp:olena/animated-box -->
+</style><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small"}}},"layout":{"type":"constrained"}} -->
+<div class="wp-block-group" style="padding-right:var(--wp--preset--spacing--small);padding-left:var(--wp--preset--spacing--small)"><!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="zoomIn" data-extras=""><!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|small","left":"var:preset|spacing|small","top":"var:preset|spacing|medium","bottom":"var:preset|spacing|medium"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--medium);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--medium);padding-left:var(--wp--preset--spacing--small)"><!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":1.1,"fontStyle":"normal","fontWeight":"700"}},"textColor":"main","fontSize":"xx-large"} -->
 <h2 class="wp-block-heading has-text-align-center has-main-color has-text-color has-xx-large-font-size" style="font-style:normal;font-weight:700;line-height:1.1"><?php echo __( 'NO CODE', 'olena' ); ?></h2>
@@ -168,6 +170,7 @@
 <figure class="wp-block-image aligncenter size-full"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/sections/animated-vertical/image_3.png" alt="" class="wp-image-46"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
-<!-- /wp:olena/animated-box --></div></div>
+<!-- /wp:olena/animated-box --></div>
+<!-- /wp:group --></div></div>
 <!-- /wp:olena/responsive-box --></section>
 <!-- /wp:group -->

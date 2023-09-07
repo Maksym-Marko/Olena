@@ -26,6 +26,11 @@ class Olena_Custom_Blocks
      */
     public function __construct()
     {
+
+        /**
+         * Full Width Section.
+         * */
+        add_action('init', array($this, 'full_width_section'));
                 
         /**
          * Animated Section Horizontal.
@@ -64,6 +69,19 @@ class Olena_Custom_Blocks
     }
     
     /**
+     * Full Width Section.
+     *
+     * @since 1.0.0
+     * 
+     * @return void Register a Full Width Section custom block.
+     */
+    public function full_width_section()
+    {
+
+        register_block_type(get_template_directory() . '/custom-blocks/full-width-section');
+    }
+    
+    /**
      * Animated Section Horizontal custom block type.
      *
      * @since 1.0.0
@@ -75,7 +93,6 @@ class Olena_Custom_Blocks
 
         register_block_type(get_template_directory() . '/custom-blocks/animated-section-horizontal');
     }
-
     
     /**
      * Animated Box custom block type.
