@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./blocks-generator/animated-section-horizontal/edit.js":
-/*!**************************************************************!*\
-  !*** ./blocks-generator/animated-section-horizontal/edit.js ***!
-  \**************************************************************/
+/***/ "./blocks-generator/animated-section/edit.js":
+/*!***************************************************!*\
+  !*** ./blocks-generator/animated-section/edit.js ***!
+  \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -20,7 +20,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @wordpress/components */ "@wordpress/components");
 /* harmony import */ var _wordpress_components__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./editor.scss */ "./blocks-generator/animated-section-horizontal/editor.scss");
+/* harmony import */ var _editor_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./editor.scss */ "./blocks-generator/animated-section/editor.scss");
 
 
 
@@ -37,23 +37,43 @@ function edit({
     title: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Section Options', 'olena'),
     initialOpen: false
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelRow, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.RadioControl, {
+    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Section Type', 'olena'),
+    selected: attributes.section_type,
+    options: [{
+      label: 'Vertical',
+      value: 'vertical'
+    }, {
+      label: 'Horizontal',
+      value: 'horizontal'
+    }],
+    onChange: section_type => setAttributes({
+      section_type
+    })
+  })), attributes.section_type === 'vertical' && (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelRow, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.__experimentalNumberControl, {
+    label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Section Height', 'olena'),
+    value: attributes.section_height,
+    min: "1000",
+    onChange: section_height => setAttributes({
+      section_height
+    })
+  }))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("hr", null), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.PanelRow, null, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__.RadioControl, {
     label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Start position of animation', 'olena'),
     help: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('eg. Center of a element and Top of the screen', 'olena'),
     selected: attributes.start_position,
     options: [{
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Center Top', 'olena'),
+      label: 'Center Top',
       value: 'center top'
     }, {
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Top Top', 'olena'),
+      label: 'Top Top',
       value: 'top top'
     }, {
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Top 20%', 'olena'),
+      label: 'Top 20%',
       value: 'top 20%'
     }, {
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Top Center', 'olena'),
+      label: 'Top Center',
       value: 'top center'
     }, {
-      label: (0,_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__.__)('Top 70%', 'olena'),
+      label: 'Top 70%',
       value: 'top 70%'
     }],
     onChange: start_position => setAttributes({
@@ -62,8 +82,10 @@ function edit({
   })))), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...blockProps,
     key: "mx-main-content",
-    "data-extras": attributes.extras,
-    "data-start-position": attributes.start_position
+    "data-section-height": attributes.section_height,
+    "data-start-position": attributes.start_position,
+    "data-section-type": attributes.section_type,
+    "data-section-extras": attributes.extras
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "mx-animated-horizontal-slider"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_2__.InnerBlocks, null)))];
@@ -71,10 +93,10 @@ function edit({
 
 /***/ }),
 
-/***/ "./blocks-generator/animated-section-horizontal/index.js":
-/*!***************************************************************!*\
-  !*** ./blocks-generator/animated-section-horizontal/index.js ***!
-  \***************************************************************/
+/***/ "./blocks-generator/animated-section/index.js":
+/*!****************************************************!*\
+  !*** ./blocks-generator/animated-section/index.js ***!
+  \****************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -82,10 +104,10 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _wordpress_element__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @wordpress/blocks */ "@wordpress/blocks");
 /* harmony import */ var _wordpress_blocks__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./block.json */ "./blocks-generator/animated-section-horizontal/block.json");
-/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.scss */ "./blocks-generator/animated-section-horizontal/style.scss");
-/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./edit */ "./blocks-generator/animated-section-horizontal/edit.js");
-/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./save */ "./blocks-generator/animated-section-horizontal/save.js");
+/* harmony import */ var _block_json__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./block.json */ "./blocks-generator/animated-section/block.json");
+/* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./style.scss */ "./blocks-generator/animated-section/style.scss");
+/* harmony import */ var _edit__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./edit */ "./blocks-generator/animated-section/edit.js");
+/* harmony import */ var _save__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./save */ "./blocks-generator/animated-section/save.js");
 
 
 
@@ -115,10 +137,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./blocks-generator/animated-section-horizontal/save.js":
-/*!**************************************************************!*\
-  !*** ./blocks-generator/animated-section-horizontal/save.js ***!
-  \**************************************************************/
+/***/ "./blocks-generator/animated-section/save.js":
+/*!***************************************************!*\
+  !*** ./blocks-generator/animated-section/save.js ***!
+  \***************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -137,8 +159,10 @@ function save({
   const blockProps = _wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.useBlockProps.save();
   return (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...blockProps,
-    "data-extras": attributes.extras,
-    "data-start-position": attributes.start_position
+    "data-section-height": attributes.section_height,
+    "data-start-position": attributes.start_position,
+    "data-section-type": attributes.section_type,
+    "data-section-extras": attributes.extras
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     className: "mx-animated-horizontal-slider"
   }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)(_wordpress_block_editor__WEBPACK_IMPORTED_MODULE_1__.InnerBlocks.Content, null)));
@@ -146,10 +170,10 @@ function save({
 
 /***/ }),
 
-/***/ "./blocks-generator/animated-section-horizontal/editor.scss":
-/*!******************************************************************!*\
-  !*** ./blocks-generator/animated-section-horizontal/editor.scss ***!
-  \******************************************************************/
+/***/ "./blocks-generator/animated-section/editor.scss":
+/*!*******************************************************!*\
+  !*** ./blocks-generator/animated-section/editor.scss ***!
+  \*******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -158,10 +182,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./blocks-generator/animated-section-horizontal/style.scss":
-/*!*****************************************************************!*\
-  !*** ./blocks-generator/animated-section-horizontal/style.scss ***!
-  \*****************************************************************/
+/***/ "./blocks-generator/animated-section/style.scss":
+/*!******************************************************!*\
+  !*** ./blocks-generator/animated-section/style.scss ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -220,13 +244,13 @@ module.exports = window["wp"]["i18n"];
 
 /***/ }),
 
-/***/ "./blocks-generator/animated-section-horizontal/block.json":
-/*!*****************************************************************!*\
-  !*** ./blocks-generator/animated-section-horizontal/block.json ***!
-  \*****************************************************************/
+/***/ "./blocks-generator/animated-section/block.json":
+/*!******************************************************!*\
+  !*** ./blocks-generator/animated-section/block.json ***!
+  \******************************************************/
 /***/ ((module) => {
 
-module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"olena/animated-section-horizontal","version":"0.1.0","title":"Animated Section (horizontal)","category":"widgets","icon":"format-gallery","description":"Add an Animated Section (horizontal). Nested elements will be animated.","supports":{"html":false,"anchor":true},"attributes":{"start_position":{"type":"string","source":"attribute","selector":".wp-block-olena-animated-section-horizontal","attribute":"data-start-position","default":"top top"},"extras":{"type":"string","source":"attribute","selector":".wp-block-olena-animated-section-horizontal","attribute":"data-extras","default":""}},"textdomain":"olena","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
+module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json","apiVersion":2,"name":"olena/animated-section","version":"0.1.0","title":"Animated Section","category":"widgets","icon":"format-gallery","description":"Add an Animated Section","supports":{"html":false,"anchor":true},"attributes":{"section_type":{"type":"string","source":"attribute","selector":".wp-block-olena-animated-section","attribute":"data-section-type","default":"vertical"},"section_height":{"type":"string","source":"attribute","selector":".wp-block-olena-animated-section","attribute":"data-section-height","default":"4000"},"start_position":{"type":"string","source":"attribute","selector":".wp-block-olena-animated-section","attribute":"data-start-position","default":"top top"},"extras":{"type":"string","source":"attribute","selector":".wp-block-olena-animated-section","attribute":"data-extras","default":""}},"textdomain":"olena","editorScript":"file:./index.js","editorStyle":"file:./index.css","style":"file:./style-index.css"}');
 
 /***/ })
 
@@ -342,8 +366,8 @@ module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json
 /******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
 /******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
 /******/ 		var installedChunks = {
-/******/ 			"animated-section-horizontal/index": 0,
-/******/ 			"animated-section-horizontal/style-index": 0
+/******/ 			"animated-section/index": 0,
+/******/ 			"animated-section/style-index": 0
 /******/ 		};
 /******/ 		
 /******/ 		// no chunk on demand loading
@@ -395,7 +419,7 @@ module.exports = JSON.parse('{"$schema":"https://schemas.wp.org/trunk/block.json
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["animated-section-horizontal/style-index"], () => (__webpack_require__("./blocks-generator/animated-section-horizontal/index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["animated-section/style-index"], () => (__webpack_require__("./blocks-generator/animated-section/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()

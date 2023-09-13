@@ -28,24 +28,19 @@ class Olena_Custom_Blocks
     {
 
         /**
+         * Animated Section.
+         * */
+        add_action('init', array($this, 'animated_section'));
+
+        /**
          * Full Width Section.
          * */
         add_action('init', array($this, 'full_width_section'));
-                
-        /**
-         * Animated Section Horizontal.
-         * */
-        add_action('init', array($this, 'animated_section_horizontal'));
 
         /**
          * Animated Box.
          * */
         add_action('init', array($this, 'animated_box'));
-
-        /**
-         * Animated Section Vertical.
-         * */
-        add_action('init', array($this, 'animated_section_vertical'));
 
         /**
          * Responsive Box.
@@ -67,7 +62,7 @@ class Olena_Custom_Blocks
          * */
         add_action('init', array($this, 'content_slider'));
     }
-    
+
     /**
      * Full Width Section.
      *
@@ -80,20 +75,20 @@ class Olena_Custom_Blocks
 
         register_block_type(get_template_directory() . '/custom-blocks/full-width-section');
     }
-    
+
     /**
-     * Animated Section Horizontal custom block type.
-     *
-     * @since 1.0.0
+     * Animated Section custom block type.
      * 
-     * @return void Register a animated section horizontal custom block.
+     * @since 2.2.0
+     * 
+     * @return void Register a Animated Section custom block.
      */
-    public function animated_section_horizontal()
+    public function animated_section()
     {
 
-        register_block_type(get_template_directory() . '/custom-blocks/animated-section-horizontal');
+        register_block_type(get_template_directory() . '/custom-blocks/animated-section');
     }
-    
+
     /**
      * Animated Box custom block type.
      *
@@ -105,19 +100,6 @@ class Olena_Custom_Blocks
     {
 
         register_block_type(get_template_directory() . '/custom-blocks/animated-box');
-    }
-
-    /**
-     * Animated Section Vertical custom block type.
-     *
-     * @since 1.0.0
-     * 
-     * @return void Register a animated section vertical custom block.
-     */
-    public function animated_section_vertical()
-    {
-
-        register_block_type(get_template_directory() . '/custom-blocks/animated-section-vertical');
     }
 
     /**

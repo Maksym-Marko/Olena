@@ -15,12 +15,15 @@
     .wp-block-navigation__responsive-container-open:not(.always-shown) {
         display: block;
     }
+
     .wp-block-navigation__responsive-container .wp-block-navigation__responsive-container-content {
         display: none;
     }
+
     .has-modal-open .is-menu-open .wp-block-navigation__responsive-dialog {
         padding: var(--wp--preset--spacing--medium);
     }
+
     .wp-block-navigation__responsive-container-close {
         right: var(--wp--preset--spacing--medium);
         top: var(--wp--preset--spacing--medium);
@@ -32,6 +35,7 @@ body .wp-block-template-part .is-position-sticky.mx-element-pre-freezed {
     position: fixed;
     top: -500px;
 }
+
 body .wp-block-template-part .is-position-sticky.mx-element-freezed {
     position: fixed;
     top: 0;
@@ -52,15 +56,19 @@ body .wp-block-template-part .is-position-sticky.mx-element-freezed {
 .is-style-animation-pointer {
     position: relative;
 }
-.is-style-animation-pointer > * {
+
+.is-style-animation-pointer>* {
     position: absolute;
 }
+
 .is-style-animation-descriptor:not(.active-nav) p {
     display: none;
 }
+
 .is-style-animation-descriptor {
     opacity: .5;
 }
+
 .is-style-animation-descriptor.active-nav {
     opacity: 1;
 }
@@ -68,15 +76,13 @@ body .wp-block-template-part .is-position-sticky.mx-element-freezed {
 /*
  * Animated Section Horizontal.
  */
-.wp-block-olena-animated-section-horizontal {
+.wp-block-olena-animated-section[data-section-type="horizontal"] {
     display: flex;
     overflow: hidden;
     overscroll-behavior: none;
 }
-.mx-animated-horizontal-content {
-    position: relative;
-}
-.mx-animated-horizontal-slider {
+
+[data-section-type="horizontal"] .mx-animated-horizontal-slider {
     display: flex;
     flex-wrap: nowrap;
     width: -webkit-fit-content;
@@ -84,7 +90,8 @@ body .wp-block-template-part .is-position-sticky.mx-element-freezed {
     width: fit-content;
     will-change: transform;
 }
-.mx-animated-horizontal-slider > * {
+
+[data-section-type="horizontal"] .mx-animated-horizontal-slider>* {
     width: 100vw;
 }
 
@@ -101,6 +108,7 @@ body .wp-block-template-part .is-position-sticky.mx-element-freezed {
     overflow-y: scroll;
     z-index: 10;
 }
+
 .mx-modal-window .wp-block-olena-floating-box {
     z-index: 1;
 }
