@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Modal Window
- * Slug: modal-window
+ * Slug: olena/modal-window
  * Description: You can create any number of modal windows. The template of usage: modal window - #modal-window | open modal window - a[href="#open-modal-window"] | close modal window - a[href="#close-modal-window"]
  * Categories: featured
  * Keywords: modal, window
@@ -30,21 +30,21 @@
 
 <!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|large"}}},"className":"sb-modal-body","layout":{"type":"constrained"}} -->
 <div class="wp-block-group sb-modal-body" style="margin-top:var(--wp--preset--spacing--large)"><!-- wp:heading {"style":{"typography":{"lineHeight":1.4}},"textColor":"dark","fontSize":"large"} -->
-<h2 class="wp-block-heading has-dark-color has-text-color has-large-font-size" style="line-height:1.4">Start your website right now!</h2>
+<h2 class="wp-block-heading has-dark-color has-text-color has-large-font-size" style="line-height:1.4"><?php echo esc_html__( 'Start your website right now!', 'olena' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"level":3,"style":{"typography":{"lineHeight":1.4,"fontStyle":"normal","fontWeight":"300"},"spacing":{"margin":{"top":"6px","right":"0px","bottom":"0px","left":"0px"}}},"textColor":"dark","fontSize":"small","fontFamily":"roboto"} -->
-<h3 class="wp-block-heading has-dark-color has-text-color has-roboto-font-family has-small-font-size" style="margin-top:6px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-weight:300;line-height:1.4">Use 29 prebuilt patterns to start your journey</h3>
+<h3 class="wp-block-heading has-dark-color has-text-color has-roboto-font-family has-small-font-size" style="margin-top:6px;margin-right:0px;margin-bottom:0px;margin-left:0px;font-style:normal;font-weight:300;line-height:1.4"><?php echo esc_html__( 'Use 29 prebuilt patterns to start your journey', 'olena' ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph -->
-<p>Maksym Marko did his best to create a flexible and fast Wordpress theme for wide usages. The Olena theme has almost all you need to start your website right now!</p>
+<p><?php echo esc_html__( 'Maksym Marko did his best to create a flexible and fast Wordpress theme for wide usages. The Olena theme has almost all you need to start your website right now!', 'olena' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"blockGap":"0","margin":{"top":"var:preset|spacing|large"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--large);padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:buttons -->
 <div class="wp-block-buttons"><!-- wp:button {"className":"is-style-fill"} -->
-<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="https://olena-theme.com.ua/">Get Olena Theme For Free</a></div>
+<div class="wp-block-button is-style-fill"><a class="wp-block-button__link wp-element-button" href="<?php echo esc_url( 'https://olena-theme.com.ua/' ); ?>"><?php echo esc_html__( 'Get Olena Theme For Free', 'olena' ); ?></a></div>
 <!-- /wp:button --></div>
 <!-- /wp:buttons --></div>
 <!-- /wp:group --></div>

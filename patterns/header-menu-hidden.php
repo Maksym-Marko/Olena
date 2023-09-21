@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header Menu Hidden
- * Slug: header-menu-hidden
+ * Slug: olena/header-menu-hidden
  * Description: Header with site name and hidden navigation
  * Categories: header
  * Keywords: header, nav, site name
@@ -15,7 +15,7 @@
 <div class="wp-block-group" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","layout":{"type":"flex","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignfull has-contrast-color has-text-color has-link-color" style="padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:site-title /-->
 
-<!-- wp:navigation {"ref":8,"overlayMenu":"always","icon":"menu","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"}} /--></div>
+<!-- wp:navigation {"overlayMenu":"always","icon":"menu","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right","orientation":"horizontal"}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

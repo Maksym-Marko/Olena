@@ -54,17 +54,20 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 
 == Changelog ==
 
+= 2.3.0 =
+* Fixed 
+
 = 2.2.0 =
 * Improved animated sections. Removed Section animated (vertical) and  Section animated (horizontal). Now the two features are contained by the Animated Section custom block.
 
 = 2.1.1 =
-* Fixed page-full-width template.
+* Fixed Page Full Width template.
 
 = 2.1.0 =
 * Added "Full width section" to the custom blocks. Fixed mobile menu paddings. Changed design of "Section Animated (vertical)" and "Three Boxes Section" patterns.
 
 = 2.0.0 =
-* Prepared to downloading.
+* Prepared to download.
 
 = 1.0.0 =
 * Initial release

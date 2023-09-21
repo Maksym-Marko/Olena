@@ -2,7 +2,7 @@
 
 /**
  * Title: Section Animated (horizontal)
- * Slug: animated-horizontal
+ * Slug: olena/animated-horizontal
  * Description: Animated section. Direction horizontal.
  * Categories: featured
  * Keywords: section, animated, animation

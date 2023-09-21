@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Simple Vertical
- * Slug: footer-simple-vertical
+ * Slug: olena/footer-simple-vertical
  * Description:
  * Categories: footer, columns
  * Keywords: footer
@@ -15,7 +15,12 @@
 <div class="wp-block-group alignfull has-contrast-color has-text-color" style="min-height:40vh;margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--large);padding-right:var(--wp--preset--spacing--small);padding-bottom:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--small)"><!-- wp:site-logo {"align":"center","style":{"spacing":{"margin":{"bottom":"6px"}}}} /-->
 
 <!-- wp:paragraph {"align":"center","style":{"elements":{"link":{"color":{"text":"var:preset|color|dark"}}}},"textColor":"dark","fontSize":"x-small"} -->
-<p class="has-text-align-center has-dark-color has-text-color has-link-color has-x-small-font-size">Proudly powered by <a href="https://wordpress.org">WordPress</a></p>
+<p class="has-text-align-center has-dark-color has-text-color has-link-color has-x-small-font-size"><?php
+printf(
+    esc_html__( 'Proudly powered by %s', 'olena' ),
+    '<a href="' . esc_url( 'https://wordpress.org' ) . '" target="_blank" rel="noreferrer noopener">WordPress</a>'
+)
+?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:social-links {"style":{"spacing":{"blockGap":{"top":"var:preset|spacing|large","left":"var:preset|spacing|large"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"var:preset|spacing|mini","right":"0","bottom":"0","left":"0"}}},"className":"is-style-default","layout":{"type":"flex","justifyContent":"left","flexWrap":"wrap"}} -->

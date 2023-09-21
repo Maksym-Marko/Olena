@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Posts Grid
- * Slug: posts-grid
+ * Slug: olena/posts-grid
  * Description: 
  * Categories: posts
  * Keywords: posts, grid

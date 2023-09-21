@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Simple Header
- * Slug: header
+ * Slug: olena/header
  * Description: Header with site logo and navigation
  * Categories: header
  * Keywords: header, nav, site logo
@@ -16,6 +16,6 @@
 <div class="wp-block-group"><!-- wp:site-logo /--></div>
 <!-- /wp:group -->
 
-<!-- wp:navigation {"ref":8,"icon":"menu","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} /--></div>
+<!-- wp:navigation {"icon":"menu","layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"right"},"style":{"spacing":{"blockGap":"var:preset|spacing|small"}}} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

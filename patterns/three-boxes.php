@@ -2,7 +2,7 @@
 
 /**
  * Title: Three Boxes Section
- * Slug: three-boxes
+ * Slug: olena/three-boxes
  * Description: Section with a title, description and three boxes.
  * Categories: featured
  * Keywords: section, animated, animation
@@ -31,7 +31,7 @@
 <!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":"800px"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="zoomIn" data-extras=""><!-- wp:heading {"textAlign":"center","style":{"typography":{"lineHeight":1.1}},"fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-x-large-font-size" style="line-height:1.1">Easy 3-Step Website Setup</h2>
+<h2 class="wp-block-heading has-text-align-center has-x-large-font-size" style="line-height:1.1"><?php printf( esc_html__( '%s', 'olena' ), __( 'Easy 3-Step Website Setup', 'olena' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"}}},"fontSize":"x-small"} -->
@@ -55,7 +55,12 @@
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"x-small"} -->
-<p class="has-x-small-font-size"><?php printf( esc_html__( '%s', 'olena' ), __( 'Get Olena theme from <a href="https://olena-theme.com.ua/" rel="noreferrer noopener">olena-theme.com.ua</a> and activate it in seconds', 'olena' ) ); ?></p>
+<p class="has-x-small-font-size"><?php
+printf(
+    esc_html__( 'Get Olena theme from %s and activate it in seconds', 'olena' ),
+    '<a href="' . esc_url( 'https://olena-theme.com.ua/' ) . '" target="_blank" rel="noreferrer noopener">olena-theme.com.ua</a>'
+)
+?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

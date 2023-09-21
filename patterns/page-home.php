@@ -1,25 +1,25 @@
 <?php
 /**
  * Title: Homepage
- * Slug: page-home
+ * Slug: olena/page-home
  * Description: A Homepage design example
  * Categories: featured
  * Keywords: template, home
  * Inserter: true
  */
 ?>
-<!-- wp:pattern {"slug":"hero-section"} /-->
+<!-- wp:pattern {"slug":"olena/hero-section"} /-->
 
-<!-- wp:pattern {"slug":"animated-vertical"} /-->
+<!-- wp:pattern {"slug":"olena/animated-vertical"} /-->
 
-<!-- wp:pattern {"slug":"three-boxes"} /-->
+<!-- wp:pattern {"slug":"olena/three-boxes"} /-->
 
-<!-- wp:pattern {"slug":"section-with-slider"} /-->
+<!-- wp:pattern {"slug":"olena/section-with-slider"} /-->
 
-<!-- wp:pattern {"slug":"animated-horizontal"} /-->
+<!-- wp:pattern {"slug":"olena/animated-horizontal"} /-->
 
-<!-- wp:pattern {"slug":"pricing-section"} /-->
+<!-- wp:pattern {"slug":"olena/pricing-section"} /-->
 
-<!-- wp:pattern {"slug":"reliability-section"} /-->
+<!-- wp:pattern {"slug":"olena/reliability-section"} /-->
 
-<!-- wp:pattern {"slug":"latest-news-section"} /-->
+<!-- wp:pattern {"slug":"olena/latest-news-section"} /-->

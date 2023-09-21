@@ -2,22 +2,19 @@
 
 /**
  * Title: Page Index
- * Slug: page-index
- * Description: Section for page index.
- * Categories: featured
- * Keywords: section, index
- * Inserter: true
+ * Slug: olena/page-index
+ * Inserter: no
  */
 
 ?>
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained"}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:group {"style":{"spacing":{"blockGap":"0","padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","bottom":"0"}}},"layout":{"type":"constrained","contentSize":""}} -->
 <div class="wp-block-group" style="margin-top:0;margin-bottom:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><!-- wp:heading {"textAlign":"left","style":{"typography":{"lineHeight":1.4}},"fontSize":"large"} -->
-<h2 class="wp-block-heading has-text-align-left has-large-font-size" style="line-height:1.4">Latest News</h2>
+<h2 class="wp-block-heading has-text-align-left has-large-font-size" style="line-height:1.4"><?php printf( esc_html__( '%s', 'olena' ), __( 'Latest News', 'olena' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"style":{"spacing":{"margin":{"top":"0","right":"0","bottom":"0","left":"0"},"padding":{"top":"0","right":"0","bottom":"0","left":"0"}},"typography":{"lineHeight":1.4}},"fontSize":"x-small"} -->
-<p class="has-x-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:1.4">Check our latest news about Olena theme</p>
+<p class="has-x-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0;line-height:1.4"><?php printf( esc_html__( '%s', 'olena' ), __( 'Check our latest news about Olena theme', 'olena' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group -->
 

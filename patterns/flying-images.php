@@ -2,7 +2,7 @@
 
 /**
  * Title: Flying Images
- * Slug: flying-images
+ * Slug: olena/flying-images
  * Description: Section with animated flying images, sub title, title and description.
  * Categories: featured
  * Keywords: section, animation
@@ -19,15 +19,15 @@
 <div class="wp-block-column"><!-- wp:group {"style":{"spacing":{"margin":{"top":"0"}},"dimensions":{"minHeight":"100vh"}},"layout":{"type":"flex","orientation":"horizontal","justifyContent":"center"}} -->
 <div class="wp-block-group" style="min-height:100vh;margin-top:0"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"right","level":4,"style":{"typography":{"fontStyle":"normal","fontWeight":"100"}},"textColor":"main"} -->
-<h4 class="wp-block-heading has-text-align-right has-main-color has-text-color" style="font-style:normal;font-weight:100">Use patterns</h4>
+<h4 class="wp-block-heading has-text-align-right has-main-color has-text-color" style="font-style:normal;font-weight:100"><?php printf( esc_html__( '%s', 'olena' ), __( 'Use patterns', 'olena' ) ); ?></h4>
 <!-- /wp:heading -->
 
 <!-- wp:heading {"textAlign":"right","level":3,"style":{"typography":{"lineHeight":1.2}},"fontSize":"medium","fontFamily":"roboto-light"} -->
-<h3 class="wp-block-heading has-text-align-right has-roboto-light-font-family has-medium-font-size" style="line-height:1.2">Find patterns and mix them</h3>
+<h3 class="wp-block-heading has-text-align-right has-roboto-light-font-family has-medium-font-size" style="line-height:1.2"><?php printf( esc_html__( '%s', 'olena' ), __( 'Find patterns and mix them', 'olena' ) ); ?></h3>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"right","style":{"typography":{"lineHeight":1.3}},"fontSize":"x-small"} -->
-<p class="has-text-align-right has-x-small-font-size" style="line-height:1.3">Olena theme lets you to use prebuilt patterns as well as mix them to create 100% unique design solution</p>
+<p class="has-text-align-right has-x-small-font-size" style="line-height:1.3"><?php printf( esc_html__( '%s', 'olena' ), __( 'Olena theme lets you to use prebuilt patterns as well as mix them to create 100% unique design solution', 'olena' ) ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>
@@ -47,7 +47,7 @@ opacity: 0.5;
 }						
 </style><!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="zoomIn" data-extras=""><!-- wp:image {"id":218,"width":466,"height":466,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/animated-img4.jpg" alt="" class="wp-image-218" width="466" height="466"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/sections/flying-images/image_1.png" alt="" class="wp-image-218" width="466" height="466"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:olena/animated-box --></div></div>
 <!-- /wp:olena/responsive-box --></div>
@@ -66,7 +66,7 @@ opacity: 0.5;
 }						
 </style><!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="fadeInLeft" data-extras=""><!-- wp:image {"id":207,"width":378,"height":378,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/animated-img3.jpg" alt="" class="wp-image-207" width="378" height="378"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/sections/flying-images/image_2.png" alt="" class="wp-image-207" width="378" height="378"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:olena/animated-box --></div></div>
 <!-- /wp:olena/responsive-box --></div>
@@ -85,7 +85,7 @@ opacity: 0.5;
 }						
 </style><!-- wp:olena/animated-box -->
 <div class="wp-block-olena-animated-box" data-animation-type="fadeInUp" data-extras=""><!-- wp:image {"id":190,"width":280,"height":280,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/animated-img1.jpg" alt="" class="wp-image-190" width="280" height="280"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/sections/flying-images/image_3.png" alt="" class="wp-image-190" width="280" height="280"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:olena/animated-box --></div></div>
 <!-- /wp:olena/responsive-box --></div>

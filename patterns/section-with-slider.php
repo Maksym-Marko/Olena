@@ -2,7 +2,7 @@
 
 /**
  * Title: Section With a Slider
- * Slug: section-with-slider
+ * Slug: olena/section-with-slider
  * Description: Section with a subtitle, title, description and slider.
  * Categories: featured
  * Keywords: section, slider

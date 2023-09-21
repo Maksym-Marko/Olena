@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer
- * Slug: footer
+ * Slug: olena/footer
  * Description:
  * Categories: footer, columns
  * Keywords: footer

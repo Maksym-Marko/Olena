@@ -2,21 +2,18 @@
 
 /**
  * Title: Page 404
- * Slug: page-404
- * Description: Section for page 404.
- * Categories: featured
- * Keywords: section, animated, animation, 404
- * Inserter: true
+ * Slug: olena/page-404
+ * Inserter: no
  */
 
 ?>
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","level":1,"style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","right":"0","bottom":"var:preset|spacing|medium","left":"0"}}},"textColor":"dark","fontSize":"large"} -->
-<h1 class="wp-block-heading has-text-align-center has-dark-color has-text-color has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:var(--wp--preset--spacing--medium);margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Page Not Found</h1>
+<h1 class="wp-block-heading has-text-align-center has-dark-color has-text-color has-large-font-size" style="margin-top:0;margin-right:0;margin-bottom:var(--wp--preset--spacing--medium);margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><?php printf( esc_html__( '%s', 'olena' ), __( 'Page Not Found', 'olena' ) ); ?></h1>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"align":"center","style":{"spacing":{"padding":{"top":"0","right":"0","bottom":"0","left":"0"},"margin":{"top":"0","right":"0","bottom":"0","left":"0"}}},"textColor":"dark","fontSize":"xx-small"} -->
-<p class="has-text-align-center has-dark-color has-text-color has-xx-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0">Unfortunately, the page you are looking for no longer exists, or has been moved. Please try searching for your content below.</p>
+<p class="has-text-align-center has-dark-color has-text-color has-xx-small-font-size" style="margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;padding-top:0;padding-right:0;padding-bottom:0;padding-left:0"><?php printf( esc_html__( '%s', 'olena' ), __( 'Unfortunately, the page you are looking for no longer exists, or has been moved. Please try searching for your content below.', 'olena' ) ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|small","right":"var:preset|spacing|small","bottom":"var:preset|spacing|small","left":"var:preset|spacing|small"},"blockGap":"0","margin":{"top":"0","bottom":"0"}},"border":{"width":"0px","style":"none"}},"layout":{"type":"constrained"},"fontSize":"x-small"} -->

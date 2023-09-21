@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Posts Grid Modern
- * Slug: posts-grid-modern
+ * Slug: olena/posts-grid-modern
  * Description: 
  * Categories: posts
  * Keywords: posts, grid

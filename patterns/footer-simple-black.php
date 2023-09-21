@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Footer Simple Black
- * Slug: footer-simple-black
+ * Slug: olena/footer-simple-black
  * Description:
  * Categories: footer, columns
  * Keywords: footer

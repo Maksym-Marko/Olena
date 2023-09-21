@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Header Centered
- * Slug: header-centered
+ * Slug: olena/header-centered
  * Description: Header with site name and hidden navigation
  * Categories: header
  * Keywords: header, nav, site name
@@ -16,6 +16,6 @@
 
 <!-- wp:site-title {"style":{"elements":{"link":{"color":{"text":"var:preset|color|contrast"}}}},"textColor":"contrast","fontSize":"large"} /-->
 
-<!-- wp:navigation {"ref":8,"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"center"},"style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"fontSize":"x-small"} /--></div>
+<!-- wp:navigation {"layout":{"type":"flex","setCascadingProperties":true,"justifyContent":"center"},"style":{"spacing":{"blockGap":"var:preset|spacing|large"}},"fontSize":"x-small"} /--></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->

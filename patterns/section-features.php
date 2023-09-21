@@ -2,7 +2,7 @@
 
 /**
  * Title: Section Features
- * Slug: section-features
+ * Slug: olena/section-features
  * Description: Section with a title, image and list of features.
  * Categories: featured
  * Keywords: section, animated, features
@@ -84,7 +84,7 @@
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:heading {"textAlign":"center","textColor":"main-light","fontSize":"x-large"} -->
-<h2 class="wp-block-heading has-text-align-center has-main-light-color has-text-color has-x-large-font-size">Features</h2>
+<h2 class="wp-block-heading has-text-align-center has-main-light-color has-text-color has-x-large-font-size"><?php echo __( 'Features', 'olena' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:image {"id":144,"sizeSlug":"full","linkDestination":"none"} -->

@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Posts List
- * Slug: posts-list
+ * Slug: olena/posts-list
  * Description: 
  * Categories: posts
  * Keywords: posts, list

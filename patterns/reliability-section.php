@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Reliability Section
- * Slug: reliability-section
+ * Slug: olena/reliability-section
  * Description: template with image, title, text and button
  * Categories: featured
  * Keywords: reliability
