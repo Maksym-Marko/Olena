@@ -3,7 +3,7 @@ Contributors: markomaksym
 Requires at least: 6.0
 Tested up to: 6.3
 Requires PHP: 7.4
-Stable tag: 2.2.0
+Stable tag: 2.3.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,7 +55,13 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 == Changelog ==
 
 = 2.3.0 =
-* Fixed 
+* - Made global changes of patterns (added unique string, to avoid conflicts with external patterns). 
+  - Fixed Flying Images section.
+  - Excluded unnecessary patterns from inserter.
+  - Fixed menus.
+  - Made small changes of patterns.
+  - Fixed Page (With Sidebar) template side paddings.
+  - Modal window fixed.
 
 = 2.2.0 =
 * Improved animated sections. Removed Section animated (vertical) and  Section animated (horizontal). Now the two features are contained by the Animated Section custom block.

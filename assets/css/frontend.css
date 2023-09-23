@@ -28,6 +28,15 @@
         right: var(--wp--preset--spacing--medium);
         top: var(--wp--preset--spacing--medium);
     }
+
+    body .wp-block-template-part .is-position-sticky {
+        top: var(--wp--preset--spacing--medium);
+    }
+
+    body.admin-bar .wp-block-template-part .is-position-sticky {
+        top: var(--wp--preset--spacing--x-large);
+    }
+
 }
 
 /* block: "core/group" */
