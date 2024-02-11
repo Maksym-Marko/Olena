@@ -104,27 +104,33 @@ if (!function_exists('olena_editor_assets')) {
     function olena_editor_assets()
     {
         /**
-         * Editor Styles.
+         * Check If it is admin part.
          * */
-        wp_enqueue_style(
-            'olena-editor-style',
-            get_template_directory_uri() . '/assets/css/editor.css',
-            array(),
-            OLENA_THEME_VERSION
-        );
+        if ( is_admin() ) {            
+            /**
+             * Editor Styles.
+             * */
+            wp_enqueue_style(
+                'olena-editor-style',
+                get_template_directory_uri() . '/assets/css/editor.css',
+                array(),
+                OLENA_THEME_VERSION
+            );
 
-        /**
-         * Editor Scripts.
-         * */
-        wp_enqueue_script(
-            'olena-editor-script',
-            get_template_directory_uri() . '/assets/js/editor.js',
-            array('wp-blocks'),
-            OLENA_THEME_VERSION
-        );
+            /**
+             * Editor Scripts.
+             * */
+            wp_enqueue_script(
+                'olena-editor-script',
+                get_template_directory_uri() . '/assets/js/editor.js',
+                array('wp-blocks'),
+                OLENA_THEME_VERSION
+            );
+
+        }
     }
 }
-add_action('enqueue_block_editor_assets', 'olena_editor_assets');
+add_action('enqueue_block_assets', 'olena_editor_assets');
 
 if (!function_exists('olena_editor_frontend_assets')) {
     /**

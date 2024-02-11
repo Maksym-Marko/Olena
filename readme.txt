@@ -54,6 +54,9 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 
 == Changelog ==
 
+= 2.3.1 =
+* - Improved Single post, Search, 404 templates.
+
 = 2.3.0 =
 * - Made global changes of patterns (added unique string, to avoid conflicts with external patterns). 
   - Fixed Flying Images section.
