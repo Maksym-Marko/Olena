@@ -139,3 +139,5 @@ Lenis
 Authors https://github.com/studio-freight/lenis?tab=readme-ov-file#authors
 License URL: https://opensource.org/license/mit/
 -- End Lenis credits --
+
+Some media are under the free license https://www.vecteezy.com/
