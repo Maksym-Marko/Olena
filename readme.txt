@@ -1,9 +1,9 @@
 === Olena ===
 Contributors: markomaksym
 Requires at least: 6.0
-Tested up to: 6.3
+Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 2.3.0
+Stable tag: 2.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,7 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 
 = 2.3.1 =
 * - Improved Single post, Search, 404 templates.
+  - Refactoring of the JS and CSS code. 
 
 = 2.3.0 =
 * - Made global changes of patterns (added unique string, to avoid conflicts with external patterns). 
@@ -83,7 +84,7 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 
 == Copyright ==
 
-Olena WordPress Theme, (C) 2023 Maksym Marko
+Olena WordPress Theme, (C) 2023-2024 Maksym Marko
 Olena is distributed under the terms of the GNU GPL.
 
 This program is free software: you can redistribute it and/or modify
@@ -124,4 +125,17 @@ License URL: http://www.apache.org/licenses/LICENSE-2.0
 Source: Google.com
 -- End of Roboto Thin Font credits --
 
-All media are under the free license https://www.vecteezy.com/
+GSAP 
+Author: Jack Doyle.
+License URL: https://gsap.com/standard-license
+-- End GSAP credits --
+
+Owl carousel
+Author David Deutsch
+License URL: https://owlcarousel2.github.io/OwlCarousel2/docs/started-faq.html
+-- End Owl carousel credits --
+
+Lenis
+Authors https://github.com/studio-freight/lenis?tab=readme-ov-file#authors
+License URL: https://opensource.org/license/mit/
+-- End Lenis credits --

@@ -53,7 +53,7 @@ if (!function_exists('olena_editor_assets')) {
         /**
          * Check If it is admin part.
          * */
-        if ( is_admin() ) {            
+        if (is_admin()) {
             /**
              * Editor Styles.
              * */
@@ -73,7 +73,6 @@ if (!function_exists('olena_editor_assets')) {
                 array('wp-blocks'),
                 OLENA_THEME_VERSION
             );
-
         }
     }
 }

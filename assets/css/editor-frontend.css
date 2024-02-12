@@ -146,6 +146,12 @@ body .wp-block-template-part .is-position-sticky {
     width: 100%;
     z-index: 2;
 }
+/* Freeze Header. */
+body .wp-block-template-part .is-style-freeze-on-scroll {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
 .is-style-animation-wrapper {
     overflow: hidden;
     position: relative !important;
