@@ -1,6 +1,21 @@
 {
-	"$schema": "https://schemas.wp.org/wp/6.2/theme.json",
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
 	"customTemplates": [ 
+		{
+			"name": "blog-grid",
+			"postTypes": [
+				"page"
+			],
+			"title": "Blog Grid"
+		},
+		{
+			"name": "blog-with-sidebar",
+			"postTypes": [
+				"page"
+			],
+			"title": "Blog With Sidebar"
+		},
 		{
 			"name": "page-full-width",
 			"postTypes": [
@@ -591,6 +606,5 @@
 			"area": "footer",
 			"name": "footer"
 		}
-	],
-	"version": 2
+	]
 }
