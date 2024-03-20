@@ -19,6 +19,16 @@ if (!function_exists('olena_frontend_assets')) {
     {
 
         /**
+         *  WooCommerce Styles.
+         * */
+        wp_enqueue_style(
+            'olena-woocommerce-style',
+            get_template_directory_uri() . '/assets/css/woocommerce.css',
+            array(),
+            OLENA_THEME_VERSION
+        );
+
+        /**
          *  Frontend Styles.
          * */
         wp_enqueue_style(
@@ -61,6 +71,16 @@ if (!function_exists('olena_editor_assets')) {
                 'olena-editor-style',
                 get_template_directory_uri() . '/assets/css/editor.css',
                 array(),
+                OLENA_THEME_VERSION
+            );
+
+            /**
+             *  Woocommerce Styles.
+             * */
+            wp_enqueue_style(
+                'olena-woocommerce-style',
+                get_template_directory_uri() . '/assets/css/woocommerce.css',
+                array('woocommerce-blocktheme', 'woocommerce-smallscreen', 'woocommerce-general'),
                 OLENA_THEME_VERSION
             );
 
