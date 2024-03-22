@@ -1,13 +1,21 @@
 <?php
 /**
  * Title: Archive Product Page
- * Slug: olena/page-archive-product
+ * Slug: olena/woocommerce-archive-product
  * Inserter: no
  */
 
 ?>
-<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"}}},"layout":{"inherit":true,"type":"constrained"}} -->
-<div class="wp-block-group" style="margin-top:var(--wp--preset--spacing--x-large);margin-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:group {"className":"alignwide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
+<!-- wp:group {"style":{"spacing":{"margin":{"top":"var:preset|spacing|x-large","bottom":"var:preset|spacing|x-large"}}},"className":"is-style-animation-wrapper","layout":{"inherit":true,"type":"constrained"}} -->
+<div class="wp-block-group is-style-animation-wrapper" style="margin-top:var(--wp--preset--spacing--x-large);margin-bottom:var(--wp--preset--spacing--x-large)"><!-- wp:olena/floating-box -->
+<div class="wp-block-olena-floating-box" style="right:0%;bottom:0%" data-orientation="3" data-position-left="0" data-position-top="0" data-position-right="0" data-position-bottom="0"><!-- wp:olena/responsive-box {"unique_class":"mx-responsive-box-iHdmygUoKG6g"} -->
+<div data-breakpoint="all" class="mx-responsive-box mx-responsive-box-iHdmygUoKG6g"><div class="wp-block-olena-responsive-box"><style></style><!-- wp:image {"id":61,"width":"610px","height":"auto","sizeSlug":"full","linkDestination":"none"} -->
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/assets/images/animations/bubble_2.svg" alt="" class="wp-image-61" style="width:610px;height:auto"/></figure>
+<!-- /wp:image --></div></div>
+<!-- /wp:olena/responsive-box --></div>
+<!-- /wp:olena/floating-box -->
+
+<!-- wp:group {"className":"alignwide","layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"space-between"}} -->
 <div class="wp-block-group alignwide"><!-- wp:woocommerce/breadcrumbs {"fontSize":"x-small","textColor":"main-dark","style":{"elements":{"link":{"color":{"text":"var:preset|color|main-dark"},":hover":{"color":{"text":"var:preset|color|main"}}}}}} /-->
 
 <!-- wp:woocommerce/catalog-sorting {"fontSize":"xx-small","style":{"layout":{"selfStretch":"fixed","flexSize":"360px"}}} /--></div>
@@ -43,7 +51,7 @@
 <!-- wp:query-no-results -->
 <!-- wp:paragraph -->
 <p>
-	No products were found matching your selection.</p>
+<?php printf( esc_html__( '%s', 'olena' ), __( 'No products were found matching your selection.', 'olena' ) ); ?></p>
 <!-- /wp:paragraph -->
 <!-- /wp:query-no-results --></div>
 <!-- /wp:query --></div>

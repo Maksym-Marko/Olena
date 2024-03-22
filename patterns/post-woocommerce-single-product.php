@@ -1,7 +1,7 @@
 <?php
 /**
  * Title: Single Product
- * Slug: olena/post-single-product
+ * Slug: olena/woocommerce-single-product
  * Description: 
  * Categories: posts
  * Keywords: posts, grid
@@ -60,7 +60,7 @@
 <div class="wp-block-woocommerce-related-products alignwide"><!-- wp:query {"queryId":0,"query":{"perPage":5,"pages":0,"offset":0,"postType":"product","order":"asc","orderBy":"title","author":"","search":"","exclude":[],"sticky":"","inherit":false},"namespace":"woocommerce/related-products","lock":{"remove":true,"move":true}} -->
 <div class="wp-block-query"><!-- wp:heading {"style":{"spacing":{"margin":{"top":"var:preset|spacing|30","bottom":"var:preset|spacing|medium"}}},"fontSize":"small"} -->
 <h2 class="wp-block-heading has-small-font-size" style="margin-top:var(--wp--preset--spacing--30);margin-bottom:var(--wp--preset--spacing--medium)">
-							Related products			</h2>
+<?php printf( esc_html__( '%s', 'olena' ), __( 'Related products', 'olena' ) ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:post-template {"style":{"typography":{"fontSize":"1rem"},"spacing":{"blockGap":"var:preset|spacing|small"}},"className":"products-block-post-template","layout":{"type":"grid","columnCount":5},"__woocommerceNamespace":"woocommerce/product-query/product-template"} -->

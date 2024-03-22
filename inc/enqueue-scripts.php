@@ -24,7 +24,7 @@ if (!function_exists('olena_frontend_assets')) {
         wp_enqueue_style(
             'olena-woocommerce-style',
             get_template_directory_uri() . '/assets/css/woocommerce.css',
-            array(),
+            array('woocommerce-blocktheme', 'woocommerce-general', 'woocommerce-smallscreen', 'woocommerce-layout'),
             OLENA_THEME_VERSION
         );
 
