@@ -3,7 +3,7 @@ Contributors: markomaksym
 Requires at least: 6.0
 Tested up to: 6.4
 Requires PHP: 7.4
-Stable tag: 2.3.1
+Stable tag: 3.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -26,6 +26,7 @@ Performance is not just a goal; it's a guarantee. Olena proudly boasts a perfect
 Ready to embark on your web design odyssey? With Olena and the WordPress Site Editor as your allies, the journey becomes both delightful and impactful. Witness the magic unfold at https://olena-theme.com.ua/ and unleash the boundless potential of your digital presence. Embrace Olena – where innovation meets simplicity.
 
 == Features ==
+- WooCommerce Style
 - 6 types of header
 - 5 types of footer
 - Front Page
@@ -53,6 +54,10 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 4. Navigate to Appearance > Customize in your admin panel and customize to your taste.
 
 == Changelog ==
+
+= 3.0.0 =
+* - Two Blog Templates added.
+* - WooCommerce Style.
 
 = 2.3.1 =
 * - Improved Single post, Search, 404 templates.
