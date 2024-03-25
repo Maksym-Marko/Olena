@@ -7,12 +7,17 @@ export default defineConfig({
       include: 'src/**'
     },
     rollupOptions: {
-      input: '/src/main.js',
+      input: {
+        frontend: '/src/frontend/main.js',
+        frontend_editor: '/src/frontend-editor/main.js',
+        editor: '/src/editor/main.js',
+        woocommerce: '/src/woocommerce/main.js',
+      },
       output: {
-        dir: 'assets/frontend/',
+        dir: 'assets/dist/',
         entryFileNames: 'index.js',
         assetFileNames: 'index.css'
-      }
+      }  
     }
   }
 });

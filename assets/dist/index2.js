@@ -1,12 +1,8 @@
-/**
- * This file contains styles for the editor and frontend
+/*!
+ * This file contains stuff for the frontend and editor parts
  *
  * @package Olena Theme
  * @author Maksym Marko <support@markomaksym.com.ua>
  *
  * @link https://markomaksym.com.ua/
- */
-
-/*
- * Custom blocks customization
- */
+ !*/(function(n){n(function(){})})(jQuery);
