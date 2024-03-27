@@ -23,7 +23,7 @@ if ( ! defined( 'OLENA_THEME_VERSION' ) ) {
 require_once get_template_directory() . '/inc/enqueue-scripts.php';
 
 /**
- * Register Custome Block Types.
+ * Register Custom Block Types.
 */
 require_once get_template_directory() . '/inc/class-olena-custom-blocks.php';
 new Olena_Custom_Blocks();
