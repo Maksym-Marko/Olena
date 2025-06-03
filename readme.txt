@@ -1,9 +1,9 @@
 === Olena ===
 Contributors: markomaksym
 Requires at least: 6.0
-Tested up to: 6.4
+Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 3.1.0
+Stable tag: 3.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,12 +55,15 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 
 == Changelog ==
 
+= 3.2.0 =
+* - Tested on WordPress 6.8. Modified home page sections.
+
 = 3.1.0 =
 * - CSS and JS refactoring. Some WooCommerce CSS issues fixed.
 
 = 3.0.0 =
 * - Two Blog Templates added.
-* - WooCommerce Style.
+  - WooCommerce Style.
 
 = 2.3.1 =
 * - Improved Single post, Search, 404 templates.

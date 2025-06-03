@@ -24,6 +24,13 @@
 			"title": "Page (Full Width)"
 		},
 		{
+			"name": "page-full-width-no-title",
+			"postTypes": [
+				"page"
+			],
+			"title": "Page (Full Width, No Title)"
+		},
+		{
 			"name": "page-with-sidebar",
 			"postTypes": [
 				"page"
