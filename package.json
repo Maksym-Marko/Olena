@@ -4,7 +4,7 @@
 	"description": "Create custom Gutenberg Blocks",
 	"author": "Maksym Marko",
 	"license": "GPL-2.0-or-later",
-	"scripts": {
+	"scripts": {		
 		"packages-update": "wp-scripts packages-update",
 		"build": "wp-scripts build --webpack-src-dir=blocks-generator/ --output-path=custom-blocks/",
 		"start-wp": "wp-scripts start --webpack-src-dir=blocks-generator/ --output-path=custom-blocks/",
