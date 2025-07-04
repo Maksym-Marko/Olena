@@ -3,7 +3,7 @@ Contributors: markomaksym
 Requires at least: 6.0
 Tested up to: 6.8
 Requires PHP: 7.4
-Stable tag: 3.3.0
+Stable tag: 3.4.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -54,6 +54,10 @@ Ready to embark on your web design odyssey? With Olena and the WordPress Site Ed
 4. Navigate to Appearance > Customize in your admin panel and customize to your taste.
 
 == Changelog ==
+
+= 3.4.0 =
+* - Added Update detection.
+  - Added new patterns: Section Problem Solution, Section Main CTA Plumbing, Section Reviews Plumbing.
 
 = 3.3.0 =
 * - Default styling for form elements (inputs, textareas, selects, buttons) to ensure consistent appearance across the theme.
