@@ -47,6 +47,7 @@ class Olena_Update_Detection
      */
     public function check_for_update($transient)
     {
+
         if (empty($transient->checked)) {
             return $transient;
         }

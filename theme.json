@@ -240,6 +240,20 @@
 					],
 					"fontFamily": "Roboto Thin",
 					"slug": "roboto-thin"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "ImperialScript Regular",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/ImperialScript/ImperialScript-Regular.ttf"
+							]
+						}
+					],
+					"fontFamily": "ImperialScript Regular", 
+					"slug": "imperialscript-regular"
 				}
 			],
 			"fontSizes": [
