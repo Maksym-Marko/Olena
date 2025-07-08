@@ -1,0 +1,34 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "olena/animated-text",
+  "version": "0.1.0",
+  "title": "Animated Text",
+  "category": "widgets",
+  "icon": "text",
+  "description": "Add animated text with various animation effects",
+  "supports": {
+    "html": false,
+    "anchor": true
+  },
+  "attributes": {
+    "animation_type": {
+      "type": "string",
+      "source": "attribute",
+      "selector": ".wp-block-olena-animated-text",
+      "attribute": "data-text-animation-type",
+      "default": "moveUpFromCenter"
+    },
+    "extras": {
+      "type": "string",
+      "source": "attribute",
+      "selector": ".wp-block-olena-animated-text",
+      "attribute": "data-extras",
+      "default": ""
+    }
+  },
+  "textdomain": "olena",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}

@@ -43,6 +43,11 @@ class Olena_Custom_Blocks
         add_action('init', array($this, 'animated_box'));
 
         /**
+         * Animated Text.
+         * */
+        add_action('init', array($this, 'animated_text'));
+
+        /**
          * Responsive Box.
          * */
         add_action('init', array($this, 'responsive_box'));
@@ -100,6 +105,19 @@ class Olena_Custom_Blocks
     {
 
         register_block_type(get_template_directory() . '/custom-blocks/animated-box');
+    }
+
+    /**
+     * Animated Text custom block type.
+     *
+     * @since 3.5.0
+     * 
+     * @return void Register an animated text custom block.
+     */
+    public function animated_text()
+    {
+
+        register_block_type(get_template_directory() . '/custom-blocks/animated-text');
     }
 
     /**
